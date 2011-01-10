@@ -1,0 +1,513 @@
+1
+00:00:24,12 --> 00:00:48,79
+Arduino: The Documentary
+
+2
+00:00:50,96 --> 00:00:58,62
+Arduino started as a project that we did at the Interaction Design Institute Ivrea, back in 2005.
+
+3
+00:00:58,93 --> 00:01:02,19
+But it has some roots in previous projects that we worked on
+
+4
+00:01:02,46 --> 00:01:10,36
+because we wanted to make a tool for our students that was more modern than what was available
+
+5
+00:01:10,36 --> 00:01:14,96
+on the market at the moment especially because the tool that everybody was using
+
+6
+00:01:14,96 --> 00:01:21,74
+this called the BASIC Stamp, in Italy was costing at the time about 76 Euros, that's like $100,
+
+7
+00:01:21,74 --> 00:01:25,54
+ so it was very expensive for the students, they wouldn't do any ... too much work,
+
+8
+00:01:25,54 --> 00:01:30,15
+ because they didn't want to spend money on buying many boards that expensive.
+
+9
+00:01:30,15 --> 00:01:33,36
+ So what happened we started to look at possible alternatives
+
+10
+00:01:33,36 --> 00:01:36,87
+and also we were, working on Processing, the Processing language,
+
+11
+00:01:36,98 --> 00:01:41,54
+because Casey Reas, one of the founders, was one of the teachers in Ivrea, 
+
+12
+00:01:42,01 --> 00:01:46,47
+so we thought "Why don't we try to figure out how to make Processing for the hardware?"
+
+13
+00:01:46,47 --> 00:01:53,77
+So we worked with a students who did a thesis, on the topic, and that produced the Wiring platform.
+
+14
+00:01:53,77 --> 00:02:01,01
+Hernando Barragán, a Colombian student, worked on it. And then after Hernando made Wiring, we started
+
+15
+00:02:01,01 --> 00:02:06,34
+to figure out how could we make the whole, platform even simpler, even cheaper, even easier to use.
+
+16
+00:02:06,43 --> 00:02:13,28
+And then we started to essentially reimplement the whole thing as an open source project.
+
+17
+00:02:13,28 --> 00:02:19,31
+We wanted it to be open source so that everybody could come and help and contribute.
+
+18
+00:02:19,35 --> 00:02:25,46
+Then we had another issue, that there were a lot of discussions about the school closing,
+
+19
+00:02:25,49 --> 00:02:31,81
+ so we decided "ok, let's try to make this platform and open it up as much as possible."
+
+20
+00:02:32,31 --> 00:02:33,63
+David Cuartielles (Arduino Team)
+
+21
+00:02:33,63 --> 00:02:36,56
+Then we stopped talking about what we would like to have
+
+
+22
+00:02:36,56 --> 00:02:38,22
+and started talking about how to do it.
+
+23
+00:02:38,22 --> 00:02:40,24
+And when we started talking about how to do it,
+
+
+24
+00:02:40,24 --> 00:02:45,74
+Massimo had been experimenting with some technology,
+I had been experimenting with a different technology.
+
+
+25
+00:02:45,74 --> 00:02:49,31
+we had a talk to decide what was best and 
+
+
+26
+00:02:49,31 --> 00:02:54,63
+I decided to try this technology Massimo had,
+
+
+27
+00:02:54,63 --> 00:02:59,91
+because of its better compatibility
+with different operating systems.
+
+
+28
+00:02:59,91 --> 00:03:08,98
+I checked the hardware, found a couple of bug, we fixed that,
+and well, we started making boards ...
+
+
+29
+00:03:08,98 --> 00:03:15,24
+I mean, the process from starting to seriously
+work on it to having a board was a mere two-days.
+
+
+30
+00:03:15,24 --> 00:03:20,43
+All the rest was software.
+
+
+31
+00:03:20,43 --> 00:03:23,52
+While I was kind of in the middle of this I met with
+David Cuartielles, 
+
+
+32
+00:03:23,52 --> 00:03:27,26
+who started to sort of help me 
+in the project, then became a major contributor
+
+
+33
+00:03:27,26 --> 00:03:33,24
+and then together we kind of made the first
+Arduino hardware; 
+
+
+34
+00:03:33,24 --> 00:03:38,00
+then we had David Mellis
+joining as a student to write the software,
+
+
+35
+00:03:38,00 --> 00:03:43,67
+then Tom came in as an advisor, 
+and finally then Gianluca came in 
+
+
+36
+00:03:43,67 --> 00:03:47,18
+as the person who was able to manufacture
+the board itself, 
+
+
+37
+00:03:47,18 --> 00:04:06,20
+that's how the team 
+kind of formed, by adding people by their skills.
+
+
+38
+00:04:06,20 --> 00:04:08,22
+(David Mellis, Arduino Team)
+
+
+39
+00:04:08,22 --> 00:04:10,59
+We've been using Wiring boards and wanted
+to port a bunch of programs 
+
+
+40
+00:04:10,59 --> 00:04:15,97
+to a cheaper microprocessor, basically, to install in some
+installations,
+
+41
+00:04:15,97 --> 00:04:19,80
+and I helped write like
+a little compatibility layer, 
+
+
+42
+00:04:19,80 --> 00:04:24,63
+so that all 
+the old programs could run in the new
+processor ...
+
+43
+00:04:24,63 --> 00:04:29,27
+And then just being in Ivrea and not wanting
+to spend too much time on my actual thesis
+
+
+44
+00:04:29,27 --> 00:04:33,83
+I spent more and more time like working
+with Massimo and the other guys developing
+Arduino.
+
+45
+00:04:33,83 --> 00:04:36,72
+(Tom Igoe, Arduino Team)
+
+46
+00:04:36,72 --> 00:04:40,54
+I knew that there was this development of 
+hardware equivalent to Processing. 
+
+47
+00:04:40,54 --> 00:04:46,50
+And I went over to Ivrea in June of 2005 to do a
+workshop with them on another subject
+
+48
+00:04:46,50 --> 00:04:51,01
+and they showed me the Arduino board
+at that point. And I looked at it and I said:
+
+49
+00:04:51,01 --> 00:04:54,12
+"You know, this is great, and it definitely works for your school, 
+
+50
+00:04:54,12 --> 00:04:57,39
+works for my school too, but I think it
+could be a larger thing, 
+
+
+51
+00:04:57,39 --> 00:05:00,27
+and I think more people would want to use this." 
+
+52
+00:05:00,27 --> 00:05:02,75
+And Massimo said: "Well, that's good feedback, thanks."
+
+53
+00:05:02,75 --> 00:05:06,57
+And then I went back to the States, and a couple of weeks later they wrote me and said:
+
+54
+00:05:06,57 --> 00:05:10,84
+"You know, we want to go further with this,
+and we want to try and get it to the larger world.
+
+55
+00:05:10,84 --> 00:05:15,00
+"Do you want to join us as a part of the team?"
+And I said "Yeah". 
+
+56
+00:05:15,00 --> 00:05:18,87
+And it was just ... for me it was a case that this is a tool I could see using myself,
+
+57
+00:05:18,87 --> 00:05:22,99
+and therefore I could believe in actually helping to get it out to a wider world.
+
+58
+00:05:23,82 --> 00:05:26,04
+(Gianluca Martino)
+
+59
+00:05:26,04 --> 00:05:28,19
+After the first prototyping there was the need,
+
+60
+00:05:28,19 --> 00:05:33,81
+or the desire, to start manufacturing something in a more professional way, 
+
+61
+00:05:33,81 --> 00:05:39,39
+and in a more commercial way, because all the first sample was mounted,
+
+62
+00:05:39,39 --> 00:05:49,78
+was done just to make them ... to let them work. After Massimo and David decided and understood
+
+63
+00:05:49,78 --> 00:05:54,72
+the prototype was working they needed to make a bigger batch. 
+
+64
+00:05:54,72 --> 00:06:00,58
+So we decided to work on 200 units and we made ... 
+
+65
+00:06:00,58 --> 00:06:06,43
+I made a little redesign, a little design for manufacturing in order to produce them. 
+
+66
+00:06:06,43 --> 00:06:16,34
+It was a test. They agreed with their school, the Interaction Design Institute, and the K3 of Malmö,
+
+67
+00:06:16,34 --> 00:06:24,92
+to buy 50 each. That was a good starting point:
+that means we will not lose all the money
+
+68
+00:06:24,92 --> 00:06:32,80
+but at least half was coming back. The selling
+price was exactly what we paid for 
+
+69
+00:06:32,80 --> 00:06:40,77
+I think we earned 1 euro for each board, that is nothing
+considering all the effort we put inside. 
+
+70
+00:06:40,77 --> 00:06:50,94
+But after some advertisement, after some speaking
+with friends, this movement started to move.
+
+71
+00:06:50,94 --> 00:06:59,14
+And so we received the first call, our first customer, asking for one board. It was a friend of Massimo's and David's, 
+
+72
+00:06:59,14 --> 00:07:00,60
+but this was the beggining of something.
+
+73
+00:07:00,60 --> 00:07:04,85
+(Nathan Seidle, sparkfun.com)
+
+
+74
+00:07:04,85 --> 00:07:09,19
+A few months after meeting he said "Hey Nate, Spark Fun, you guys should carry this thing called Arduino." 
+
+75
+00:07:09,19 --> 00:07:12,60
+and I looked at it and at that time it was the through hole version, the RS-232 version, 
+
+76
+00:07:12,60 --> 00:07:16,12
+and I said "This looks very interesting" but I didn't really understand it.
+
+77
+00:07:16,12 --> 00:07:21,20
+And ... I hadn't wrapped my head around it. And so I said: "You know, Tom, I don't think it's for us,
+
+78
+00:07:21,20 --> 00:07:26,75
+we don't really do kits, we are not sure how people are going to react to this, and so I decided against it. 
+
+
+79
+00:07:26,75 --> 00:07:32,41
+It was a few months later, six, seven months later, that Arduino came out with the full USB version, 
+
+80
+00:07:32,41 --> 00:07:35,92
+fully assembled and tested and ready to go, and Tom again came to us
+
+81
+00:07:35,92 --> 00:07:40,19
+and said "Hey, SparkFun, you should really carry this." And I said: "OK, well, I'm not really sure, 
+
+82
+00:07:40,19 --> 00:07:47,33
+you know, we'll bring in 20 and see how they sell." And that was the first 20 out of about 40,000 at this point.
+
+83
+00:08:13,27 --> 00:08:15,60
+(Marcos García, Medialab Prado)
+
+84
+00:08:15,60 --> 00:08:20,36
+The first time we heard about Arduino was when David Cuartielles came to an activity
+
+85
+00:08:20,36 --> 00:08:28,24
+called "Thursdays at Medialab", which actually was the first session of that still on-going activity.
+
+86
+00:08:28,24 --> 00:08:30,30
+(Gustavo Valera, Laboral)
+
+87
+00:08:30,30 --> 00:08:36,36
+So he keeps talking about stuff and at the end, after 90 minutes of listening to all of David's tales, 
+
+88
+00:08:36,36 --> 00:08:42,60
+he says he's involved in this project, but it was a really small thing, you know? 
+
+89
+00:08:42,60 --> 00:08:48,95
+And I thought "At last! Come on, David, why wasn't this the first thing you said?"
+
+90
+00:08:50,46 --> 00:09:00,67
+I want to talk to you about Arduino. Arduino is the last project, I finished it last week. 
+
+91
+00:09:00,67 --> 00:09:07,10
+I talk to Ivrea's technical director and told him: "Wouldn't it be great to do something we can offer for free?"
+
+92
+00:09:07,10 --> 00:09:12,48
+- For free?
+- Yeah
+
+93
+00:09:12,48 --> 00:09:19,79
+And after that, well, we worked with Gustavo, and also kept in touch with David, 
+
+94
+00:09:19,79 --> 00:09:29,67
+and we organized an Arduino workshop in Octover 2005, which was one of the first Arduino workshops, 
+
+95
+00:09:29,67 --> 00:09:32,62
+if not the first one ever.
+
+96
+00:09:32,62 --> 00:09:38,72
+On the last day David proposed creating some small prototypes. 
+
+97
+00:09:38,72 --> 00:09:43,03
+He called it "Bring your old junk and let's do something with it."
+
+98
+00:09:43,03 --> 00:09:49,44
+That led to some quite interesting projects, and these people kept on doing small electronic instruments, small robots ...
+
+99
+00:09:52,31 --> 00:09:54,44
+(Phil Torrone, AdaFruit.com)
+
+
+100
+00:09:54,44 --> 00:09:58,49
+Let's see, at the time I was a senior editor at MAKE. MAKE was only a couple of years old, 
+
+101
+00:09:58,49 --> 00:10:01,95
+and I had heard about this Arduino project, and I saw it online and I said: 
+
+102
+00:10:01,95 --> 00:10:06,08
+"Well, a lot of people are starting to talk about his, and I should check it out."
+
+103
+00:10:06,08 --> 00:10:10,15
+And I got one of the boards and said "Whoa, this is fantastic, begginers are gonna love this. 
+
+104
+00:10:10,15 --> 00:10:14,65
+It runs on Mac, it runs on PC, it runs on Linux ... this is exactly what everyone wants."
+
+105
+00:10:14,65 --> 00:10:18,55
+At the time a lot of people were using BASIC Stamps, they were using all sorts of microcontrollers, 
+
+106
+00:10:18,55 --> 00:10:22,92
+and I come from using design tools like Flash and Processing, and I'm like
+
+107
+00:10:22,92 --> 00:10:27,00
+"Oh, this is perfect, it's exactly what I think everyone is going to want".
+
+108
+00:10:27,00 --> 00:10:32,87
+And this was the beggining of when MAKE was starting to have a store, and so it took a little while, 
+
+109
+00:10:32,87 --> 00:10:36,32
+and you know, it's very hard to do international money transfers.
+
+110
+00:10:36,32 --> 00:10:42,49
+Basically we started selling Arduinos in MAKE right away, and then late on, when I started working with Limor, 
+
+111
+00:10:42,49 --> 00:10:46,51
+who's part of Adafruit, she's a founder, we also said right away: 
+
+112
+00:10:46,51 --> 00:10:52,00
+"This is a fantastic tool for getting people doing the things that they want to do with electronics."
+
+113
+00:10:52,00 --> 00:10:56,67
+Not necessarily learning everything first, but getting the application done, like
+
+114
+00:10:56,67 --> 00:11:01,87
+I want something ... I want my dress to blink. Very hard to do if you just want to learn electronics
+
+115
+00:11:01,87 --> -1:59:59,00
+with an Arduino you get that done in a few minutes.
