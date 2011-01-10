@@ -412,7 +412,7 @@ The first time we heard about Arduino was when David Cuartielles came to an acti
 85
 00:08:20,36 --> 00:08:28,24
 called "Thursdays at Medialab", which actually was the first session of that still on-going activity.
-под названеим "Четверги в Медиалаборатории", которое по сути было первым мероприятием этой серии. которая продолжает происходить до сих пор.
+под названеим "Четверги в Медиалаборатории", которое по сути было первым мероприятием этой серии, которая кстати продолжает проводится до сих пор.
 
 86
 00:08:28,24 --> 00:08:30,30
@@ -479,7 +479,7 @@ He called it "Bring your old junk and let's do something with it."
 98
 00:09:43,03 --> 00:09:49,44
 That led to some quite interesting projects, and these people kept on doing small electronic instruments, small robots ...
-Это впоследствии стало началом нескольким очень интересным проэктам, и те люди продолжили дальше делать маленькие електроные инструменты, маленьких роботов...
+Это впоследствии стало началом нескольким очень интересным проектам, и те люди продолжили дальше делать маленькие електроные инструменты, маленьких роботов...
 
 99
 00:09:52,31 --> 00:09:54,44
@@ -514,17 +514,17 @@ It runs on Mac, it runs on PC, it runs on Linux ... this is exactly what everyon
 105
 00:10:14,65 --> 00:10:18,55
 At the time a lot of people were using BASIC Stamps, they were using all sorts of microcontrollers, 
-В то время многие люди пользовались BASIC Stamp-ами, и вообще всё подряд.
+В то время многие люди пользовались BASIC Stamp-ами, и вообще всем подряд.
 
 106
 00:10:18,55 --> 00:10:22,92
 and I come from using design tools like Flash and Processing, and I'm like
-а Я пришел поле использования иструментов вроде Flash и Processing, и мне понравилось
+а я пришел поле использования иструментов вроде Flash и Processing, и мне понравилось
 
 107
 00:10:22,92 --> 00:10:27,00
 "Oh, this is perfect, it's exactly what I think everyone is going to want".
-"О, да это прекрасно, это как раз то, чего я думаю все хотят".
+"О! Да это прекрасно... Это как раз то, чего я думаю все хотят".
 
 108
 00:10:27,00 --> 00:10:32,87
