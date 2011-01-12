@@ -1640,250 +1640,354 @@ forerunner development board.
 00:21:03,218 --> 00:21:09,144
 I think, given the right series
 of events, and if Arduino and
+Я думаю, при удачном стечении
+обстоятельств, и если б электронику
 
 327
 00:21:09,394 --> 00:21:12,766
 electronics could be taught in
 high school, I think there's a
+Arduino  могли бы изучать в школах,
+Я думаю это было бы 
 
 328
 00:21:13,016 --> 00:21:16,968
 big future for not only
 engineers, but also artists.
+большим будущим как для инженеров 
+так и для артистов.
+
 
 329
 00:21:17,566 --> 00:21:21,566
 Also digital media interactive
 design people. If they can learn
+А также для людей занимающихся 
+проеткированием цифровых медиа,
+Если бы они изучали это 
 
 330
 00:21:21,816 --> 00:21:23,845
 that in high school, imagine
 how much more they can do
+в высшей школе, представьте
+как много они могли бы сделать
 
 331
 00:21:24,095 --> 00:21:25,595
 later in life.
+дальше в жизни.
 
 332
 00:21:57,000 --> 00:21:58,840
 When the Arduino
 sends the signal,
+Когда Ардуино посылает сигнал,
 
 333
 00:21:59,640 --> 00:22:03,680
 it controls exactly the same
 these two buttons would.
+он управляет точно как сделали бы
+эти две кнопки.
 
 334
 00:22:04,080 --> 00:22:06,320
 This is made for
 recording and playing
+Это предначначено для записи и 
+проигрывания
 
 335
 00:22:06,570 --> 00:22:10,400
 when you manually touch
 the keys. But if you put in
+когда вы рукой касаетесь кнопок.
+Но если вы добавите сюда
 
 336
 00:22:10,650 --> 00:22:12,800
 opto-isolators,
 these two things here,
+опто-изоляторы, 
+вот эти две штуки здесь,
 
 337
 00:22:13,880 --> 00:22:18,760
 you can bridge the keys
 through the controller
+вы сможете связать кнопки
+с помощью контроллера
 
 338
 00:22:19,010 --> 00:22:22,640
 and activate them with an
 electric signal that comes
+и активировать их с помощью
+приходящего на запрограммированный 
 
 339
 00:22:22,890 --> 00:22:24,440
 from the controller,
 that is programmed.
+контроллер
+электрического сигнала.
 
 340
 00:22:24,690 --> 00:22:27,200
 That's why Arduino is
 so powerful, because
+Вот почему Arduino такая 
+мощная вещь, потому
 
 341
 00:22:27,450 --> 00:22:29,840
 you can control any
 machine that works...
+что вы можете управлять любой
+машиной если она вообще работает...
 
 342
 00:22:30,095 --> 00:22:33,948
 It is an amazing tool
 for giving young people
+Это удивительный инструмент
+дающий молодым людям
 
 343
 00:22:34,278 --> 00:22:39,037
 this age get in contact
 with all those...
+такого возраста приобщится ко
+всему этому...
 
 344
 00:22:39,287 --> 00:22:44,634
 an awful lot of realities
 they live in.
+???????
 
 345
 00:22:44,884 --> 00:22:49,556
 First to get them to learn
 that the consumer side
+Во первых научить их,
+что позиция потребителя -
 
 346
 00:22:49,806 --> 00:22:53,355
 -this "use the remote
 with the machine" side-
+типа "воспользуйтесь пультом чтоб
+управлять машиной" -
 
 347
 00:22:53,605 --> 00:22:56,797
 is not the only one;
 that it is possible to
+не единственная возможная;
+что можно 
 
 348
 00:22:58,394 --> 00:23:04,394
 understand what's inside
 and get the control back.
+понять что внутри и вернуть
+власть в свои руки.
 
 349
 00:23:04,644 --> 00:23:08,115
 Because now all these kids
 have a huge amount of
+Потому как сейчас большинство 
+этих ребят имеют огромное количество
 
 350
 00:23:08,365 --> 00:23:12,997
 gadgets which they have
 no idea how they work at all.
+всяких гаджетов и при этом 
+вообще не имеют представления 
+как все они работают.
 
 351
 00:23:14,095 --> 00:23:18,394
 With Arduino you can get a
 small glimpse of how all this
+С Arduino вы можете немного 
+просветится в понимании работы
+всех этих
 
 352
 00:23:18,644 --> 00:23:22,316
 stuff works, show them some
 schematics that allow them to
+устройств, покажите им некоторые 
+схемы которые покажут им
 
 353
 00:23:22,566 --> 00:23:25,678
 have a certain way
 of looking at all
+путь того чтоб посмотреть под
+правильным углом на вест
 
 354
 00:23:25,928 --> 00:23:27,595
 the technological world that
 is going to surround them.
+тот теногенный мир, который все
+больше окружает их.
 
 355
 00:23:27,845 --> 00:23:33,316
 And it is also quite funny,
 can be used to teach electronics,
+И Arduino, что тоже немного смешно,
+может быть использовано для того чтоб
+изучить электронике,
 
 356
 00:23:33,566 --> 00:23:37,556
 to teach them how to think,
 it teaches them how to have
+чтоб учить их думать, это 
+учит их как быстрее делать 
 
 357
 00:23:37,806 --> 00:23:39,845
 less short-term projects
 and work as a team,
+проекты, как работать 
+в команде,
 
 358
 00:23:40,095 --> 00:23:43,595
 how to participate in a
 community, get information...
+как учавствовать в сообществе,
+получать информацию...
 
 359
 00:23:45,237 --> 00:23:47,095
 The potential for students
 when they're just learning
+Возможность для студентов
+когда они только учатся
 
 360
 00:23:47,345 --> 00:23:49,394
 how to use the computer, to
 learn how to make things
+использовать компьютер, чтоб
+учиться как создавать с 
 
 361
 00:23:49,644 --> 00:23:53,355
 with computers... to me that...
 that's powerful.
+с помощью компьютеров... для меня это...
+Это - круто.
 
 362
 00:23:53,605 --> 00:23:56,478
 And what that would
 actually mean long term
+И что это может в действительности
+значить в длительной перспективе
 
 363
 00:23:56,728 --> 00:24:02,728
 for students with only 50$,
 be able to plug something
+для студентов с 50 баксами в кармане,
+иметь возможность включить что-нибудь
 
 364
 00:24:02,978 --> 00:24:04,756
 into their computer and
 make something with it
+в свой компьютер и сделать
+что-нибудь с этим
 
 365
 00:24:05,006 --> 00:24:07,115
 over and over and over again
 and then really share it...
+снова и снова и снова и потом
+по-настоящему поделится результатом...
 
 366
 00:24:07,997 --> 00:24:13,198
 The type of creative community
 that can engender in young people
+Дух общества созидания
+который может вырасти в молодых людях
 
 367
 00:24:13,448 --> 00:24:17,835
 to me I think that is... That's
 going to change everything,
+для меня я думаю это... Это 
+может изменить все,
 
 368
 00:24:18,085 --> 00:24:21,678
 and I'm really excited to see
 what happens as it develops.
+и я действительно восхищен видя
+что происходит когда оно развивается.
 
 369
 00:24:28,600 --> 00:24:31,790
 Arduino has 120.000
 users nowadays, 
+У Arduino сейчас есть 120 000
+пользователей,
 
 370
 00:24:32,040 --> 00:24:35,595
 or 130.000 users...
 I just count the number
+или 130 000....
+Я только считаю количество 
 
 371
 00:24:35,845 --> 00:24:39,198
 of sold boards. The traffic
 that we are now getting
+проданых плат. Трафик
+который мы имеем на 
 
 372
 00:24:39,450 --> 00:24:44,634
 in our website is close
 to 15 million hits per month.
+своем вебсайте близок к 15 
+миллионам посещений в месяц.
 
 373
 00:24:44,884 --> 00:24:49,198
 Which means around
 600.000 hits per day.
+То есть примерно
+600 000 в день.
+
 
 374
 00:24:49,448 --> 00:24:53,997
 That is knowing it is actively
 used in universities,
+Известно что оно активно использется
+в университетах,
 
 375
 00:24:54,247 --> 00:24:56,237
 also used by people who work
 on their personal projects...
+а также используется людьми которые
+работают над своими персональными 
+проектами...
 
 376
 00:24:56,487 --> 00:24:58,640
