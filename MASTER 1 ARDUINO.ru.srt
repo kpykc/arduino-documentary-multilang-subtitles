@@ -1993,134 +1993,189 @@ on their personal projects...
 00:24:56,487 --> 00:24:58,640
 Now imagine it was to
 start being used
+Теперь представте, что его начнут 
+использовать
 
 377
 00:24:58,890 --> 00:25:00,520
 in high school education.
+в старших классах школы.
 
 378
 00:25:04,000 --> 00:25:08,120
 Its future will not
 be "technological",
+Его будущее уже не будет только
+"технологических",
 
 379
 00:25:08,920 --> 00:25:13,600
 it will be quite more social;
+оно станет скорее "общественным"
 
 380
 00:25:14,400 --> 00:25:17,880
 it will be some kind of
 big boom where a lot
+это будет вроде большого взрыва
+когда множество
 
 381
 00:25:18,130 --> 00:25:21,000
 of people will start
 using it.
+людей начнут его использовать.
 
 382
 00:25:26,200 --> 00:25:29,080
 I definitely see Arduino
 taking one path of
+Я четко вижу, что Arduino
+получает толчок к тому
 
 383
 00:25:29,330 --> 00:25:32,120
 being just very easy to use,
 even easier than it is now.
+чтобы стать очень простым в 
+использовании, даже проще чем 
+он есть сейчас.
 
 384
 00:25:33,000 --> 00:25:35,920
 So making it easier for
 beginners to get into it.
+Что еще больше упростит
+начало его использования
+для новичков.
 
 385
 00:25:36,280 --> 00:25:39,520
 All my favourite distortion
 pedals... a Big Muff...
+Все любимые мной примочки(дисторшены) // я не гитарист, хз как их называют :), кстати он мечтает или это так и есть?
+... Big Muff-ы...
 
 386
 00:25:40,240 --> 00:25:45,120
 with my favourite 
 microcontroller board, Arduino.
+оснащены моей любимой
+микроконтроллерной платкой, Arduino.
 
 387
 00:25:52,320 --> 00:25:55,800
 The user base would get
 10 or 20 times bigger.
+Сообщество пользователей
+станет в 10 или 20 раз больше.
 
 388
 00:25:57,440 --> 00:26:00,080
 If all of a sudden these
 people started sharing
+И если все эти люди вдруг 
+начнут делиться
 
 389
 00:26:00,400 --> 00:26:04,800
 their files on the network,
 it would just not support all that.
+соими файлами в сети,
+она просто не выдержит. // ой-ли ?
 
 390
 00:26:05,050 --> 00:26:06,680
 It would just not work.
+Она просто не сможет работать.
 
 391
 00:26:11,400 --> 00:26:13,200
 Here's a robot.
+Вот робот.
 
 392
 00:26:13,600 --> 00:26:17,600
 If I tilt, you see the light
 goes left... I go up...
+Если я наклоняю, вы видите как
+огонёк дёт влево... Если я поднимаю...
 
 393
 00:26:18,250 --> 00:26:21,080
 I want Arduino to always
 be a tool that people
+Я хочу, чтоб Arduino всегда был
+инструментом, на который люди
 
 394
 00:26:21,400 --> 00:26:25,800
 who have no understanding
 of computers can look at
+ничего не понимающие в компьютерах
+могли посмотреть
 
 395
 00:26:27,000 --> 00:26:32,560
 and can get an understanding
 of how a computer works.
+и разобраться как же все-таки
+работают эти компьютеры.
 
 396
 00:26:33,120 --> 00:26:36,600
 But I sell this. So that's part
 of how I make my living.
+Но я продаю это. Так как это
+способ зарабатывать себе на жизнь.
 
 397
 00:26:37,560 --> 00:26:40,120
 For this to keep working like
 it does ten years for now
+Для того, чтоб породолжать работать
+в таком стиле, как последние 10 лет,
 
 398
 00:26:40,370 --> 00:26:42,120
 we need to be able to keep
 creating new hardware,
+нам нужно иметь возможность 
+продолжать создавать новое железо,
 
 399
 00:26:42,370 --> 00:26:44,440
 we will need the continous
 feedback of the community,
+нам нужна ответная реация, постоянная 
+обратная связь от сообщества,
 
 400
 00:26:44,690 --> 00:26:47,600
 and to be able to include
 their changes and
+и иметь возможность включить
+изменения от сообщества и
 
 401
 00:26:47,850 --> 00:26:49,760
 their proposals with all
 the necessary upgrades.
+учесть предложения людей
+в купе со всеми необходимыми 
+обновлениями.
 
 402
 00:26:50,010 --> 00:26:53,560
 And after those 10 years,
 I hope we have
+И после этих 10 лет, я 
+надеюсь мы получим
 
 403
 00:26:53,810 --> 00:26:57,400
 at least one Arduino
 computer... why not?
+хотя бы один Arduino компьютер...
+Почему бы и нет?
+
