@@ -406,293 +406,400 @@ decided to work on 200 units
 00:05:58,087 --> 00:06:02,888
 and we made... I made a little
 redesign, a little
+и мы сделали... Я внес небольшие 
+изменения в проект,
 
 84
 00:06:03,138 --> 00:06:06,087
 design for manufacturing
 in order to produce them.
+получился небольшой проект готовый для производства.
 
 85
 00:06:06,407 --> 00:06:11,568
 It was a test; they agreed
 with their school
-
+Это была проба. Они согласовали со своей школой 
 86
 00:06:11,818 --> 00:06:17,328
 the Interaction Design institute,
 and the K3 of Malmö,
+Interaction Design Institute и K3 из Malmö,
 
 87
 00:06:17,578 --> 00:06:21,647
 to buy 50 each. That was a
 good starting point;
+покупку 50 штук каждой. Это получилась хорошой отправной точкой:
 
 88
 00:06:21,897 --> 00:06:25,888
 that means we will not lose
 all the money but at least
+т.е. это означало, что мы не потеряем всех денег
+но как минимум
 
 89
 00:06:26,138 --> 00:06:31,008
 half was coming back. The
 selling price was exactly
+вернем половину. Розничная цена
+была точь в точь
 
 90
 00:06:31,258 --> 00:06:36,328
 what we paid; I think we earned
 1€ for each board, that is
+равна нашим затратам.
+Я думаю мы заработали по 1 евро с платы, что 
 
 91
 00:06:36,578 --> 00:06:40,527
 nothing considering all the
 effort we put inside.
+ничтожно мало по сравнению 
+с усилиями которые мы приложили.
 
 92
 00:06:41,888 --> 00:06:47,167
 But after some advertisement,
 after some speaking with friends,
+Но после небольшой рекламы, 
+после общения с друзьями,
 
 93
 00:06:47,527 --> 00:06:52,445
 this movement started to move.
 And so we received the first
+движению был дан старт.
+И мы получили первый
 
 94
 00:06:52,695 --> 00:06:57,207
 call, our first customer, asking
 for one board, it was a friend
-
+звонок, наш первый клиент, заказал одну плату.
+Это был друг
 95
 00:06:57,457 --> 00:07:00,296
 of Massimo and David. But this
 was the beginning of something.
+Массимо и Давида, но это было 
+начало чего-то.
 
 96
 00:07:00,546 --> 00:07:04,587
 A few months after meeting he
 said "Hey Nate SparkFun, you guys
+Через несколько месяцев после встречи 
+он сказал "Эй  Нэт,  Spark Fun, парни
 
 97
 00:07:04,837 --> 00:07:07,703
 should carry this thing called
 Arduino." And I looked at it and
+вы должны распространять эту штуку 
+называемую Arduino." И я посмотрел 
+на него
 
 98
 00:07:07,953 --> 00:07:11,703
 at that time it was the through
 hole version, the RS-232 version,
+и в то время это была версия на 
+выводных компонентах, с RS-232,
 
 99
 00:07:11,953 --> 00:07:14,453
 and I said "This looks very
 interesting" but I didn't really
+и я сказал "Выглядит интересно",
+но я на самом деле 
 
 100
 00:07:14,703 --> 00:07:18,347
 understand it. And... I hadn't
 wrapped my head around it.
+не совсем понял. И... Я 
+отнёсся не слишком вдумчиво 
 
 101
 00:07:18,597 --> 00:07:20,587
 And so I said: "You know, Tom,
 I don't think it's for us, we don't
+и сказал "Знаешь Том, я 
+не думаю что это нам подходит, мы 
 
 102
 00:07:20,837 --> 00:07:22,825
 really do kits, we're not sure
 how people are going to react
+на самом деле не делаем наборов,
+т.к. не уверены как люди к ним отнесутся, 
 
 103
 00:07:23,075 --> 00:07:26,669
 to this" and so I decided
 against it. It was a few months
+и потому я принял негативное решение.
+А спустя несколько месяцев...
 
 104
 00:07:26,919 --> 00:07:29,287
 later, six, seven months later,
 that Arduino came out with
+шесть или семь, та Arduino 
+вышла в 
 
 105
 00:07:29,537 --> 00:07:33,107
 the full USB version, fully
 assembled and tested and
+полноценной USB версии,
+полностью собранная, протестированная, 
 
 106
 00:07:33,357 --> 00:07:35,087
 ready to go, and Tom again
 came to ask and said:
+фактически - готовый продукт, 
+и Том снова пришел к нам
+и сказал
 
 107
 00:07:35,337 --> 00:07:37,736
 "Hey, SparkFun, you should
 really carry this." And I said
+"Эй, SparkFun, серьезно, вы должны 
+это распространять." И я ответил, 
 
 108
 00:07:37,986 --> 00:07:40,186
 "OK, well, I'm not really sure,
 you know, we'll bring in 20
+типа:" Ок, ладно, я не очень уверен, 
+знашь, мы возьмем пока 20 штук 
 
 109
 00:07:40,436 --> 00:07:44,027
 and see how they sell." And
 that was the first 20 out of
+и посмотрим как они будут продаваться." И 
+это была первая двадцатка из 
 
 110
 00:07:44,277 --> 00:07:46,145
 about 40,000 at this point.
+40 тысяч проданных на данный момент.
 
 111
 00:08:12,599 --> 00:08:15,039
 The first time we heard
 about Arduino was 
+Первый раз мы услышали про Arduino 
 
 112
 00:08:15,289 --> 00:08:19,549
 when David Cuartielles came
 to an activity called
+когда David Cuartielles 
+пришел на движение
 
 113
 00:08:19,799 --> 00:08:23,320
 "Thursdays at Medialab", 
 which actually was
-
+под названеим "Четверги в Медиалаборатории", 
+которое по сути было
 114
 00:08:23,570 --> 00:08:27,860
 the first session of that
 still ongoing activity.
+первым мероприятием этой серии,
+которая продолжает происходить до сих пор.
 
 115
 00:08:28,110 --> 00:08:33,335
 So he keeps talking about stuff
 and at the end, after 90 minutes
+Вобщем мы общались про всякие штуки 
+(на всякие темы), и после 90 минут
 
 116
 00:08:33,585 --> 00:08:37,297
 of listening to all of
 David's tales, he says
+выслушивания всех истории Девида,
+он сказал, 
 
 117
 00:08:37,547 --> 00:08:39,617
 he's involved in this
 project, but it was a really
+что учавствует в проекте, но 
 
 118
 00:08:39,867 --> 00:08:44,018
 small thing, you know?
 And I thought "At last!
+это типа мелочи, знаете.
+И я подумал " Наконец-то!
 
 119
 00:08:44,268 --> 00:08:45,900
 Come on, David, why wasn't
 this the first thing you said?"
+Давай Дэвид, почему ты сразу 
+не сказал об этом?"
 
 120
 00:08:49,000 --> 00:08:50,760
 I want to talk to you
 about Arduino...
+Я хочу поговорить про Arduino...
 
 121
 00:08:53,320 --> 00:08:58,240
 Arduino is the last project,
 I finished it last week.
+Arduino это последний проект, 
+я закончил его на той неделе
 
 122
 00:08:59,400 --> 00:09:01,640
 I talked to Ivrea's technical
 director and told him:
+Я общался с техническим 
+директором Ivrea и сказал ему: 
 
 123
 00:09:01,900 --> 00:09:06,120
 Wouldn't it be great to do
 something we can offer for free?
+"Не правда ли, было бы круто сделать 
+что-нибудь, что мы могли бы предложить за так?"
 
 124
 00:09:06,400 --> 00:09:08,880
 - For free?
 - Yeah.
+- За так?
+- Ну да...
 
 125
 00:09:11,400 --> 00:09:14,400
 And after that, well, we
 worked with Gustavo, and
+И после того, мы работали 
+с Густаво, 
+
 
 126
 00:09:14,650 --> 00:09:18,520
 also kept in touch with
 David, and we 
+при этом сохраняя связь с Дэвидом.
 
 127
 00:09:18,770 --> 00:09:23,880
 organized an Arduino
 workshop in October 2005,
+и организовали Arduino 
+воркшоп в октябре 2005, 
 
 128
 00:09:24,130 --> 00:09:26,640
 which was one of the
 first Arduino workshops,
+который был одним из первых 
+воркшопов по Arduino,
 
 129
 00:09:26,890 --> 00:09:30,600
 if not the first one ever...
+если вообще не первым.
 
 130
 00:09:30,850 --> 00:09:35,817
 On the last day David proposed
 creating some small prototypes.
+В последний день Дэвид предложил 
+сделать нескоько маленьких прототипов.
 
 131
 00:09:36,067 --> 00:09:38,817
 He called it "Bring your old junk
 and let's do something with it."
+Он назвал их "Принеси свой старый 
+мусор и наваяй что-нибудь из него."
 
 132
 00:09:39,067 --> 00:09:42,760
 That led to some quite
 interesting projects...
+Это впоследствии стало началом 
+нескольким очень интересным проектам, 
 
 133
 00:09:43,086 --> 00:09:46,197
 And these people kept on
 doing small electronic
+и те люди продолжили дальше делать 
+маленькие електроные 
 
 134
 00:09:46,447 --> 00:09:49,447
 instruments, small robots...
+инструменты, маленьких роботов...
 
 135
 00:09:52,676 --> 00:09:55,824
 At the time I was senior editor 
 at MAKE, MAKE was only
+В то время, я был главным редактором 
+в журнале MAKE, ему тогда
 
 136
 00:09:56,074 --> 00:09:59,532
 a couple years old, and I had
 heard about this Arduino project.
+было всего пару лет, и я услышал 
+об проекте Arduino. 
 
 137
 00:09:59,782 --> 00:10:02,543
 And I saw it online and I said:
 "Well, a lot of people are
+И увидел его онлайн то сказал:
+Класно, многие о нем 
 
 138
 00:10:02,793 --> 00:10:04,906
 starting to talk about this,
 I should check it out."
+расказывают, надо бы и мне 
+пощупать его."
 
 139
 00:10:05,156 --> 00:10:07,984
 And I got one of the boards and
 said "Whoa, this is fantastic,
+Вобщем заполучил я одну из платок и
+сказал "Ого, да это фантастика, 
 
 140
 00:10:08,234 --> 00:10:11,032
 beginners are gona love this. It
 runs on Mac, it runs on PC, it
+начинающим любителям это 
+прийдется по вкусу. Софт работает 
+на Маке, на персоналках,
 
 141
 00:10:11,282 --> 00:10:13,661
 runs on Linux... this is exactly
 what everyone wants."
+и на Линуксе работает...
 
 142
 00:10:13,911 --> 00:10:16,382

@@ -362,7 +362,7 @@ A few months after meeting he said "Hey Nate, Spark Fun, you guys should carry t
 75
 00:07:09,19 --> 00:07:12,60
 and I looked at it and at that time it was the through hole version, the RS-232 version, 
-и Я посмотрел на на нее и в то время это была версия на выводных компонентах, с RS-232,
+и я посмотрел на на нее и в то время это была версия на выводных компонентах, с RS-232,
 
 76
 00:07:12,60 --> 00:07:16,12
@@ -393,7 +393,7 @@ fully assembled and tested and ready to go, and Tom again came to us
 81
 00:07:35,92 --> 00:07:40,19
 and said "Hey, SparkFun, you should really carry this." And I said: "OK, well, I'm not really sure, 
-и сказал " Эй, SparkFun, серьезно, вы должны это распространять." И я ответил, типа:" Ок, ладно, я не очень уверен, знашь,
+и сказал "Эй, SparkFun, серьезно, вы должны это распространять." И я ответил, типа:" Ок, ладно, я не очень уверен, знашь,
 
 82
 00:07:40,19 --> 00:07:47,33
