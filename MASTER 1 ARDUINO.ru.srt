@@ -800,202 +800,277 @@ runs on Mac, it runs on PC, it
 runs on Linux... this is exactly
 what everyone wants."
 и на Линуксе работает...
+ это как раз то, что все хотят."
 
 142
 00:10:13,911 --> 00:10:16,382
 At the time a lot of people were
 using BASIC Stamps, were using
+В то время многие люди пользовались 
+BASIC Stamp-ами, пользовались
 
 143
 00:10:16,632 --> 00:10:20,185
 all sorts of microcontrollers,
 and I come from using design
+всеми вообще всеми разновидностями 
+микроконтроллеров, и я пришел после
+использования инструментов
 
 144
 00:10:20,435 --> 00:10:22,743
 tools like Flash and Processing,
 and I'm like "Oh, this is
+вроде Flash и Processing, и мне понравилось
+"О, да это 
 
 145
 00:10:22,993 --> 00:10:24,964
 perfect, it's exactly what I
 think everyone's going to
+прекрасно, это как раз то, чего я думаю все 
 
 146
 00:10:25,214 --> 00:10:28,224
 want." And this was in the
 beginning of when MAKE
+захотят". И это было в то время когда у MAKE 
 
 147
 00:10:28,474 --> 00:10:31,945
 was starting to have a store,
 and so it took a little while
+только появился магазин, и 
+потому это заняло некоторое время,
 
 148
 00:10:32,195 --> 00:10:34,782
 and you know, it's very hard to
 do international money transfers.
+и еще, эта довольно трудная штука 
+- международные денежные переводы.
 
 149
 00:10:35,032 --> 00:10:37,864
 Basically we started selling
 Arduinos in MAKE right away,
+Фактически мы в MAKE начали 
+продавать Arduino как раз тогда, 
 
 150
 00:10:38,114 --> 00:10:42,139
 And then later on, when I
 started working with Limor,
+и потом когда я начал работать с Limor,
 
 151
 00:10:42,389 --> 00:10:45,165
 who's part of Adafruit,
 she's a founder, we also
+которая из Adafruit (она основатель), 
+мы тоже сразу сказали:
 
 152
 00:10:45,415 --> 00:10:48,224
 said right away "This is a
 fantastic tool for getting
+Это фантастический инструмент для того 
+
 
 153
 00:10:48,474 --> 00:10:51,426
 people doing the things that they
 want to do with electronics."
+чтоб люди делали штуки, 
+которые им хочется делать с электроникой
 
 154
 00:10:51,676 --> 00:10:53,984
 Not necessarily learning
 everything first, but getting
+Не так, чтоб сперва все выучить, а так, 
 
 155
 00:10:54,234 --> 00:10:56,536
 the application done, like
 I want something... I want
+чтоб сразу делать приложения
+Я хочу чего-то... Например, хочу 
 
 156
 00:10:56,786 --> 00:11:00,264
 my dress to blink. Very hard
 to do if you just want to learn
+чтоб моя одежда мигала огоньками. 
+Такое трудновато сделать, если вы 
+только хотите начать изучать 
 
 157
 00:11:00,514 --> 00:11:02,984
 electronics; with an Arduino you
 get that done in a few minutes.
+электронику. С Arduino вы можете 
+сделать это в считанные минуты.
 
 158
 00:11:22,160 --> 00:11:23,680
 Just turn the confetti video...
+Просто включите видео о конфетти...
 
 159
 00:11:25,720 --> 00:11:29,000
 So this is sort like a demo bay.
+То есть это что-то вроде 
+демо-лаборатории.
 
 160
 00:11:29,250 --> 00:11:30,880
 We have a number of our
 projects set up
+У нас есть много 
+готовых проектов
 
 161
 00:11:31,130 --> 00:11:34,300
 This was a project we did
 for a single night event
+Это был проект, который мы сделали
+для одного ночного события,
 
 162
 00:11:34,550 --> 00:11:37,500
 that used Arduino as sensors
+который использовал Arduino как
+сенсоры
 
 163
 00:11:37,920 --> 00:11:40,680
 and the way it works,
 we made these
+и как управляющее устройство,
+мы сделали такие себе
 
 164
 00:11:40,930 --> 00:11:43,800
 giant maracas that when
 you shake them, 
+гигантские маракасы, которые если 
+ими потрусить,
 
 165
 00:11:44,800 --> 00:11:46,900
 it creates this explosion
 of confetti, and
+создают взрыв из конфетти, и
 
 166
 00:11:47,150 --> 00:11:49,850
 in the original install it was
 on a giant sphere, but here...
+в оригинальной композиции все 
+происходило на гигантской сфере,
+но здесь...
 
 167
 00:11:50,840 --> 00:11:53,080
 Each one of these has an
 accelerometer in it
+У каждого есть акселерометр,
 
 168
 00:11:53,330 --> 00:11:57,120
 and a Bluetooth controller
 sending it to the computer
+и контроллер Bluetooth для
+передачи данных на компьютер
 
 169
 00:11:57,370 --> 00:11:59,200
 and then we generate
 these graphics.
+и потом мы генерируем эту графику.
 
 170
 00:11:59,450 --> 00:12:01,360
 And it's all related to an
 specific event
+И все это для одного специфического
+события
 
 171
 00:12:01,680 --> 00:12:04,200
 where we wanted people
 to lighten up, it was at
+где мы хотели чтоб люди оторвались,
+это была
 
 172
 00:12:04,450 --> 00:12:06,840
 a cocktail party, and we wanted
 people to really let loose,
+вечеринка с коктейлями, и мы хотели,
+чтоб люди хорошо отдохнули
 
 173
 00:12:07,090 --> 00:12:11,760
 and feel more free. 
+и чувствовали себя более свободно.
 
 174
 00:12:13,400 --> 00:12:18,040
 And I wished to show you the
 Luminodes project over here...
+И еще хочу показать вам проект
+Luminodes (Люминодс)...
 
 175
 00:12:20,480 --> 00:12:23,000
 This was a project we did
 early on in the lab,
+Этот проект мы делали давненько так
+в даборатории,
 
 176
 00:12:23,720 --> 00:12:27,160
 thinking about networked
 lighting, 
+думая про сетецентричное освещение,
+
 
 177
 00:12:28,400 --> 00:12:31,960
 and the way it works is
 there's sort of a family
+по-сути оно ведет себя как семейство
 
 178
 00:12:32,210 --> 00:12:34,920
 of lights, and the main light
 here, you pick it up
+лампочек, и главная вот здесь,
+вы ее берете
 
 179
 00:12:35,170 --> 00:12:37,600
 and you can sort of tune
 the color by twisting it.
+и можете делать что-то вроде
+настройки цвета скручивая ее.
 
 180
 00:12:38,600 --> 00:12:43,560
 It will set the color, and these
 others are sort of children...
+Так вы установите цвет, а друге,
+что-то вроде детей...
 
 181
 00:12:43,810 --> 00:12:46,120
 As the user plays with them
 they all sort of come into sync.
+Когда пользователь с ними делает,
+то они постоянно пытаются поддержать
+синхронизацию.
 
 182
 00:12:46,800 --> 00:12:50,400
