@@ -1,406 +1,559 @@
 1
 00:00:49,379 --> 00:00:51,776
 Arduino started as a project
+Ардуино начался как проект,
 
 2
 00:00:52,079 --> 00:00:55,259
 that we did at the Interaction 
 Design Institute Ivrea...
+который мы делали в Институте
+Интерактивного Дизайна Ивреа...
 
 3
 00:00:55,736 --> 00:00:58,456
 back in 2005
+в 2005г.
 
 4
 00:00:59,018 --> 00:01:02,776
 But it has some roots in previous 
 projects that we worked on
+Но он основан на проектах, над
+которыми мы работали до этого.
 
 5
 00:01:03,059 --> 00:01:07,339
 Cause we wanted to make a tool
 for our students that was more
+Потому что мы хотели создать инструмент
+для наших студентов, который был бы
 
 6
 00:01:07,589 --> 00:01:11,339
 modern that what was available
 on the market at the moment
+более современным чем то, что было
+на рынке в тот момент.
 
 7
 00:01:11,589 --> 00:01:13,859
 Specially because the tool that
 everybody was using,
+Особенно потому что тот инструмент,
+который все тогда использовали,
 
 8
 00:01:14,109 --> 00:01:15,380
 this thing called the BASIC Stamp,
+он назывался BASIC Stamp,
 
 9
 00:01:15,630 --> 00:01:21,380
 in Italy it was costing, at the 
 time, about 76€, that's like 100$
+в Италии он немало стоил в то время -
+около 76€, т.е. примерно 100$,
 
 10
 00:01:21,630 --> 00:01:23,179
 so it was very expensive 
 for the students
+так что он был слишком дорогим
+для студентов.
 
 11
 00:01:23,429 --> 00:01:25,339
 They wouldn't do any... 
 too much work
+Они ничего не могли...
+немногое могли делать,
 
 12
 00:01:25,589 --> 00:01:27,779
 because they didn't want to
 spend money on buying
+потому что они не хотели тратить
+деньги на покупку
 
 13
 00:01:28,029 --> 00:01:31,339
 many boards that expensive,
 so what happened...
+большого количество дорогих плат,
+и вот что получилось...
 
 14
 00:01:31,589 --> 00:01:33,979
 we started to look at possible
 alternatives, and also we
+Мы начали смотреть на
+альтернативы, и ещё мы
+
 
 15
 00:01:34,229 --> 00:01:36,740
 were working on Processing,
 the Processing language
+работали над Процессинг (Processing),
+языком Процессинг,
+
 
 16
 00:01:36,990 --> 00:01:40,139
 because Casey Reas, one of the
 founders, was one of the teachers
+потому что Касей Реас (Casey Reas), один
+из основателей, был преподавателем
 
 17
 00:01:40,389 --> 00:01:43,339
 in Ivrea, so we thought: "Why 
 don't we try to figure out
+в Ивреа, и мы подумали: "Почему бы
+нам не придумать 
 
 18
 00:01:43,589 --> 00:01:46,219
 how to make Processing for the
 hardware?" So we worked with
+как сделать Процессинг для аппаратного
+обеспечения?" И мы стали работать
 
 19
 00:01:46,570 --> 00:01:51,339
 a student who did a thesis on
 the topic, and that produced a
+со студентом, который писал дисертацию по этой
+теме, и из этого получилась платформа Вайринг (Wiring).
 
 20
 00:01:51,589 --> 00:01:56,339
 wiring platform. Hernando 
 Barragán, a Colombian student,
+Хернандо Барраган (Hernando Barragán),
+колумбийский студент
 
 21
 00:01:56,589 --> 00:01:59,499
 worked on it. And then after
 Hernando made Wiring
+работал над ней. И потом, когда
+Хернандо сделал Вайринг,
 
 22
 00:01:59,749 --> 00:02:02,859
 we started to figure out how
 could we make the whole platform
+мы стали думать, как нам сделать
+полноценную платформу
 
 23
 00:02:03,109 --> 00:02:06,619
 even simpler, even cheaper,
 even easier to use.
+более простую, более дешёвую
+более удобную в использовании.
 
 24
 00:02:06,979 --> 00:02:10,980
 And then we started to essentialy
 reimplement the whole thing
+И мы начали, по сути,
+переделывать всё с начала 
 
 25
 00:02:11,340 --> 00:02:14,860
 as an open source project. We
 wanted it to be open source
+в виде открытого проекта. Мы
+хотели открыть исходные коды,
 
 26
 00:02:15,110 --> 00:02:19,059
 so that everybody could come
 and help, and contribute.
+чтобы любой мог придти и помочь,
+внести свою лепту.
 
 27
 00:02:19,309 --> 00:02:22,620
 Then we had another issue: that
 there was a lot of discussion
+Была и другая проблема: было
+много разговоров о том,
 
 28
 00:02:22,870 --> 00:02:27,140
 about the school closing, so
 we decided: "OK, let's try
+что институт закрывается, и
+мы решили: "Окей, попробуем
 
 29
 00:02:27,390 --> 00:02:30,539
 to make this platform and open
 it up as much as possible."
+сделать эту платформу и открыть
+её насколько это возможно."
 
 30
 00:02:30,789 --> 00:02:33,669
 Then we stopped talking about
 what we would like to have
+И мы прекратили обсуждать,
+что бы мы хотели сделать,
 
 31
 00:02:33,919 --> 00:02:35,589
 and started talking about
 how to do it.
+и начали обсуждать, как мы это
+будем делать.
 
 32
 00:02:35,839 --> 00:02:39,069
 And when we started talking
 about how to do it, Massimo
+И когда мы стали обсуждать как
+на это сделать, Массимо (Massimo)
 
 33
 00:02:39,319 --> 00:02:41,309
 had been experimenting
 with some technology,
+как раз экспериментировал с
+одной технологией,
 
 34
 00:02:41,559 --> 00:02:43,669
 I had been experimenting
 with a different technology...
+Я тогда экспериментировал
+с другой технологией...
 
 35
 00:02:45,069 --> 00:02:51,028
 We had a talk to decide
 what was best and I decided
+Мы обсудили, какая технология лучше,
 
 36
 00:02:51,278 --> 00:02:53,628
 to try this technology
 Massimo had,
+и я решил попробовать технологию Массимо,
+
 
 37
 00:02:53,884 --> 00:02:57,789
 because of its
 better compatibility
+из-за её лучшей переносимости
 
 38
 00:02:58,039 --> 00:02:59,809
 with different OS.
+на различные ОС.
 
 39
 00:03:00,829 --> 00:03:04,389
 I checked the hardware, found
 a couple bugs, we fixed that,
+Я проверил аппаратуру, нашёл
+несколько багов, мы исправили их,
 
 40
 00:03:04,789 --> 00:03:08,589
 and well, we started
 making boards...
+и, вот, мы начали делать платы...
 
 41
 00:03:08,839 --> 00:03:10,789
 I mean, the process from starting
 to seriously work on it
+Я хочу сказать, весь процесс от
+начала серьёзной работы над платой
 
 42
 00:03:11,039 --> 00:03:13,989
 to having a board was
 a mere two-day one.
+до получения реальной платы
+занимает пару дней.
 
 43
 00:03:14,949 --> 00:03:16,709
 All the rest was software.
+А остальное - это программное обеспечение.
 
 44
 00:03:17,000 --> 00:03:20,340
 While I was kind of in
 the middle of this I met with
+Когда я был своего рода в
+середине процесса, я встретился
 
 45
 00:03:20,699 --> 00:03:26,139
 David Cuartielles, who started to
 sort of help me in the project,
+с Дэвидом Куартелесом (David Cuartielles),
+который начал вроде помогать мне с проектом,
 
 46
 00:03:26,389 --> 00:03:30,699
 then became a major contributor,
 and then together we kind of made
+и сделал важные вклады в разработку,
+и вместе вы вроде как сделали
 
 47
 00:03:30,949 --> 00:03:35,780
 the first Arduino hardware; then
 we had David Mellis joining as
+первое аппаратное обеспечение для Ардуино.
+Потом к нам присоединился Дэвид Мэллис (David Mellis) --
 
 48
 00:03:36,099 --> 00:03:40,620
 a student to write the software,
 then Tom came in as an advisor,
+студент, который написал программную часть,
+потом советником присоединился Том (Tom)
 
 49
 00:03:40,870 --> 00:03:44,940
 and finally then Gianluca came
 in as the person who was able
+и в конце концов Джанлука (Gianluca)
+присоединился как человек, который мог 
 
 50
 00:03:45,190 --> 00:03:48,819
 to manufacture the board, that's 
 how the team kind of formed,
+производить эти платы. Вот так и
+сформировалась команда,
 
 51
 00:03:49,080 --> 00:03:52,039
 by adding people by their skills.
+собирая людей по их умениям.
 
 52
 00:04:02,728 --> 00:04:06,809
 We've been using Wiring boards
 and wanted to port
+Мы использовали платы Вайринг
+и хотели перенести
 
 53
 00:04:07,059 --> 00:04:11,408
 a bunch of programs to a cheaper
 microprocessor, basically,
+несколько программ на более дешёвый
+микропроцессор, просто для того,
 
 54
 00:04:12,007 --> 00:04:17,608
 to install in some installations;
 and I helped write like
+чтобы установить их а несколько
+инсталляций, и я помогал писать
 
 55
 00:04:17,858 --> 00:04:20,248
 a lot of compatibility layers so
 that all the old programs
+множество прослоек, чтобы все
+старые программы 
 
 56
 00:04:20,498 --> 00:04:25,688
 could run in the new processor...
 And then just being in Ivrea
+могли работать на новом процессоре...
+И просто пребывая в Ивреа
 
 57
 00:04:26,090 --> 00:04:29,128
 and not wanting to spend too
 much time on my actual thesis
+без желания тратить слишком много
+времени над моей настоящей диссертацией,
 
 58
 00:04:29,378 --> 00:04:31,400
 I spent more and more time like
 working with Massimo
+я тратил всё больше и больше времени
+на работу с Массимо
 
 59
 00:04:31,650 --> 00:04:33,349
 and the other guys
 developing Arduino.
+и остальными ребятами,
+разрабатывающими Ардуино.
 
 60
 00:04:33,599 --> 00:04:36,120
 I knew there was 
 this development of this
+Я знал, что там шла эта разработка
 
 61
 00:04:36,837 --> 00:04:40,450
 hardware equivalent to
 Processing. And I went over
+аппаратного эквивалента Процессинга.
+И я приехал в Ивреа
 
 62
 00:04:40,700 --> 00:04:44,808
 to Ivrea in June of 2005 to do a
 workshop with them on another
+в июне 2005, чтобы провести воркшоп
+вместе с ними на другую тему,
 
 63
 00:04:45,058 --> 00:04:48,527
 subject, and they showed me the
 Arduino board at that point.
+и они тогда показали мне плату Ардуино.
 
 64
 00:04:48,888 --> 00:04:51,888
 And I looked at it and I said:
 "You know, this is great, and it
+И я посмотрел на ней, и сказал:
+"Знаете, это классно, и это
 
 65
 00:04:52,138 --> 00:04:54,248
 definitely works for your school,
 works for my school too, but
+определённо полезно вашему институту,
+и моему институту,
 
 66
 00:04:54,498 --> 00:04:58,008
 I think it could be a larger
 thing, and I think more people
+но я думаю, это может стать чем-то бОльшим,
+и я думаю,что больше людей
 
 67
 00:04:58,258 --> 00:05:00,287
 would want to use this." And
 Massimo said: "Well, that's good
+захотят использовать это." И Массимо
+сказал: "Что ж, хороший отзыв, спасибо."
 
 68
 00:05:00,537 --> 00:05:03,248
 feedback, thanks." And then I
 went back to the States,
+И я уехал к себе в Штаты,
 
 69
 00:05:03,498 --> 00:05:05,969
 and a couple weeks later they
 wrote to me and said:
+а через несоклько недель они
+написали мне и сказали:
 
 70
 00:05:06,219 --> 00:05:09,369
 "You know, we want to go further
 with this, and we want to try and
+"Знаешь, мы хотим идти дальше
+и хотим попробовать
 
 71
 00:05:09,619 --> 00:05:11,248
 get it to the larger world.
 Do you want to join us
+вывести проект в большой мир.
+Хочешь присоединиться к нам
 
 72
 00:05:11,498 --> 00:05:14,568
 as part of the team?" And I said
 "Yeah". And it was just...
+как часть команды?" И я сказал
+"Ага". И это было  просто...
 
 73
 00:05:14,818 --> 00:05:17,445
 for me it was a case that
 this is a tool I could see
+для меня это был случай, когда
+я мог представить себя использующим
 
 74
 00:05:17,695 --> 00:05:20,489
 using myself, and therefore I
 could believe in actually
+этот инструмент, а значит я мог
+поверить, что действительно
 
 75
 00:05:20,739 --> 00:05:22,758
 helping to get it out
 to a wider world.
+смогу помочь вывести его
+в большой мир.
 
 76
 00:05:23,087 --> 00:05:27,008
 After the first prototyping
 there was the need, 
+После первичного прототипирования
+была необходимость
 
 77
 00:05:27,287 --> 00:05:30,688
 or the desire, to start 
 manufacturing something
+или желание начать производство
 
 78
 00:05:30,938 --> 00:05:35,969
 in a more professional way,
 and in a more commercial way.
+более профессионально
+и более коммерчески,
 
 79
 00:05:36,438 --> 00:05:42,128
 because all the first example was
 mounted, was done just to make...
+потому что первые платы монтировались,
+делались просто для того, чтобы...
 
 80
 00:05:42,378 --> 00:05:47,926
 to let them work. After
 Massimo and David decided
+заставить их работать. Когда
+Массимо и Дэвид решили
 
 81
 00:05:48,176 --> 00:05:51,847
 and understood the prototype
 was working they needed to
+и осознали, что прототип работает,
+им понадобиллось сделать
 
 82
 00:05:52,097 --> 00:05:57,527
 make a bigger batch. So we
 decided to work on 200 units
+бОльшую партию. И мы решили
+произвести 200 штук
 
 83
 00:05:58,087 --> 00:06:02,888
@@ -420,6 +573,7 @@ in order to produce them.
 It was a test; they agreed
 with their school
 Это была проба. Они согласовали со своей школой 
+
 86
 00:06:11,818 --> 00:06:17,328
 the Interaction Design institute,
@@ -2361,3 +2515,4 @@ computer... why not?
 хотя бы один Arduino компьютер...
 Почему бы и нет?
 
+
