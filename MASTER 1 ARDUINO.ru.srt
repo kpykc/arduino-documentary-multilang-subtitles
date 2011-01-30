@@ -878,7 +878,7 @@ if not the first one ever...
 On the last day David proposed
 creating some small prototypes.
 В последний день Дэвид предложил 
-сделать нескоько маленьких прототипов.
+сделать несколько маленьких прототипов.
 
 131
 00:09:36,067 --> 00:09:38,817
@@ -899,7 +899,7 @@ interesting projects...
 And these people kept on
 doing small electronic
 и те люди продолжили дальше делать 
-маленькие електроные 
+маленькие електронные 
 
 134
 00:09:46,447 --> 00:09:49,447
@@ -1182,7 +1182,7 @@ Luminodes (Люминодс)...
 This was a project we did
 early on in the lab,
 Этот проект мы делали давненько так
-в даборатории,
+в лаборатории,
 
 176
 00:12:23,720 --> 00:12:27,160
@@ -1215,14 +1215,14 @@ the color by twisting it.
 00:12:38,600 --> 00:12:43,560
 It will set the color, and these
 others are sort of children...
-Так вы установите цвет, а друге,
+Так вы установите цвет, а другие,
 что-то вроде детей...
 
 181
 00:12:43,810 --> 00:12:46,120
 As the user plays with them
 they all sort of come into sync.
-Когда пользователь с ними делает,
+Когда пользователь что-то с ними делает,
 то они постоянно пытаются поддержать
 синхронизацию.
 
@@ -2515,4 +2515,4 @@ computer... why not?
 хотя бы один Arduino компьютер...
 Почему бы и нет?
 
-
+
