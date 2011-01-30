@@ -1230,120 +1230,165 @@ they all sort of come into sync.
 00:12:46,800 --> 00:12:50,400
 So we're really into social
 relationships that people create
+Так что они действительно состят в социальных
+отношениях, подобно людям,
 
 183
 00:12:50,650 --> 00:12:52,480
 through technology.
 So in this case it was
+но технологических.
+Таким образом, в данном случае это было
 
 184
 00:12:52,730 --> 00:12:54,850
 sort of syncing a number
 of people up who were all
+своего рода синхронизация некторого
+количества людей, 
 
 185
 00:12:55,100 --> 00:12:57,600
 using the same thing. And
 then we extended it out to
+чем-то связаных. И затем
+расширили это до 
 
 186
 00:12:57,850 --> 00:12:59,350
 use architectural
 scale lighting and
+использования уровня архитектурного
+освещения и
 
 187
 00:12:59,600 --> 00:13:01,140
 and off-the-shelf 
 lighting equipment.
+производимого промышленностью
+оборудования.
 
 188
 00:13:02,046 --> 00:13:04,317
 The very first thing I tried
 to do with an Arduino
+Самой первой штукой, которую
+я попытался сделать с Arduino
 
 189
 00:13:04,567 --> 00:13:08,197
 was to run a 3D printer on an
 Arduino. Which...
+было запустить 3-х мерный принтер.
+Что...
 
 190
 00:13:08,447 --> 00:13:10,916
 I probably should have started
 out with something simpler,
+Наверное мне нужно было начать, 
+с чего-либо попроще.
 
 191
 00:13:11,166 --> 00:13:14,296
 because it was really difficult,
 and I didn't know anything
+потому, что это было действительно сложно,
+и я ничегошеньки не знал
 
 192
 00:13:14,546 --> 00:13:18,846
 about electronics. It was just 
 like stumbling blindly and trying
+про електронику. Это было как слепому
+бится головой об стену
 
 193
 00:13:19,096 --> 00:13:23,637
 to get it to work, but eventually
 I got it to work, and now
+пытаясь заставить его работать, и сейчас
 
 194
 00:13:23,887 --> 00:13:27,835
 we sell these MakerBot 3D
 printers which actually run on...
+эти  MakerBot 3D принетры которые
+фактичеки работают на...
 
 195
 00:13:28,197 --> 00:13:30,450
 There's multiple Arduinos in
 the machine.
+Там, в этой машине, множество Arduino.
 
 196
 00:13:30,700 --> 00:13:32,280
 So this is a 3D printer,
+Итак это 3D принтер,
 
 197
 00:13:32,530 --> 00:13:38,097
 and what that means is it takes
 a 3D model from... you can
+и это означает, что он берет 
+3D модель из... вы можете
 
 198
 00:13:38,347 --> 00:13:40,936
 download one from the internet,
 or design it yourself, or
+загрузить что-нибудь из интернета,
+или спроектировать самостоятельно, или
 
 199
 00:13:41,186 --> 00:13:46,097
 scan in a 3D model of an object;
 and then it prints with plastic,
+отсканировать 3D модель объекта;
+и потом напечатать ее пластиком,
 
 200
 00:13:46,347 --> 00:13:49,897
 so this right here is a filament,
 and so what happens is
+так что здесь вот, это нить,
+и по-сути
 
 201
 00:13:50,147 --> 00:13:54,176
 this plastic is slowly pulled
 down into the extruder head here
+пластик потихоньку выдавливается
+через экструдирующую головку - здесь
 
 202
 00:13:54,426 --> 00:13:59,336
 and when it's done you'll get a
 real object that is exactly
+и затем, как машина закончит работать
+вы получаете настоящий объект,
+который точно
 
 203
 00:13:59,586 --> 00:14:01,420
 what you wanted.
 So you have a digital
+соответствует тому, что вы хотели.
+Вобщем у вас есть цифровой файл
 
 204
 00:14:01,845 --> 00:14:06,240
 file that you give it, and you
 basically say "make me one
+вы его выбираете и типа говорите: "сделай мне
 
 205
 00:14:06,545 --> 00:14:09,496
 of this", you hit print, and this
 machine will make it for you.
+такую штучку", нажимаете печать,
+и машина делает ее для вас.
 
 206
 00:14:09,746 --> 00:14:13,576
@@ -2484,7 +2529,7 @@ creating new hardware,
 00:26:42,370 --> 00:26:44,440
 we will need the continous
 feedback of the community,
-нам нужна ответная реация, постоянная 
+нам нужна ответная реакция, постоянная 
 обратная связь от сообщества,
 
 400
