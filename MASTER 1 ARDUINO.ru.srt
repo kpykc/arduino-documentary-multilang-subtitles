@@ -1579,389 +1579,539 @@ designs and improve them.
 00:15:42,946 --> 00:15:45,347
 Open source hardware is a
 fantastic way so you don't have
+Свободное железо это фантастический
+путь к тому, чтоб вам не нужно было
 
 234
 00:15:45,816 --> 00:15:48,576
 to answer e-mails of people
 asking "can they use something?"
+сидеть и отвечать на вопросы людей типа
+"можно ли мне этим воспользоваться?"
 
 235
 00:15:48,826 --> 00:15:50,336
 You've put the license out
 there, you've said...
+Вы указали лицензию, и
+уже ответили...
 
 236
 00:15:50,586 --> 00:15:53,217
 Open source hardware for us
 means you can take our stuff,
+Свободное железо для нас
+означает, что вы можете взять
+наши поделки
 
 237
 00:15:53,467 --> 00:15:55,347
 you can do whatever you want
 with it... you just have to do
+и можете делать с ними все, что хотите...
+единственное, что от вас требуется
 
 238
 00:15:55,597 --> 00:15:58,415
 the same thing we did: release
 it back, allow other people
+сделать то ж, что и мы:
+вернуть их в сообщество, разрешить другим людям
 
 239
 00:15:58,665 --> 00:16:01,336
 to do whatever they want with it
 and they can sell it as long as
+делать, что они хотят с ними и они могут
+их продавать пока
 
 240
 00:16:01,586 --> 00:16:04,097
 all the attribution, all the
 credits, all things that you've
+все ссылки, и все благодарности,
+и все другие вещи о которых вы 
 
 241
 00:16:04,347 --> 00:16:07,376
 requested, are respected. And
 so far it's worked out great:
+попросили, уважаются. И пока что
+это прекрасно работает:
 
 242
 00:16:07,626 --> 00:16:09,996
 If you look at Linux, it's a
 perfect example. If you look
+Если посмотреть на Linux, то это
+прекрасный пример. Если вы посмотрите
 
 243
 00:16:10,246 --> 00:16:13,977
 at Apache, all these things that
 run the web, it's all open source
+на Apache, все эти штуки на которых
+работает веб, они все с открытыми исходниками.
 
 244
 00:16:14,227 --> 00:16:17,656
 If you had to pay someone, or
 talk to someone, or license
+Если бы вы должны были платить кому-нибудь,
+или просить кого-то, или лицензировать
 
 245
 00:16:17,906 --> 00:16:19,776
 something every time you wanted
 to put up a website,
+что-то каждый раз, когда вы хотели
+бы запустить веб-сайт,
 
 246
 00:16:20,026 --> 00:16:22,996
 we wouldn't have the fantastic
 world of information sharing
+мы бы не имели фантастического
+мира обмена информацией
 
 247
 00:16:23,246 --> 00:16:26,246
 we do. So I look at Arduino as
 a physical representation of
+который имеем. Так что я смотрю на
+Arduino как на физическое воплощение
 
 248
 00:16:26,496 --> 00:16:28,138
 all the great things you got
 with open source software,
+всех тех замечательных вещей которые
+вы получаете вместе свободным ПО,
 
 249
 00:16:28,388 --> 00:16:30,097
 but now starting to happen 
 in hardware.
+но теперь проявляющихся в железе.
 
 250
 00:16:30,350 --> 00:16:33,600
 We will hit a level where
 people will be creating...
+Мы достигаем уровня на котором
+люди будут создавать...
 
 251
 00:16:34,586 --> 00:16:37,280
 people will be creating hardware
 on the same way that people
+люди будут создавать железо
+тем самым способом, которым люди
 
 252
 00:16:37,530 --> 00:16:40,040
 were creating books after
 movable type became cheap and
+созавали книги после того как
+книгопечатание стало дешевым и
 
 253
 00:16:40,290 --> 00:16:42,400
 easy to replicate. And I really
 think that that's the level
+простым в воспроизведении. И я на 
+самом деле думаю что этот уровень
 
 254
 00:16:42,750 --> 00:16:44,750
 of the open source hardware
 revolution, as we are looking
+свободного железа - революция,
+т.к. мы видим 
 
 255
 00:16:45,000 --> 00:16:46,760
 at something like a Gutenberg
 event, where movable type
+нечто подобное появлению Гуттенберга,
+когда книгопечатание
+
 
 256
 00:16:47,010 --> 00:16:50,100
 will change how people read,
 write and share information, only
+изменило способ чтения создания и 
+распространения информации, только
 
 257
 00:16:50,350 --> 00:16:53,080
 in this case it will be how we
 create and use physical objects.
+в этом случае это относится к тому
+как мы создаем и используем физические объекты.
 
 258
 00:16:54,115 --> 00:17:00,115
 The idea behind having control
 over these physical objects
+Идея относительно получения контроля
+на этими физическими объектами
 
 259
 00:17:00,365 --> 00:17:04,944
 and being able to manipulate them
 at will and not be afraid
+и получения возможности манипулировать 
+ими по собственному желанию и не бояться
+
 
 260
 00:17:05,194 --> 00:17:07,953
 to take them apart, to see
 what's inside, to really
+принять их друг от друга, посмотреть
+что внутри них, чтоб действительно
 
 261
 00:17:08,203 --> 00:17:11,232
 know everything that's going
 on... That's something really
+узнать обо все, что происходит...
+Это то что на самом деле
 
 262
 00:17:11,482 --> 00:17:12,982
 behind the open source 
 hardware for me,
+скрывается за идеей свободного железа,
+для меня
 
 263
 00:17:13,232 --> 00:17:16,996
 and something I'm really
 passionate about.
+и нечто от чего я действительно
+фанатею.
 
 264
 00:17:17,496 --> 00:17:20,034
 You know, of course open source
 means that you are
+Вы знаете конечно, открытый проект
+подразумевает что вы его делаете
 
 265
 00:17:20,284 --> 00:17:24,294
 making it for the community
 at large, based on work
+для сообщества в целом, основываясь
+на работе
 
 266
 00:17:24,544 --> 00:17:26,476
 that other people have
 done. So it's kind of like I'm
+которую выполнили другие люди.
+Так что это, что-то вроде того
 
 267
 00:17:26,726 --> 00:17:30,636
 taking one step up a ladder, and
 then I'm helping other people
+как если бы я сделал один шаг по лестнице,
+и потом помогал другим людям
 
 268
 00:17:30,886 --> 00:17:32,314
 go further up the ladder.
+пройти дальше по ней.
 
 269
 00:17:32,564 --> 00:17:34,593
 The current problem is that
+Сейчас проблема состоит
 
 270
 00:17:34,843 --> 00:17:41,093
  because of both standardisation
 and the patent system,
+одновременно как в стандартизации так
+и в патентной системе,
 
 271
 00:17:41,343 --> 00:17:44,756
 a lot of people were left
 without the possibility
+множество людей осталось
+без возможности
 
 272
 00:17:45,006 --> 00:17:48,035
 of learning how things work;
 this ended up being
+изучить как работают 
+окружающие их вещи; и это стало 
 
 273
 00:17:48,285 --> 00:17:51,394
 possible only to a group
 of people: the hackers,
+возможно только для небольшой группы
+людей: хакеров,
 
 274
 00:17:51,644 --> 00:17:54,936
 whose technical knowledge
 allowed them... made them
+чьи технические знания
+позволили им... дали им
 
 275
 00:17:55,186 --> 00:17:57,236
 feel able of opening an
 electronic element to see
+чувство возможности открыть
+электронный элемент чтоб увидеть,
 
 276
 00:17:57,876 --> 00:18:02,718
 what it had inside. And that's
 open source hardware for me:
+что тот имеет внутри. И это есть
+свободное железо для меня:
 
 277
 00:18:02,968 --> 00:18:06,876
 it means to once again
 be able to check
+это означает вновь иметь
+возможность проверить
 
 278
 00:18:07,126 --> 00:18:09,436
 what is inside of stuff,
 but in a way that is allowed,
+что находиться внутри вещей, но
+незапрещенным путем,
 
 279
 00:18:09,686 --> 00:18:14,197
 that is also ethically "right",
+что также правильно и с точки зрения этики,
 
 280
 00:18:14,447 --> 00:18:17,316
 legal, and that allows us to
 improve the educative methods.
+легально, и позволяет нам улучшить
+методы изучения.
 
 281
 00:18:17,566 --> 00:18:19,957
 All things considered, what
 open hardware is for me
+С учетом всех этих вещей, свободное
+железо для меня 
 
 282
 00:18:20,207 --> 00:18:22,747
 is a system that makes people
 able to learn about the way
+это система, которая дает людям
+возможность учиться тому
 
 283
 00:18:22,997 --> 00:18:25,447
 things work in this world
 we live in, where there are
+как устроены вещи в мире в котором мы
+живем, в котором
 
 284
 00:18:25,697 --> 00:18:28,556
 more computers than
 people. So we need to
+компьютеров больше чем людей.
+Потому мы должны понимать
 
 285
 00:18:28,806 --> 00:18:30,997
 understand how our stuff
 works, not only for being able
+понимать как наши вещи работают,
+не только для того чтобы уметь
 
 286
 00:18:31,247 --> 00:18:33,046
 to repair it, but also to
 understand how our own
+их починить, но и для того чтобы
+понять как мы сами устроены.
 
 287
 00:18:33,296 --> 00:18:35,757
 life works. And I thing that
 is really necessary nowadays.
+И мен кажется это действительно
+необходимым сегодня.
 
 288
 00:18:36,316 --> 00:18:42,277
 At the beginning, on the whole
 question of open source
+Если вернутся к началу, 
+к вопросу об соотношении 
 
 289
 00:18:42,527 --> 00:18:47,676
 hardware versus open hardware,
 open source, it's still very
+свободного железа и открытого железа,
+То надо отметить, что открытые исходники,
 
 290
 00:18:47,926 --> 00:18:53,876
 a very complex situation, there's
 still not very defined standards
+это все еще очень сложный вопрос,
+все еще нет хорошо определенных стандартов
 
 291
 00:18:54,126 --> 00:18:57,638
 or licenses or processes...
 For us at the beginning
+или лицензий, или процессов...
+Для нас вначале 
 
 292
 00:18:57,888 --> 00:19:02,095
 it was a specific need: we knew
 the school was closing, and we
+это было специфической необходимостью:
+мы знали, что школу закрывают, и мы
 
 293
 00:19:02,345 --> 00:19:05,394
 and we were afraid that lawyers
 would show up one day and say
+боялись, что однажды появятся адвокаты
+и скажут
 
 294
 00:19:05,644 --> 00:19:09,797
 "Everything here goes into a box
 and gets forgotten about."
+"Все должно быть спрятано по коробкам
+и про все должны забыть."
 
 295
 00:19:10,047 --> 00:19:12,995
 So we thougt "OK, if we open
 everything about this,
+Так что мы подумали: "Ок, если 
+мы всем про все расскажем про это,
 
 296
 00:19:13,245 --> 00:19:17,275
 then we can survive the
 closing of the school."
+то сможем пережить закрытие школы."
 
 297
 00:19:17,525 --> 00:19:19,874
 So that was the first step.
 Then we started to figure out
+Так что это был первый шаг.
+Потом мы начали понимать
 
 298
 00:19:20,124 --> 00:19:24,236
 that there was a way to get a
 very nice ecosystem of people
+что в этом был по-сути путь
+создания очень приятной экосистемы
 
 299
 00:19:24,486 --> 00:19:27,295
 participating and making
 extensions, making derivatives,
+людей учавствующих в проекте, делающих
+расширения, делающих производные продукты,
 
 300
 00:19:27,545 --> 00:19:30,990
 and helping. And then our
 activity of talking to
+и помогающих. И потом наши действия
 
 301
 00:19:31,240 --> 00:19:33,874
 manufacturers, and making
 them to build things,
+в плане общения с производителями,
+и договоров с ними о производстве этих вещей,
 
 302
 00:19:34,124 --> 00:19:37,634
 became an interesting study
 on how there could be
+стало инетересным полем для изучения
+способов построения
 
 303
 00:19:37,884 --> 00:19:40,556
 a business model that would
 apply to open source.
+бизнесмодели подходящей для движения 
+открытых исходников.
 
 304
 00:19:40,806 --> 00:19:44,919
 For us it was really important,
 as a cultural space
+Для нас это было действительно важно,
+как место для культурного
 
 305
 00:19:45,169 --> 00:19:49,316
 for experimentation, to try
 and apply the logic of
+експеримента, как проба применить логику
 
 306
 00:19:49,566 --> 00:19:52,237
 free tools to the
 actual process of working.
+свободных инструментов к 
+настоящему рабочему процессу.
 
 307
 00:19:52,487 --> 00:19:56,095
 That was the idea behind
 "Interactivos?", a space
+Это была идея стоящая за
+"Interactivos?", места
 
 308
 00:19:56,345 --> 00:19:58,278
 where people could develop
 their own projects but where
+где люди могут разрабатывать
+свои собственные проекты, но также
 
 309
 00:19:58,528 --> 00:20:01,278
 other people could also
 get involved in them
+и другие люди могут быть 
+вовлечены в них
 
 310
 00:20:01,528 --> 00:20:03,997
 as collaborators. Because
 the process is open for
-как соавторов. Потому, что 
+как соавторы. Потому, что 
 процесс открыт для
 
 311
