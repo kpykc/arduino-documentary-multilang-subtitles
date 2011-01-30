@@ -1394,135 +1394,186 @@ machine will make it for you.
 00:14:09,746 --> 00:14:13,576
 It will make one, or a hundred,
 or 1,000 of them if you want.
+Он сделает одину, или сто,
+или 1.000 таких, если вам захочется.
 
 207
 00:14:13,896 --> 00:14:18,138
 Which is great, because there's
 all sorts of cool open source
+А это очень  круто, потому, что
+есть множество разных прикольных
 
 208
 00:14:18,388 --> 00:14:20,795
 things that this will make for
 you. So you don't need to have
+свободных штук, которые он может 
+вам сделать. Так что вам не нужно
 
 209
 00:14:21,045 --> 00:14:24,616
 a laser cutter, or a PCB
 fabrication thing to really
+лазерного резака, или устройства
+для производства ПП(PCB), чтобы
 
 210
 00:14:24,866 --> 00:14:27,576
 participate in open source
 hardware. You can just design
+участвовать в проектах свободного
+железа. Вы можете просто проектировать
 
 211
 00:14:27,826 --> 00:14:30,816
 something, this will sit on your
 desk and print you out stuff.
+что-то, а он будет стоя на столе
+печатать вам эти проекты.
 
 212
 00:14:32,776 --> 00:14:36,138
 One of the things I really like
 about this is that this allows
+Одна из фишек, которая мне наиболее нравится
+в этом это то что он позволяет
 
 213
 00:14:36,388 --> 00:14:39,415
 you to apply the idea of open
 source hardware to things
+вам применять идеи свободного 
+железа к вещам,
 
 214
 00:14:39,665 --> 00:14:42,696
 that are very very basic, that
 you would not otherwise
+которые в основе основ находятся,
+которые вы иначе не могли бы
 
 215
 00:14:42,946 --> 00:14:45,656
 consider to be open source
 hardwares. So we have...
+рассматривать как свободное железо.
+Итак мы имеем...
 
 216
 00:14:45,906 --> 00:14:48,055
 There's an open source
 whistle, for example.
+Вот "свободный" свисток, к примеру.
 
 217
 00:14:48,305 --> 00:14:51,857
 There's an open source bottle
 opener... Over here on the wall
+А вот открывачка... Там на стене
 
 218
 00:14:53,107 --> 00:14:56,217
 we have a... right here, there's
 an open source coat hook.
+у нас есть... вон там, "свободный"
+крючок для одежды.
 
 219
 00:14:56,467 --> 00:14:59,656
 So we have a coat hook...
 this is open source hardware.
+То есть у нас есть крючок...
+и это "свободное железо".
 
 220
 00:15:00,006 --> 00:15:03,217
 There's a file on the internet
 you can download and
+В интернете есть файл, который 
+вы можете загрузить и 
 
 221
 00:15:03,467 --> 00:15:05,576
 if you have a 3D printer you
 can print out as many
+если у вас есть 3D принтер
+вы можете распечатать столько
 
 222
 00:15:05,826 --> 00:15:09,045
 coat hooks as you want, and
 you don't have to pay anybody
+крючков скольок хотите, и вам 
+не нужно никому ничего платить.
 
 223
 00:15:10,336 --> 00:15:12,496
 anything. If you want a bigger
 coat hook you can make it bigger.
+Если вам нужен крючок побольше
+вы можете его увеличить.
 
 224
 00:15:12,896 --> 00:15:17,896
 And it is just this wonderful
 idea that we can apply this idea
+И это очень крутая идея, о 
+том что идею открытых исходников
 
 225
 00:15:18,146 --> 00:15:21,616
 of open source to all of these
 common everyday things
+можно применить ко всем этим
+повседневным вещам
 
 226
 00:15:21,866 --> 00:15:24,217
 that we use in our life, like...
 what we're trying to do is
+которые мы все время используем...
+то что мы пытаемя сделать... это
 
 227
 00:15:24,467 --> 00:15:25,967
 open source everything.
+открытые исходники во всем!
 
 228
 00:15:26,235 --> 00:15:29,696
 What sort of can have been a
 crazy idea 10 years ago, 
+То, что  выглядело как сумасшедшая 
+идея 10 лет назад, 
 
 229
 00:15:29,946 --> 00:15:33,616
 are now... actually there's a
 path that we can take
+сейчас... у нас есть путь
+идя по которому
 
 230
 00:15:33,866 --> 00:15:37,295
 to get there. And people are
 starting to take it seriously.
+мы к ней в конце-концов прийдем.
+И люди начинают относится к этому серьезно.
 
 231
 00:15:37,795 --> 00:15:40,295
 Open source hardware is a
 fantastic way to make sure
+Открытое железо это прекрасный путь
+быть уверенным, что 
 
 232
 00:15:40,545 --> 00:15:42,696
 other people can look at your
 designs and improve them.
+другие люди могут увидеть твои проекты
+и улучшить их.
 
 233
 00:15:42,946 --> 00:15:45,347
