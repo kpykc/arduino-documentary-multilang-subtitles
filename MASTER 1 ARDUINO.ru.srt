@@ -1,2764 +1,1982 @@
-1
+﻿1
 00:00:49,379 --> 00:00:51,776
-Arduino started as a project
 Ардуино начался как проект,
 
 2
 00:00:52,079 --> 00:00:55,259
-that we did at the Interaction 
-Design Institute Ivrea...
 который мы делали в Институте
 Интерактивного Дизайна Ивреа...
 
 3
 00:00:55,736 --> 00:00:58,456
-back in 2005
 в 2005г.
 
 4
 00:00:59,018 --> 00:01:02,776
-But it has some roots in previous 
-projects that we worked on
 Но он основан на проектах, над
 которыми мы работали до этого.
 
 5
 00:01:03,059 --> 00:01:07,339
-Cause we wanted to make a tool
-for our students that was more
 Потому что мы хотели создать инструмент
 для наших студентов, который был бы
 
 6
 00:01:07,589 --> 00:01:11,339
-modern that what was available
-on the market at the moment
 более современным чем то, что было
 на рынке в тот момент.
 
 7
 00:01:11,589 --> 00:01:13,859
-Specially because the tool that
-everybody was using,
 Особенно потому что тот инструмент,
 который все тогда использовали,
 
 8
 00:01:14,109 --> 00:01:15,380
-this thing called the BASIC Stamp,
 он назывался BASIC Stamp,
 
 9
 00:01:15,630 --> 00:01:21,380
-in Italy it was costing, at the 
-time, about 76€, that's like 100$
 в Италии он немало стоил в то время -
 около 76€, т.е. примерно 100$,
 
 10
 00:01:21,630 --> 00:01:23,179
-so it was very expensive 
-for the students
 так что он был слишком дорогим
 для студентов.
 
 11
 00:01:23,429 --> 00:01:25,339
-They wouldn't do any... 
-too much work
 Они ничего не могли...
 немногое могли делать,
 
 12
 00:01:25,589 --> 00:01:27,779
-because they didn't want to
-spend money on buying
 потому что они не хотели тратить
 деньги на покупку
 
 13
 00:01:28,029 --> 00:01:31,339
-many boards that expensive,
-so what happened...
 большого количество дорогих плат,
 и вот что получилось...
 
 14
 00:01:31,589 --> 00:01:33,979
-we started to look at possible
-alternatives, and also we
 Мы начали смотреть на
 альтернативы, и ещё мы
 
 
 15
 00:01:34,229 --> 00:01:36,740
-were working on Processing,
-the Processing language
 работали над Процессинг (Processing),
 языком Процессинг,
 
 
 16
 00:01:36,990 --> 00:01:40,139
-because Casey Reas, one of the
-founders, was one of the teachers
 потому что Касей Реас (Casey Reas), один
 из основателей, был преподавателем
 
 17
 00:01:40,389 --> 00:01:43,339
-in Ivrea, so we thought: "Why 
-don't we try to figure out
 в Ивреа, и мы подумали: "Почему бы
 нам не придумать 
 
 18
 00:01:43,589 --> 00:01:46,219
-how to make Processing for the
-hardware?" So we worked with
 как сделать Процессинг для аппаратного
 обеспечения?" И мы стали работать
 
 19
 00:01:46,570 --> 00:01:51,339
-a student who did a thesis on
-the topic, and that produced a
 со студентом, который писал дисертацию по этой
 теме, и из этого получилась платформа Вайринг (Wiring).
 
 20
 00:01:51,589 --> 00:01:56,339
-wiring platform. Hernando 
-Barragán, a Colombian student,
 Хернандо Барраган (Hernando Barragán),
 колумбийский студент
 
 21
 00:01:56,589 --> 00:01:59,499
-worked on it. And then after
-Hernando made Wiring
 работал над ней. И потом, когда
 Хернандо сделал Вайринг,
 
 22
 00:01:59,749 --> 00:02:02,859
-we started to figure out how
-could we make the whole platform
 мы стали думать, как нам сделать
 полноценную платформу
 
 23
 00:02:03,109 --> 00:02:06,619
-even simpler, even cheaper,
-even easier to use.
 более простую, более дешёвую
 более удобную в использовании.
 
 24
 00:02:06,979 --> 00:02:10,980
-And then we started to essentialy
-reimplement the whole thing
 И мы начали, по сути,
 переделывать всё с начала 
 
 25
 00:02:11,340 --> 00:02:14,860
-as an open source project. We
-wanted it to be open source
 в виде открытого проекта. Мы
 хотели открыть исходные коды,
 
 26
 00:02:15,110 --> 00:02:19,059
-so that everybody could come
-and help, and contribute.
 чтобы любой мог придти и помочь,
 внести свою лепту.
 
 27
 00:02:19,309 --> 00:02:22,620
-Then we had another issue: that
-there was a lot of discussion
 Была и другая проблема: было
 много разговоров о том,
 
 28
 00:02:22,870 --> 00:02:27,140
-about the school closing, so
-we decided: "OK, let's try
 что институт закрывается, и
 мы решили: "Окей, попробуем
 
 29
 00:02:27,390 --> 00:02:30,539
-to make this platform and open
-it up as much as possible."
 сделать эту платформу и открыть
 её насколько это возможно."
 
 30
 00:02:30,789 --> 00:02:33,669
-Then we stopped talking about
-what we would like to have
 И мы прекратили обсуждать,
 что бы мы хотели сделать,
 
 31
 00:02:33,919 --> 00:02:35,589
-and started talking about
-how to do it.
 и начали обсуждать, как мы это
 будем делать.
 
 32
 00:02:35,839 --> 00:02:39,069
-And when we started talking
-about how to do it, Massimo
 И когда мы стали обсуждать как
 на это сделать, Массимо (Massimo)
 
 33
 00:02:39,319 --> 00:02:41,309
-had been experimenting
-with some technology,
 как раз экспериментировал с
 одной технологией,
 
 34
 00:02:41,559 --> 00:02:43,669
-I had been experimenting
-with a different technology...
 Я тогда экспериментировал
 с другой технологией...
 
 35
 00:02:45,069 --> 00:02:51,028
-We had a talk to decide
-what was best and I decided
 Мы обсудили, какая технология лучше,
 
 36
 00:02:51,278 --> 00:02:53,628
-to try this technology
-Massimo had,
 и я решил попробовать технологию Массимо,
 
 
 37
 00:02:53,884 --> 00:02:57,789
-because of its
-better compatibility
 из-за её лучшей переносимости
 
 38
 00:02:58,039 --> 00:02:59,809
-with different OS.
 на различные ОС.
 
 39
 00:03:00,829 --> 00:03:04,389
-I checked the hardware, found
-a couple bugs, we fixed that,
 Я проверил аппаратуру, нашёл
 несколько багов, мы исправили их,
 
 40
 00:03:04,789 --> 00:03:08,589
-and well, we started
-making boards...
 и, вот, мы начали делать платы...
 
 41
 00:03:08,839 --> 00:03:10,789
-I mean, the process from starting
-to seriously work on it
 Я хочу сказать, весь процесс от
 начала серьёзной работы над платой
 
 42
 00:03:11,039 --> 00:03:13,989
-to having a board was
-a mere two-day one.
 до получения реальной платы
 занимает пару дней.
 
 43
 00:03:14,949 --> 00:03:16,709
-All the rest was software.
 А остальное - это программное обеспечение.
 
 44
 00:03:17,000 --> 00:03:20,340
-While I was kind of in
-the middle of this I met with
 Когда я был своего рода в
 середине процесса, я встретился
 
 45
 00:03:20,699 --> 00:03:26,139
-David Cuartielles, who started to
-sort of help me in the project,
 с Дэвидом Куартелесом (David Cuartielles),
 который начал вроде помогать мне с проектом,
 
 46
 00:03:26,389 --> 00:03:30,699
-then became a major contributor,
-and then together we kind of made
 и сделал важные вклады в разработку,
 и вместе вы вроде как сделали
 
 47
 00:03:30,949 --> 00:03:35,780
-the first Arduino hardware; then
-we had David Mellis joining as
 первое аппаратное обеспечение для Ардуино.
 Потом к нам присоединился Дэвид Мэллис (David Mellis) --
 
 48
 00:03:36,099 --> 00:03:40,620
-a student to write the software,
-then Tom came in as an advisor,
 студент, который написал программную часть,
 потом советником присоединился Том (Tom)
 
 49
 00:03:40,870 --> 00:03:44,940
-and finally then Gianluca came
-in as the person who was able
 и в конце концов Джанлука (Gianluca)
 присоединился как человек, который мог 
 
 50
 00:03:45,190 --> 00:03:48,819
-to manufacture the board, that's 
-how the team kind of formed,
 производить эти платы. Вот так и
 сформировалась команда,
 
 51
 00:03:49,080 --> 00:03:52,039
-by adding people by their skills.
 собирая людей по их умениям.
 
 52
 00:04:02,728 --> 00:04:06,809
-We've been using Wiring boards
-and wanted to port
 Мы использовали платы Вайринг
 и хотели перенести
 
 53
 00:04:07,059 --> 00:04:11,408
-a bunch of programs to a cheaper
-microprocessor, basically,
 несколько программ на более дешёвый
 микропроцессор, просто для того,
 
 54
 00:04:12,007 --> 00:04:17,608
-to install in some installations;
-and I helped write like
 чтобы установить их а несколько
 инсталляций, и я помогал писать
 
 55
 00:04:17,858 --> 00:04:20,248
-a lot of compatibility layers so
-that all the old programs
 множество прослоек, чтобы все
 старые программы 
 
 56
 00:04:20,498 --> 00:04:25,688
-could run in the new processor...
-And then just being in Ivrea
 могли работать на новом процессоре...
 И просто пребывая в Ивреа
 
 57
 00:04:26,090 --> 00:04:29,128
-and not wanting to spend too
-much time on my actual thesis
 без желания тратить слишком много
 времени над моей настоящей диссертацией,
 
 58
 00:04:29,378 --> 00:04:31,400
-I spent more and more time like
-working with Massimo
 я тратил всё больше и больше времени
 на работу с Массимо
 
 59
 00:04:31,650 --> 00:04:33,349
-and the other guys
-developing Arduino.
 и остальными ребятами,
 разрабатывающими Ардуино.
 
 60
 00:04:33,599 --> 00:04:36,120
-I knew there was 
-this development of this
 Я знал, что там шла эта разработка
 
 61
 00:04:36,837 --> 00:04:40,450
-hardware equivalent to
-Processing. And I went over
 аппаратного эквивалента Процессинга.
 И я приехал в Ивреа
 
 62
 00:04:40,700 --> 00:04:44,808
-to Ivrea in June of 2005 to do a
-workshop with them on another
 в июне 2005, чтобы провести воркшоп
 вместе с ними на другую тему,
 
 63
 00:04:45,058 --> 00:04:48,527
-subject, and they showed me the
-Arduino board at that point.
 и они тогда показали мне плату Ардуино.
 
 64
 00:04:48,888 --> 00:04:51,888
-And I looked at it and I said:
-"You know, this is great, and it
 И я посмотрел на ней, и сказал:
 "Знаете, это классно, и это
 
 65
 00:04:52,138 --> 00:04:54,248
-definitely works for your school,
-works for my school too, but
 определённо полезно вашему институту,
 и моему институту,
 
 66
 00:04:54,498 --> 00:04:58,008
-I think it could be a larger
-thing, and I think more people
 но я думаю, это может стать чем-то бОльшим,
 и я думаю,что больше людей
 
 67
 00:04:58,258 --> 00:05:00,287
-would want to use this." And
-Massimo said: "Well, that's good
 захотят использовать это." И Массимо
 сказал: "Что ж, хороший отзыв, спасибо."
 
 68
 00:05:00,537 --> 00:05:03,248
-feedback, thanks." And then I
-went back to the States,
 И я уехал к себе в Штаты,
 
 69
 00:05:03,498 --> 00:05:05,969
-and a couple weeks later they
-wrote to me and said:
 а через несоклько недель они
 написали мне и сказали:
 
 70
 00:05:06,219 --> 00:05:09,369
-"You know, we want to go further
-with this, and we want to try and
 "Знаешь, мы хотим идти дальше
 и хотим попробовать
 
 71
 00:05:09,619 --> 00:05:11,248
-get it to the larger world.
-Do you want to join us
 вывести проект в большой мир.
 Хочешь присоединиться к нам
 
 72
 00:05:11,498 --> 00:05:14,568
-as part of the team?" And I said
-"Yeah". And it was just...
 как часть команды?" И я сказал
 "Ага". И это было  просто...
 
 73
 00:05:14,818 --> 00:05:17,445
-for me it was a case that
-this is a tool I could see
 для меня это был случай, когда
 я мог представить себя использующим
 
 74
 00:05:17,695 --> 00:05:20,489
-using myself, and therefore I
-could believe in actually
 этот инструмент, а значит я мог
 поверить, что действительно
 
 75
 00:05:20,739 --> 00:05:22,758
-helping to get it out
-to a wider world.
 смогу помочь вывести его
 в большой мир.
 
 76
 00:05:23,087 --> 00:05:27,008
-After the first prototyping
-there was the need, 
 После первичного прототипирования
 была необходимость
 
 77
 00:05:27,287 --> 00:05:30,688
-or the desire, to start 
-manufacturing something
 или желание начать производство
 
 78
 00:05:30,938 --> 00:05:35,969
-in a more professional way,
-and in a more commercial way.
 более профессионально
 и более коммерчески,
 
 79
 00:05:36,438 --> 00:05:42,128
-because all the first example was
-mounted, was done just to make...
 потому что первые платы монтировались,
 делались просто для того, чтобы...
 
 80
 00:05:42,378 --> 00:05:47,926
-to let them work. After
-Massimo and David decided
 заставить их работать. Когда
 Массимо и Дэвид решили
 
 81
 00:05:48,176 --> 00:05:51,847
-and understood the prototype
-was working they needed to
 и осознали, что прототип работает,
 им понадобиллось сделать
 
 82
 00:05:52,097 --> 00:05:57,527
-make a bigger batch. So we
-decided to work on 200 units
 бОльшую партию. И мы решили
 произвести 200 штук
 
 83
 00:05:58,087 --> 00:06:02,888
-and we made... I made a little
-redesign, a little
 и мы сделали... Я внес небольшие 
 изменения в проект,
 
 84
 00:06:03,138 --> 00:06:06,087
-design for manufacturing
-in order to produce them.
 получился небольшой проект готовый для производства.
 
 85
 00:06:06,407 --> 00:06:11,568
-It was a test; they agreed
-with their school
 Это была проба. Они согласовали со своей школой 
 
 86
 00:06:11,818 --> 00:06:17,328
-the Interaction Design institute,
-and the K3 of Malmö,
 Interaction Design Institute и K3 из Malmö,
 
 87
 00:06:17,578 --> 00:06:21,647
-to buy 50 each. That was a
-good starting point;
 покупку 50 штук каждой. Это получилась хорошой отправной точкой:
 
 88
 00:06:21,897 --> 00:06:25,888
-that means we will not lose
-all the money but at least
 т.е. это означало, что мы не потеряем всех денег
 но как минимум
 
 89
 00:06:26,138 --> 00:06:31,008
-half was coming back. The
-selling price was exactly
 вернем половину. Розничная цена
 была точь в точь
 
 90
 00:06:31,258 --> 00:06:36,328
-what we paid; I think we earned
-1€ for each board, that is
 равна нашим затратам.
 Я думаю мы заработали по 1 евро с платы, что 
 
 91
 00:06:36,578 --> 00:06:40,527
-nothing considering all the
-effort we put inside.
 ничтожно мало по сравнению 
 с усилиями которые мы приложили.
 
 92
 00:06:41,888 --> 00:06:47,167
-But after some advertisement,
-after some speaking with friends,
 Но после небольшой рекламы, 
 после общения с друзьями,
 
 93
 00:06:47,527 --> 00:06:52,445
-this movement started to move.
-And so we received the first
 движению был дан старт.
 И мы получили первый
 
 94
 00:06:52,695 --> 00:06:57,207
-call, our first customer, asking
-for one board, it was a friend
 звонок, наш первый клиент, заказал одну плату.
 Это был друг
+
 95
 00:06:57,457 --> 00:07:00,296
-of Massimo and David. But this
-was the beginning of something.
 Массимо и Давида, но это было 
 начало чего-то.
 
 96
 00:07:00,546 --> 00:07:04,587
-A few months after meeting he
-said "Hey Nate SparkFun, you guys
 Через несколько месяцев после встречи 
 он сказал "Эй  Нэт,  Spark Fun, парни
 
 97
 00:07:04,837 --> 00:07:07,703
-should carry this thing called
-Arduino." And I looked at it and
 вы должны распространять эту штуку 
 называемую Arduino." И я посмотрел 
 на него
 
 98
 00:07:07,953 --> 00:07:11,703
-at that time it was the through
-hole version, the RS-232 version,
 и в то время это была версия на 
 выводных компонентах, с RS-232,
 
 99
 00:07:11,953 --> 00:07:14,453
-and I said "This looks very
-interesting" but I didn't really
 и я сказал "Выглядит интересно",
 но я на самом деле 
 
 100
 00:07:14,703 --> 00:07:18,347
-understand it. And... I hadn't
-wrapped my head around it.
 не совсем понял. И... Я 
 отнёсся не слишком вдумчиво 
 
 101
 00:07:18,597 --> 00:07:20,587
-And so I said: "You know, Tom,
-I don't think it's for us, we don't
 и сказал "Знаешь Том, я 
 не думаю что это нам подходит, мы 
 
 102
 00:07:20,837 --> 00:07:22,825
-really do kits, we're not sure
-how people are going to react
 на самом деле не делаем наборов,
 т.к. не уверены как люди к ним отнесутся, 
 
 103
 00:07:23,075 --> 00:07:26,669
-to this" and so I decided
-against it. It was a few months
 и потому я принял негативное решение.
 А спустя несколько месяцев...
 
 104
 00:07:26,919 --> 00:07:29,287
-later, six, seven months later,
-that Arduino came out with
 шесть или семь, та Arduino 
 вышла в 
 
 105
 00:07:29,537 --> 00:07:33,107
-the full USB version, fully
-assembled and tested and
 полноценной USB версии,
 полностью собранная, протестированная, 
 
 106
 00:07:33,357 --> 00:07:35,087
-ready to go, and Tom again
-came to ask and said:
 фактически - готовый продукт, 
 и Том снова пришел к нам
 и сказал
 
 107
 00:07:35,337 --> 00:07:37,736
-"Hey, SparkFun, you should
-really carry this." And I said
 "Эй, SparkFun, серьезно, вы должны 
 это распространять." И я ответил, 
 
 108
 00:07:37,986 --> 00:07:40,186
-"OK, well, I'm not really sure,
-you know, we'll bring in 20
 типа:" Ок, ладно, я не очень уверен, 
 знашь, мы возьмем пока 20 штук 
 
 109
 00:07:40,436 --> 00:07:44,027
-and see how they sell." And
-that was the first 20 out of
 и посмотрим как они будут продаваться." И 
 это была первая двадцатка из 
 
 110
 00:07:44,277 --> 00:07:46,145
-about 40,000 at this point.
 40 тысяч проданных на данный момент.
 
 111
 00:08:12,599 --> 00:08:15,039
-The first time we heard
-about Arduino was 
 Первый раз мы услышали про Arduino 
 
 112
 00:08:15,289 --> 00:08:19,549
-when David Cuartielles came
-to an activity called
 когда David Cuartielles 
 пришел на движение
 
 113
 00:08:19,799 --> 00:08:23,320
-"Thursdays at Medialab", 
-which actually was
 под названеим "Четверги в Медиалаборатории", 
 которое по сути было
+
 114
 00:08:23,570 --> 00:08:27,860
-the first session of that
-still ongoing activity.
 первым мероприятием этой серии,
 которая продолжает происходить до сих пор.
 
 115
 00:08:28,110 --> 00:08:33,335
-So he keeps talking about stuff
-and at the end, after 90 minutes
 Вобщем мы общались про всякие штуки 
 (на всякие темы), и после 90 минут
 
 116
 00:08:33,585 --> 00:08:37,297
-of listening to all of
-David's tales, he says
 выслушивания всех истории Девида,
 он сказал, 
 
 117
 00:08:37,547 --> 00:08:39,617
-he's involved in this
-project, but it was a really
 что учавствует в проекте, но 
 
 118
 00:08:39,867 --> 00:08:44,018
-small thing, you know?
-And I thought "At last!
 это типа мелочи, знаете.
-И я подумал " Наконец-то!
+И я подумал" Наконец-то!
 
 119
 00:08:44,268 --> 00:08:45,900
-Come on, David, why wasn't
-this the first thing you said?"
 Давай Дэвид, почему ты сразу 
 не сказал об этом?"
 
 120
 00:08:49,000 --> 00:08:50,760
-I want to talk to you
-about Arduino...
 Я хочу поговорить про Arduino...
 
 121
 00:08:53,320 --> 00:08:58,240
-Arduino is the last project,
-I finished it last week.
 Arduino это последний проект, 
 я закончил его на той неделе
 
 122
 00:08:59,400 --> 00:09:01,640
-I talked to Ivrea's technical
-director and told him:
 Я общался с техническим 
 директором Ivrea и сказал ему: 
 
 123
 00:09:01,900 --> 00:09:06,120
-Wouldn't it be great to do
-something we can offer for free?
 "Не правда ли, было бы круто сделать 
 что-нибудь, что мы могли бы предложить за так?"
 
 124
 00:09:06,400 --> 00:09:08,880
-- For free?
-- Yeah.
 - За так?
 - Ну да...
 
 125
 00:09:11,400 --> 00:09:14,400
-And after that, well, we
-worked with Gustavo, and
 И после того, мы работали 
 с Густаво, 
 
 
 126
 00:09:14,650 --> 00:09:18,520
-also kept in touch with
-David, and we 
 при этом сохраняя связь с Дэвидом.
 
 127
 00:09:18,770 --> 00:09:23,880
-organized an Arduino
-workshop in October 2005,
 и организовали Arduino 
 воркшоп в октябре 2005, 
 
 128
 00:09:24,130 --> 00:09:26,640
-which was one of the
-first Arduino workshops,
 который был одним из первых 
 воркшопов по Arduino,
 
 129
 00:09:26,890 --> 00:09:30,600
-if not the first one ever...
 если вообще не первым.
 
 130
 00:09:30,850 --> 00:09:35,817
-On the last day David proposed
-creating some small prototypes.
 В последний день Дэвид предложил 
 сделать несколько маленьких прототипов.
 
 131
 00:09:36,067 --> 00:09:38,817
-He called it "Bring your old junk
-and let's do something with it."
 Он назвал их "Принеси свой старый 
 мусор и наваяй что-нибудь из него."
 
 132
 00:09:39,067 --> 00:09:42,760
-That led to some quite
-interesting projects...
 Это впоследствии стало началом 
 нескольким очень интересным проектам, 
 
 133
 00:09:43,086 --> 00:09:46,197
-And these people kept on
-doing small electronic
 и те люди продолжили дальше делать 
 маленькие електронные 
 
 134
 00:09:46,447 --> 00:09:49,447
-instruments, small robots...
 инструменты, маленьких роботов...
 
 135
 00:09:52,676 --> 00:09:55,824
-At the time I was senior editor 
-at MAKE, MAKE was only
 В то время, я был главным редактором 
 в журнале MAKE, ему тогда
 
 136
 00:09:56,074 --> 00:09:59,532
-a couple years old, and I had
-heard about this Arduino project.
 было всего пару лет, и я услышал 
 об проекте Arduino. 
 
 137
 00:09:59,782 --> 00:10:02,543
-And I saw it online and I said:
-"Well, a lot of people are
 И увидел его онлайн то сказал:
 Класно, многие о нем 
 
 138
 00:10:02,793 --> 00:10:04,906
-starting to talk about this,
-I should check it out."
 расказывают, надо бы и мне 
 пощупать его."
 
 139
 00:10:05,156 --> 00:10:07,984
-And I got one of the boards and
-said "Whoa, this is fantastic,
 Вобщем заполучил я одну из платок и
 сказал "Ого, да это фантастика, 
 
 140
 00:10:08,234 --> 00:10:11,032
-beginners are gona love this. It
-runs on Mac, it runs on PC, it
 начинающим любителям это 
 прийдется по вкусу. Софт работает 
 на Маке, на персоналках,
 
 141
 00:10:11,282 --> 00:10:13,661
-runs on Linux... this is exactly
-what everyone wants."
 и на Линуксе работает...
  это как раз то, что все хотят."
 
 142
 00:10:13,911 --> 00:10:16,382
-At the time a lot of people were
-using BASIC Stamps, were using
 В то время многие люди пользовались 
 BASIC Stamp-ами, пользовались
 
 143
 00:10:16,632 --> 00:10:20,185
-all sorts of microcontrollers,
-and I come from using design
 всеми вообще всеми разновидностями 
 микроконтроллеров, и я пришел после
 использования инструментов
 
 144
 00:10:20,435 --> 00:10:22,743
-tools like Flash and Processing,
-and I'm like "Oh, this is
 вроде Flash и Processing, и мне понравилось
 "О, да это 
 
 145
 00:10:22,993 --> 00:10:24,964
-perfect, it's exactly what I
-think everyone's going to
 прекрасно, это как раз то, чего я думаю все 
 
 146
 00:10:25,214 --> 00:10:28,224
-want." And this was in the
-beginning of when MAKE
 захотят". И это было в то время когда у MAKE 
 
 147
 00:10:28,474 --> 00:10:31,945
-was starting to have a store,
-and so it took a little while
 только появился магазин, и 
 потому это заняло некоторое время,
 
 148
 00:10:32,195 --> 00:10:34,782
-and you know, it's very hard to
-do international money transfers.
 и еще, эта довольно трудная штука 
 - международные денежные переводы.
 
 149
 00:10:35,032 --> 00:10:37,864
-Basically we started selling
-Arduinos in MAKE right away,
 Фактически мы в MAKE начали 
 продавать Arduino как раз тогда, 
 
 150
 00:10:38,114 --> 00:10:42,139
-And then later on, when I
-started working with Limor,
 и потом когда я начал работать с Limor,
 
 151
 00:10:42,389 --> 00:10:45,165
-who's part of Adafruit,
-she's a founder, we also
 которая из Adafruit (она основатель), 
 мы тоже сразу сказали:
 
 152
 00:10:45,415 --> 00:10:48,224
-said right away "This is a
-fantastic tool for getting
 Это фантастический инструмент для того 
 
 
 153
 00:10:48,474 --> 00:10:51,426
-people doing the things that they
-want to do with electronics."
 чтоб люди делали штуки, 
 которые им хочется делать с электроникой
 
 154
 00:10:51,676 --> 00:10:53,984
-Not necessarily learning
-everything first, but getting
 Не так, чтоб сперва все выучить, а так, 
 
 155
 00:10:54,234 --> 00:10:56,536
-the application done, like
-I want something... I want
 чтоб сразу делать приложения
 Я хочу чего-то... Например, хочу 
 
 156
 00:10:56,786 --> 00:11:00,264
-my dress to blink. Very hard
-to do if you just want to learn
 чтоб моя одежда мигала огоньками. 
 Такое трудновато сделать, если вы 
 только хотите начать изучать 
 
 157
 00:11:00,514 --> 00:11:02,984
-electronics; with an Arduino you
-get that done in a few minutes.
 электронику. С Arduino вы можете 
 сделать это в считанные минуты.
 
 158
 00:11:22,160 --> 00:11:23,680
-Just turn the confetti video...
 Просто включите видео о конфетти...
 
 159
 00:11:25,720 --> 00:11:29,000
-So this is sort like a demo bay.
 То есть это что-то вроде 
 демо-лаборатории.
 
 160
 00:11:29,250 --> 00:11:30,880
-We have a number of our
-projects set up
 У нас есть много 
 готовых проектов
 
 161
 00:11:31,130 --> 00:11:34,300
-This was a project we did
-for a single night event
 Это был проект, который мы сделали
 для одного ночного события,
 
 162
 00:11:34,550 --> 00:11:37,500
-that used Arduino as sensors
 который использовал Arduino как
 сенсоры
 
 163
 00:11:37,920 --> 00:11:40,680
-and the way it works,
-we made these
 и как управляющее устройство,
 мы сделали такие себе
 
 164
 00:11:40,930 --> 00:11:43,800
-giant maracas that when
-you shake them, 
 гигантские маракасы, которые если 
 ими потрусить,
 
 165
 00:11:44,800 --> 00:11:46,900
-it creates this explosion
-of confetti, and
 создают взрыв из конфетти, и
 
 166
 00:11:47,150 --> 00:11:49,850
-in the original install it was
-on a giant sphere, but here...
 в оригинальной композиции все 
 происходило на гигантской сфере,
 но здесь...
 
 167
 00:11:50,840 --> 00:11:53,080
-Each one of these has an
-accelerometer in it
 У каждого есть акселерометр,
 
 168
 00:11:53,330 --> 00:11:57,120
-and a Bluetooth controller
-sending it to the computer
 и контроллер Bluetooth для
 передачи данных на компьютер
 
 169
 00:11:57,370 --> 00:11:59,200
-and then we generate
-these graphics.
 и потом мы генерируем эту графику.
 
 170
 00:11:59,450 --> 00:12:01,360
-And it's all related to an
-specific event
 И все это для одного специфического
 события
 
 171
 00:12:01,680 --> 00:12:04,200
-where we wanted people
-to lighten up, it was at
 где мы хотели чтоб люди оторвались,
 это была
 
 172
 00:12:04,450 --> 00:12:06,840
-a cocktail party, and we wanted
-people to really let loose,
 вечеринка с коктейлями, и мы хотели,
 чтоб люди хорошо отдохнули
 
 173
 00:12:07,090 --> 00:12:11,760
-and feel more free. 
 и чувствовали себя более свободно.
 
 174
 00:12:13,400 --> 00:12:18,040
-And I wished to show you the
-Luminodes project over here...
 И еще хочу показать вам проект
 Luminodes (Люминодс)...
 
 175
 00:12:20,480 --> 00:12:23,000
-This was a project we did
-early on in the lab,
 Этот проект мы делали давненько так
 в лаборатории,
 
 176
 00:12:23,720 --> 00:12:27,160
-thinking about networked
-lighting, 
 думая про сетецентричное освещение,
 
 
 177
 00:12:28,400 --> 00:12:31,960
-and the way it works is
-there's sort of a family
 по-сути оно ведет себя как семейство
 
 178
 00:12:32,210 --> 00:12:34,920
-of lights, and the main light
-here, you pick it up
 лампочек, и главная вот здесь,
 вы ее берете
 
 179
 00:12:35,170 --> 00:12:37,600
-and you can sort of tune
-the color by twisting it.
 и можете делать что-то вроде
 настройки цвета скручивая ее.
 
 180
 00:12:38,600 --> 00:12:43,560
-It will set the color, and these
-others are sort of children...
 Так вы установите цвет, а другие,
 что-то вроде детей...
 
 181
 00:12:43,810 --> 00:12:46,120
-As the user plays with them
-they all sort of come into sync.
 Когда пользователь что-то с ними делает,
 то они постоянно пытаются поддержать
 синхронизацию.
 
 182
 00:12:46,800 --> 00:12:50,400
-So we're really into social
-relationships that people create
-Так что они действительно состят в социальных
+Так что они действительно состоят в социальных
 отношениях, подобно людям,
 
 183
 00:12:50,650 --> 00:12:52,480
-through technology.
-So in this case it was
 но технологических.
 Таким образом, в данном случае это было
 
 184
 00:12:52,730 --> 00:12:54,850
-sort of syncing a number
-of people up who were all
-своего рода синхронизация некторого
-количества людей, 
+своего рода синхронизация некоторого
+количества чем-то связаных людей.
 
 185
 00:12:55,100 --> 00:12:57,600
-using the same thing. And
-then we extended it out to
-чем-то связаных. И затем
-расширили это до 
+И затем расширили это до 
 
 186
 00:12:57,850 --> 00:12:59,350
-use architectural
-scale lighting and
 использования уровня архитектурного
 освещения и
 
 187
 00:12:59,600 --> 00:13:01,140
-and off-the-shelf 
-lighting equipment.
 производимого промышленностью
 оборудования.
 
 188
 00:13:02,046 --> 00:13:04,317
-The very first thing I tried
-to do with an Arduino
 Самой первой штукой, которую
 я попытался сделать с Arduino
 
 189
 00:13:04,567 --> 00:13:08,197
-was to run a 3D printer on an
-Arduino. Which...
 было запустить 3-х мерный принтер.
 Что...
 
 190
 00:13:08,447 --> 00:13:10,916
-I probably should have started
-out with something simpler,
 Наверное мне нужно было начать, 
 с чего-либо попроще.
 
 191
 00:13:11,166 --> 00:13:14,296
-because it was really difficult,
-and I didn't know anything
 потому, что это было действительно сложно,
 и я ничегошеньки не знал
 
 192
 00:13:14,546 --> 00:13:18,846
-about electronics. It was just 
-like stumbling blindly and trying
-про електронику. Это было как слепому
+про электронику. Это было как слепому
 бится головой об стену
 
 193
 00:13:19,096 --> 00:13:23,637
-to get it to work, but eventually
-I got it to work, and now
 пытаясь заставить его работать, и сейчас
 
 194
 00:13:23,887 --> 00:13:27,835
-we sell these MakerBot 3D
-printers which actually run on...
-эти  MakerBot 3D принетры которые
+эти  MakerBot 3D принтеры которые
 фактичеки работают на...
 
 195
 00:13:28,197 --> 00:13:30,450
-There's multiple Arduinos in
-the machine.
-Там, в этой машине, множество Arduino.
+Там, в этой машине, несколько Arduino.
 
 196
 00:13:30,700 --> 00:13:32,280
-So this is a 3D printer,
 Итак это 3D принтер,
 
 197
 00:13:32,530 --> 00:13:38,097
-and what that means is it takes
-a 3D model from... you can
 и это означает, что он берет 
 3D модель из... вы можете
 
 198
 00:13:38,347 --> 00:13:40,936
-download one from the internet,
-or design it yourself, or
 загрузить что-нибудь из интернета,
 или спроектировать самостоятельно, или
 
 199
 00:13:41,186 --> 00:13:46,097
-scan in a 3D model of an object;
-and then it prints with plastic,
 отсканировать 3D модель объекта;
-и потом напечатать ее пластиком,
+и потом напечатать ее из пластика,
 
 200
 00:13:46,347 --> 00:13:49,897
-so this right here is a filament,
-and so what happens is
 так что здесь вот, это нить,
 и по-сути
 
 201
 00:13:50,147 --> 00:13:54,176
-this plastic is slowly pulled
-down into the extruder head here
 пластик потихоньку выдавливается
 через экструдирующую головку - здесь
 
 202
 00:13:54,426 --> 00:13:59,336
-and when it's done you'll get a
-real object that is exactly
 и затем, как машина закончит работать
 вы получаете настоящий объект,
 который точно
 
 203
 00:13:59,586 --> 00:14:01,420
-what you wanted.
-So you have a digital
 соответствует тому, что вы хотели.
-Вобщем у вас есть цифровой файл
+В общем у вас есть цифровой файл
 
 204
 00:14:01,845 --> 00:14:06,240
-file that you give it, and you
-basically say "make me one
 вы его выбираете и типа говорите: "сделай мне
 
 205
 00:14:06,545 --> 00:14:09,496
-of this", you hit print, and this
-machine will make it for you.
 такую штучку", нажимаете печать,
 и машина делает ее для вас.
 
 206
 00:14:09,746 --> 00:14:13,576
-It will make one, or a hundred,
-or 1,000 of them if you want.
 Он сделает одину, или сто,
-или 1.000 таких, если вам захочется.
+или 1000 таких, если вам захочется.
 
 207
 00:14:13,896 --> 00:14:18,138
-Which is great, because there's
-all sorts of cool open source
 А это очень  круто, потому, что
 есть множество разных прикольных
 
 208
 00:14:18,388 --> 00:14:20,795
-things that this will make for
-you. So you don't need to have
 свободных штук, которые он может 
 вам сделать. Так что вам не нужно
 
 209
 00:14:21,045 --> 00:14:24,616
-a laser cutter, or a PCB
-fabrication thing to really
 лазерного резака, или устройства
 для производства ПП(PCB), чтобы
 
 210
 00:14:24,866 --> 00:14:27,576
-participate in open source
-hardware. You can just design
 участвовать в проектах свободного
 железа. Вы можете просто проектировать
 
 211
 00:14:27,826 --> 00:14:30,816
-something, this will sit on your
-desk and print you out stuff.
 что-то, а он будет стоя на столе
 печатать вам эти проекты.
 
 212
 00:14:32,776 --> 00:14:36,138
-One of the things I really like
-about this is that this allows
 Одна из фишек, которая мне наиболее нравится
 в этом это то что он позволяет
 
 213
 00:14:36,388 --> 00:14:39,415
-you to apply the idea of open
-source hardware to things
 вам применять идеи свободного 
 железа к вещам,
 
 214
 00:14:39,665 --> 00:14:42,696
-that are very very basic, that
-you would not otherwise
 которые в основе основ находятся,
 которые вы иначе не могли бы
 
 215
 00:14:42,946 --> 00:14:45,656
-consider to be open source
-hardwares. So we have...
 рассматривать как свободное железо.
 Итак мы имеем...
 
 216
 00:14:45,906 --> 00:14:48,055
-There's an open source
-whistle, for example.
 Вот "свободный" свисток, к примеру.
 
 217
 00:14:48,305 --> 00:14:51,857
-There's an open source bottle
-opener... Over here on the wall
 А вот открывачка... Там на стене
 
 218
 00:14:53,107 --> 00:14:56,217
-we have a... right here, there's
-an open source coat hook.
 у нас есть... вон там, "свободный"
 крючок для одежды.
 
 219
 00:14:56,467 --> 00:14:59,656
-So we have a coat hook...
-this is open source hardware.
 То есть у нас есть крючок...
 и это "свободное железо".
 
 220
 00:15:00,006 --> 00:15:03,217
-There's a file on the internet
-you can download and
 В интернете есть файл, который 
 вы можете загрузить и 
 
 221
 00:15:03,467 --> 00:15:05,576
-if you have a 3D printer you
-can print out as many
 если у вас есть 3D принтер
 вы можете распечатать столько
 
 222
 00:15:05,826 --> 00:15:09,045
-coat hooks as you want, and
-you don't have to pay anybody
-крючков скольок хотите, и вам 
-не нужно никому ничего платить.
+крючков сколько хотите, и вам 
+не нужно никому платить.
 
 223
 00:15:10,336 --> 00:15:12,496
-anything. If you want a bigger
-coat hook you can make it bigger.
 Если вам нужен крючок побольше
 вы можете его увеличить.
 
 224
 00:15:12,896 --> 00:15:17,896
-And it is just this wonderful
-idea that we can apply this idea
 И это очень крутая идея, о 
 том что идею открытых исходников
 
 225
 00:15:18,146 --> 00:15:21,616
-of open source to all of these
-common everyday things
 можно применить ко всем этим
-повседневным вещам
+повседневным вещам,
 
 226
 00:15:21,866 --> 00:15:24,217
-that we use in our life, like...
-what we're trying to do is
 которые мы все время используем...
-то что мы пытаемя сделать... это
+то что мы пытаемся сделать... это
 
 227
 00:15:24,467 --> 00:15:25,967
-open source everything.
 открытые исходники во всем!
 
 228
 00:15:26,235 --> 00:15:29,696
-What sort of can have been a
-crazy idea 10 years ago, 
 То, что  выглядело как сумасшедшая 
 идея 10 лет назад, 
 
 229
 00:15:29,946 --> 00:15:33,616
-are now... actually there's a
-path that we can take
 сейчас... у нас есть путь
 идя по которому
 
 230
 00:15:33,866 --> 00:15:37,295
-to get there. And people are
-starting to take it seriously.
-мы к ней в конце-концов прийдем.
+мы к ней в конце-концов придем.
 И люди начинают относится к этому серьезно.
 
 231
 00:15:37,795 --> 00:15:40,295
-Open source hardware is a
-fantastic way to make sure
 Открытое железо это прекрасный путь
 быть уверенным, что 
 
 232
 00:15:40,545 --> 00:15:42,696
-other people can look at your
-designs and improve them.
 другие люди могут увидеть твои проекты
 и улучшить их.
 
 233
 00:15:42,946 --> 00:15:45,347
-Open source hardware is a
-fantastic way so you don't have
 Свободное железо это фантастический
 путь к тому, чтоб вам не нужно было
 
 234
 00:15:45,816 --> 00:15:48,576
-to answer e-mails of people
-asking "can they use something?"
 сидеть и отвечать на вопросы людей типа
 "можно ли мне этим воспользоваться?"
 
 235
 00:15:48,826 --> 00:15:50,336
-You've put the license out
-there, you've said...
 Вы указали лицензию, и
 уже ответили...
 
 236
 00:15:50,586 --> 00:15:53,217
-Open source hardware for us
-means you can take our stuff,
 Свободное железо для нас
 означает, что вы можете взять
-наши поделки
+наши проекты
 
 237
 00:15:53,467 --> 00:15:55,347
-you can do whatever you want
-with it... you just have to do
 и можете делать с ними все, что хотите...
 единственное, что от вас требуется
 
 238
 00:15:55,597 --> 00:15:58,415
-the same thing we did: release
-it back, allow other people
 сделать то ж, что и мы:
 вернуть их в сообщество, разрешить другим людям
 
 239
 00:15:58,665 --> 00:16:01,336
-to do whatever they want with it
-and they can sell it as long as
 делать, что они хотят с ними и они могут
 их продавать пока
 
 240
 00:16:01,586 --> 00:16:04,097
-all the attribution, all the
-credits, all things that you've
 все ссылки, и все благодарности,
 и все другие вещи о которых вы 
 
 241
 00:16:04,347 --> 00:16:07,376
-requested, are respected. And
-so far it's worked out great:
 попросили, уважаются. И пока что
 это прекрасно работает:
 
 242
 00:16:07,626 --> 00:16:09,996
-If you look at Linux, it's a
-perfect example. If you look
 Если посмотреть на Linux, то это
 прекрасный пример. Если вы посмотрите
 
 243
 00:16:10,246 --> 00:16:13,977
-at Apache, all these things that
-run the web, it's all open source
-на Apache, все эти штуки на которых
+на Apache, на все эти штуки на которых
 работает веб, они все с открытыми исходниками.
 
 244
 00:16:14,227 --> 00:16:17,656
-If you had to pay someone, or
-talk to someone, or license
 Если бы вы должны были платить кому-нибудь,
 или просить кого-то, или лицензировать
 
 245
 00:16:17,906 --> 00:16:19,776
-something every time you wanted
-to put up a website,
 что-то каждый раз, когда вы хотели
 бы запустить веб-сайт,
 
 246
 00:16:20,026 --> 00:16:22,996
-we wouldn't have the fantastic
-world of information sharing
 мы бы не имели фантастического
 мира обмена информацией
 
 247
 00:16:23,246 --> 00:16:26,246
-we do. So I look at Arduino as
-a physical representation of
 который имеем. Так что я смотрю на
 Arduino как на физическое воплощение
 
 248
 00:16:26,496 --> 00:16:28,138
-all the great things you got
-with open source software,
 всех тех замечательных вещей которые
-вы получаете вместе свободным ПО,
+вы получаете вместе со свободным ПО,
 
 249
 00:16:28,388 --> 00:16:30,097
-but now starting to happen 
-in hardware.
 но теперь проявляющихся в железе.
 
 250
 00:16:30,350 --> 00:16:33,600
-We will hit a level where
-people will be creating...
 Мы достигаем уровня на котором
 люди будут создавать...
 
 251
 00:16:34,586 --> 00:16:37,280
-people will be creating hardware
-on the same way that people
 люди будут создавать железо
 тем самым способом, которым люди
 
 252
 00:16:37,530 --> 00:16:40,040
-were creating books after
-movable type became cheap and
-созавали книги после того как
+создавали книги после того как
 книгопечатание стало дешевым и
 
 253
 00:16:40,290 --> 00:16:42,400
-easy to replicate. And I really
-think that that's the level
 простым в воспроизведении. И я на 
 самом деле думаю что этот уровень
 
 254
 00:16:42,750 --> 00:16:44,750
-of the open source hardware
-revolution, as we are looking
 свободного железа - революция,
 т.к. мы видим 
 
 255
 00:16:45,000 --> 00:16:46,760
-at something like a Gutenberg
-event, where movable type
 нечто подобное появлению Гуттенберга,
 когда книгопечатание
 
 
 256
 00:16:47,010 --> 00:16:50,100
-will change how people read,
-write and share information, only
-изменило способ чтения создания и 
+изменило способ чтения, создания и 
 распространения информации, только
 
 257
 00:16:50,350 --> 00:16:53,080
-in this case it will be how we
-create and use physical objects.
 в этом случае это относится к тому
 как мы создаем и используем физические объекты.
 
 258
 00:16:54,115 --> 00:17:00,115
-The idea behind having control
-over these physical objects
 Идея относительно получения контроля
 на этими физическими объектами
 
 259
 00:17:00,365 --> 00:17:04,944
-and being able to manipulate them
-at will and not be afraid
 и получения возможности манипулировать 
 ими по собственному желанию и не бояться
 
 
 260
 00:17:05,194 --> 00:17:07,953
-to take them apart, to see
-what's inside, to really
 принять их друг от друга, посмотреть
 что внутри них, чтоб действительно
 
 261
 00:17:08,203 --> 00:17:11,232
-know everything that's going
-on... That's something really
-узнать обо все, что происходит...
-Это то что на самом деле
+узнать обо всём, что происходит...
+Это - то, что на самом деле
 
 262
 00:17:11,482 --> 00:17:12,982
-behind the open source 
-hardware for me,
 скрывается за идеей свободного железа,
 для меня
 
 263
 00:17:13,232 --> 00:17:16,996
-and something I'm really
-passionate about.
 и нечто от чего я действительно
 фанатею.
 
 264
 00:17:17,496 --> 00:17:20,034
-You know, of course open source
-means that you are
 Вы знаете конечно, открытый проект
-подразумевает что вы его делаете
+подразумевает, что вы его делаете
 
 265
 00:17:20,284 --> 00:17:24,294
-making it for the community
-at large, based on work
 для сообщества в целом, основываясь
-на работе
+на работе,
 
 266
 00:17:24,544 --> 00:17:26,476
-that other people have
-done. So it's kind of like I'm
 которую выполнили другие люди.
 Так что это, что-то вроде того
 
 267
 00:17:26,726 --> 00:17:30,636
-taking one step up a ladder, and
-then I'm helping other people
 как если бы я сделал один шаг по лестнице,
 и потом помогал другим людям
 
 268
 00:17:30,886 --> 00:17:32,314
-go further up the ladder.
 пройти дальше по ней.
 
 269
 00:17:32,564 --> 00:17:34,593
-The current problem is that
 Сейчас проблема состоит
 
 270
 00:17:34,843 --> 00:17:41,093
- because of both standardisation
-and the patent system,
-одновременно как в стандартизации так
+одновременно, как в стандартизации, так
 и в патентной системе,
 
 271
 00:17:41,343 --> 00:17:44,756
-a lot of people were left
-without the possibility
 множество людей осталось
 без возможности
 
 272
 00:17:45,006 --> 00:17:48,035
-of learning how things work;
-this ended up being
 изучить как работают 
 окружающие их вещи; и это стало 
 
 273
 00:17:48,285 --> 00:17:51,394
-possible only to a group
-of people: the hackers,
 возможно только для небольшой группы
 людей: хакеров,
 
 274
 00:17:51,644 --> 00:17:54,936
-whose technical knowledge
-allowed them... made them
 чьи технические знания
 позволили им... дали им
 
 275
 00:17:55,186 --> 00:17:57,236
-feel able of opening an
-electronic element to see
 чувство возможности открыть
-электронный элемент чтоб увидеть,
+электронный элемент, чтоб увидеть,
 
 276
 00:17:57,876 --> 00:18:02,718
-what it had inside. And that's
-open source hardware for me:
 что тот имеет внутри. И это есть
 свободное железо для меня:
 
 277
 00:18:02,968 --> 00:18:06,876
-it means to once again
-be able to check
 это означает вновь иметь
-возможность проверить
+возможность проверить,
 
 278
 00:18:07,126 --> 00:18:09,436
-what is inside of stuff,
-but in a way that is allowed,
 что находиться внутри вещей, но
 незапрещенным путем,
 
 279
 00:18:09,686 --> 00:18:14,197
-that is also ethically "right",
 что также правильно и с точки зрения этики,
 
 280
 00:18:14,447 --> 00:18:17,316
-legal, and that allows us to
-improve the educative methods.
 легально, и позволяет нам улучшить
 методы изучения.
 
 281
 00:18:17,566 --> 00:18:19,957
-All things considered, what
-open hardware is for me
 С учетом всех этих вещей, свободное
 железо для меня 
 
 282
 00:18:20,207 --> 00:18:22,747
-is a system that makes people
-able to learn about the way
 это система, которая дает людям
 возможность учиться тому
 
 283
 00:18:22,997 --> 00:18:25,447
-things work in this world
-we live in, where there are
 как устроены вещи в мире в котором мы
 живем, в котором
 
 284
 00:18:25,697 --> 00:18:28,556
-more computers than
-people. So we need to
 компьютеров больше чем людей.
-Потому мы должны понимать
+Потому мы должны понимать,
 
 285
 00:18:28,806 --> 00:18:30,997
-understand how our stuff
-works, not only for being able
-понимать как наши вещи работают,
-не только для того чтобы уметь
+как наши вещи работают,
+не только для того, чтобы уметь
 
 286
 00:18:31,247 --> 00:18:33,046
-to repair it, but also to
-understand how our own
-их починить, но и для того чтобы
+их починить, но и для того, чтобы
 понять как мы сами устроены.
 
 287
 00:18:33,296 --> 00:18:35,757
-life works. And I thing that
-is really necessary nowadays.
-И мен кажется это действительно
+И мне кажется это действительно
 необходимым сегодня.
 
 288
 00:18:36,316 --> 00:18:42,277
-At the beginning, on the whole
-question of open source
 Если вернутся к началу, 
 к вопросу об соотношении 
 
 289
 00:18:42,527 --> 00:18:47,676
-hardware versus open hardware,
-open source, it's still very
 свободного железа и открытого железа,
 То надо отметить, что открытые исходники,
 
 290
 00:18:47,926 --> 00:18:53,876
-a very complex situation, there's
-still not very defined standards
 это все еще очень сложный вопрос,
 все еще нет хорошо определенных стандартов
 
 291
 00:18:54,126 --> 00:18:57,638
-or licenses or processes...
-For us at the beginning
 или лицензий, или процессов...
 Для нас вначале 
 
 292
 00:18:57,888 --> 00:19:02,095
-it was a specific need: we knew
-the school was closing, and we
 это было специфической необходимостью:
 мы знали, что школу закрывают, и мы
 
 293
 00:19:02,345 --> 00:19:05,394
-and we were afraid that lawyers
-would show up one day and say
 боялись, что однажды появятся адвокаты
-и скажут
+и скажут:
 
 294
 00:19:05,644 --> 00:19:09,797
-"Everything here goes into a box
-and gets forgotten about."
 "Все должно быть спрятано по коробкам
 и про все должны забыть."
 
 295
 00:19:10,047 --> 00:19:12,995
-So we thougt "OK, if we open
-everything about this,
 Так что мы подумали: "Ок, если 
-мы всем про все расскажем про это,
+мы всем про все расскажем,
 
 296
 00:19:13,245 --> 00:19:17,275
-then we can survive the
-closing of the school."
 то сможем пережить закрытие школы."
 
 297
 00:19:17,525 --> 00:19:19,874
-So that was the first step.
-Then we started to figure out
 Так что это был первый шаг.
 Потом мы начали понимать
 
 298
 00:19:20,124 --> 00:19:24,236
-that there was a way to get a
-very nice ecosystem of people
 что в этом был по-сути путь
 создания очень приятной экосистемы
 
 299
 00:19:24,486 --> 00:19:27,295
-participating and making
-extensions, making derivatives,
 людей учавствующих в проекте, делающих
 расширения, делающих производные продукты,
 
 300
 00:19:27,545 --> 00:19:30,990
-and helping. And then our
-activity of talking to
-и помогающих. И потом наши действия
+и просто помогающих. И потом наши действия
 
 301
 00:19:31,240 --> 00:19:33,874
-manufacturers, and making
-them to build things,
 в плане общения с производителями,
 и договоров с ними о производстве этих вещей,
 
 302
 00:19:34,124 --> 00:19:37,634
-became an interesting study
-on how there could be
-стало инетересным полем для изучения
+стало интересным полем для изучения
 способов построения
 
 303
 00:19:37,884 --> 00:19:40,556
-a business model that would
-apply to open source.
 бизнесмодели подходящей для движения 
 открытых исходников.
 
 304
 00:19:40,806 --> 00:19:44,919
-For us it was really important,
-as a cultural space
 Для нас это было действительно важно,
 как место для культурного
 
 305
 00:19:45,169 --> 00:19:49,316
-for experimentation, to try
-and apply the logic of
-експеримента, как проба применить логику
+эксперимента, как проба применить логику
 
 306
 00:19:49,566 --> 00:19:52,237
-free tools to the
-actual process of working.
 свободных инструментов к 
 настоящему рабочему процессу.
 
 307
 00:19:52,487 --> 00:19:56,095
-That was the idea behind
-"Interactivos?", a space
 Это была идея стоящая за
 "Interactivos?", места
 
 308
 00:19:56,345 --> 00:19:58,278
-where people could develop
-their own projects but where
 где люди могут разрабатывать
 свои собственные проекты, но также
 
 309
 00:19:58,528 --> 00:20:01,278
-other people could also
-get involved in them
 и другие люди могут быть 
 вовлечены в них
 
 310
 00:20:01,528 --> 00:20:03,997
-as collaborators. Because
-the process is open for
 как соавторы. Потому, что 
 процесс открыт для
 
 311
 00:20:04,247 --> 00:20:09,078
-anyone to participate.
-That is, for us, a quite...
 участия каждого.
 Потому, для нас, это...
 
 312
 00:20:09,328 --> 00:20:15,394
-how to say it, a strong
-relationship; we feel that
 как это сказать... прочные взаимоотношения;
 мы ощущаем что
 
 313
 00:20:15,644 --> 00:20:20,278
-we are always trying to get
-inspiration from something
 мы всегда пытаемся вдохновится 
 чем-то
 
 314
 00:20:20,528 --> 00:20:23,556
-as surprising as all free
-software processes are,
 чем-то неожиданным так же как
 все кто занят разработкой СПО,
 
 315
 00:20:23,806 --> 00:20:26,247
-and in this case... we had never
-heard about the existance of
 и в этом соль... мы никогда не 
 слышали про существование 
 
 316
 00:20:26,497 --> 00:20:31,797
-"free hardware". So all started
-buzzing with possibilities
 "свободного железа". Потому все 
 начали перетирать на тему потенциальных
 возможностей
 
 317
 00:20:32,047 --> 00:20:35,115
-that went in all kind
-of directions.
 что привело ко всевозможным
 направлениям.
 
 318
 00:20:35,365 --> 00:20:38,797
-I love open source hardware.
-I think everything should be
 Я люблю свободное железо (oshw).
 И думаю везде все должно идти
 
 319
 00:20:39,047 --> 00:20:41,997
-that way. It's great for
-education, I like sharing
 в этом русле. Это круто для 
 образования, Я люблю делится тем
 
 320
 00:20:42,247 --> 00:20:44,919
-what we've learned, and it's
-easy for the kids to find out 
 чему мы вместе научились, и детям
 становится проще узнать
 
 321
 00:20:45,169 --> 00:20:49,037
-more and it would be great if
-they could build their own things
 больше и это было бы круто, чтоб
 они могли делать свои собственные штуковины
 
 322
 00:20:49,698 --> 00:20:53,163
-I did not learn
-microcontrollers until my
 Я не изучал 
 микроконтроллеры во время
 
 323
 00:20:53,413 --> 00:20:55,806
-middle years in college, til
-the end of college.
 середины моего образования в колледже,
 Фактически до конца колледжа
 
 324
 00:20:56,056 --> 00:20:59,968
-And I was really blown away
-by how easy it was to use
 И меня реально ошарашило тем
 как легко их оказывается использовать,
 
 325
 00:21:00,218 --> 00:21:02,968
-Arduino, namely, being the
-forerunner development board.
 точнее Arduino, как передовую отладочную плату.
 
 326
 00:21:03,218 --> 00:21:09,144
-I think, given the right series
-of events, and if Arduino and
 Я думаю, при удачном стечении
 обстоятельств, и если б электронику
 
 327
 00:21:09,394 --> 00:21:12,766
-electronics could be taught in
-high school, I think there's a
 Arduino  могли бы изучать в школах,
 Я думаю это было бы 
 
 328
 00:21:13,016 --> 00:21:16,968
-big future for not only
-engineers, but also artists.
 большим будущим как для инженеров 
 так и для артистов.
 
 
 329
 00:21:17,566 --> 00:21:21,566
-Also digital media interactive
-design people. If they can learn
 А также для людей занимающихся 
 проектированием цифровых медиа,
 Если бы они изучали это 
 
 330
 00:21:21,816 --> 00:21:23,845
-that in high school, imagine
-how much more they can do
 в старшей школе, представьте
 как много они могли бы сделать
 
 331
 00:21:24,095 --> 00:21:25,595
-later in life.
 дальше в жизни.
 
 332
 00:21:57,000 --> 00:21:58,840
-When the Arduino
-sends the signal,
 Когда Arduino посылает сигнал,
 
 333
 00:21:59,640 --> 00:22:03,680
-it controls exactly the same
-these two buttons would.
 он управляет точно как сделали бы
 эти две кнопки.
 
 334
 00:22:04,080 --> 00:22:06,320
-This is made for
-recording and playing
 Это предназначено для записи и 
 проигрывания
 
 335
 00:22:06,570 --> 00:22:10,400
-when you manually touch
-the keys. But if you put in
 когда вы рукой касаетесь кнопок.
 Но если вы добавите сюда
 
 336
 00:22:10,650 --> 00:22:12,800
-opto-isolators,
-these two things here,
 опто-изоляторы, 
 вот эти две штуки здесь,
 
 337
 00:22:13,880 --> 00:22:18,760
-you can bridge the keys
-through the controller
 вы сможете связать кнопки
 с помощью контроллера
 
 338
 00:22:19,010 --> 00:22:22,640
-and activate them with an
-electric signal that comes
 и активировать их с помощью 
 электрического сигнала приходящего 
 
 339
 00:22:22,890 --> 00:22:24,440
-from the controller,
-that is programmed.
 на запрограммированный контроллер.
 
 340
 00:22:24,690 --> 00:22:27,200
-That's why Arduino is
-so powerful, because
 Вот почему Arduino такая 
 мощная вещь, потому
 
 341
 00:22:27,450 --> 00:22:29,840
-you can control any
-machine that works...
 что вы можете управлять любой
 машиной если она вообще работает...
 
 342
 00:22:30,095 --> 00:22:33,948
-It is an amazing tool
-for giving young people
 Это удивительный инструмент
 дающий молодым людям
 
 343
 00:22:34,278 --> 00:22:39,037
-this age get in contact
-with all those...
 такого возраста приобщится ко
 всему этому...
 
 344
 00:22:39,287 --> 00:22:44,634
-an awful lot of realities
-they live in.
 многогранному миру, 
 который их окружает.
 
 345
 00:22:44,884 --> 00:22:49,556
-First to get them to learn
-that the consumer side
 Во первых научить их,
 что позиция потребителя -
 
 346
 00:22:49,806 --> 00:22:53,355
--this "use the remote
-with the machine" side-
 типа "воспользуйтесь пультом чтоб
 управлять машиной" -
 
 347
 00:22:53,605 --> 00:22:56,797
-is not the only one;
-that it is possible to
 не единственная возможная;
 что можно 
 
 348
 00:22:58,394 --> 00:23:04,394
-understand what's inside
-and get the control back.
 понять что внутри и вернуть
 власть в свои руки.
 
 349
 00:23:04,644 --> 00:23:08,115
-Because now all these kids
-have a huge amount of
 Потому как сейчас большинство 
 этих ребят имеют огромное количество
 
 350
 00:23:08,365 --> 00:23:12,997
-gadgets which they have
-no idea how they work at all.
 всяких гаджетов и при этом 
 вообще не имеют представления 
 как все они работают.
 
 351
 00:23:14,095 --> 00:23:18,394
-With Arduino you can get a
-small glimpse of how all this
 С Arduino вы можете немного 
 просветится в понимании работы
 всех этих
 
 352
 00:23:18,644 --> 00:23:22,316
-stuff works, show them some
-schematics that allow them to
 устройств, покажите им некоторые 
 схемы которые покажут им
 
 353
 00:23:22,566 --> 00:23:25,678
-have a certain way
-of looking at all
 способ, как посмотреть под
 правильным углом на весь
 
 354
 00:23:25,928 --> 00:23:27,595
-the technological world that
-is going to surround them.
 тот техногенный мир, который все
 больше окружает их.
 
 355
 00:23:27,845 --> 00:23:33,316
-And it is also quite funny,
-can be used to teach electronics,
 И Arduino, что тоже немного смешно,
 может быть использовано для того чтоб
 изучать электронику,
 
 356
 00:23:33,566 --> 00:23:37,556
-to teach them how to think,
-it teaches them how to have
 чтоб учить их думать, это 
 учит их как быстрее делать 
 
 357
 00:23:37,806 --> 00:23:39,845
-less short-term projects
-and work as a team,
 проекты, как работать 
 в команде,
 
 358
 00:23:40,095 --> 00:23:43,595
-how to participate in a
-community, get information...
 как учавствовать в сообществе,
 получать информацию...
 
 359
 00:23:45,237 --> 00:23:47,095
-The potential for students
-when they're just learning
 Возможность для студентов
 когда они только учатся
 
 360
 00:23:47,345 --> 00:23:49,394
-how to use the computer, to
-learn how to make things
 использовать компьютер, чтоб
 учиться как создавать с 
 
 361
 00:23:49,644 --> 00:23:53,355
-with computers... to me that...
-that's powerful.
 с помощью компьютеров... для меня это...
 Это - круто.
 
 362
 00:23:53,605 --> 00:23:56,478
-And what that would
-actually mean long term
 И что это может в действительности
 значить в длительной перспективе
 
 363
 00:23:56,728 --> 00:24:02,728
-for students with only 50$,
-be able to plug something
 для студентов с 50 баксами в кармане,
 иметь возможность включить что-нибудь
 
 364
 00:24:02,978 --> 00:24:04,756
-into their computer and
-make something with it
 в свой компьютер и сделать
 что-нибудь с этим
 
 365
 00:24:05,006 --> 00:24:07,115
-over and over and over again
-and then really share it...
 снова и снова и снова и потом
 по-настоящему поделится результатом...
 
 366
 00:24:07,997 --> 00:24:13,198
-The type of creative community
-that can engender in young people
 Дух общества созидания
 который может вырасти в молодых людях
 
 367
 00:24:13,448 --> 00:24:17,835
-to me I think that is... That's
-going to change everything,
 для меня я думаю это... Это 
 может изменить все,
 
 368
 00:24:18,085 --> 00:24:21,678
-and I'm really excited to see
-what happens as it develops.
 и я действительно восхищен видя
 что происходит когда оно развивается.
 
 369
 00:24:28,600 --> 00:24:31,790
-Arduino has 120.000
-users nowadays, 
 У Arduino сейчас есть 120 000
 пользователей,
 
 370
 00:24:32,040 --> 00:24:35,595
-or 130.000 users...
-I just count the number
 или 130 000....
 Я только считаю количество 
 
 371
 00:24:35,845 --> 00:24:39,198
-of sold boards. The traffic
-that we are now getting
 проданых плат. Трафик
 который мы имеем на 
 
 372
 00:24:39,450 --> 00:24:44,634
-in our website is close
-to 15 million hits per month.
 своем вебсайте близок к 15 
 миллионам посещений в месяц.
 
 373
 00:24:44,884 --> 00:24:49,198
-Which means around
-600.000 hits per day.
 То есть примерно
 600 000 в день.
 
 
 374
 00:24:49,448 --> 00:24:53,997
-That is knowing it is actively
-used in universities,
 Известно что оно активно использется
 в университетах,
 
 375
 00:24:54,247 --> 00:24:56,237
-also used by people who work
-on their personal projects...
 а также используется людьми которые
 работают над своими персональными 
 проектами...
 
 376
 00:24:56,487 --> 00:24:58,640
-Now imagine it was to
-start being used
 Теперь представьте, что его начнут 
 использовать
 
 377
 00:24:58,890 --> 00:25:00,520
-in high school education.
 в старших классах школы.
 
 378
 00:25:04,000 --> 00:25:08,120
-Its future will not
-be "technological",
 Его будущее уже не будет только
 "технологическое",
 
 379
 00:25:08,920 --> 00:25:13,600
-it will be quite more social;
 оно станет скорее "общественным"
 
 380
 00:25:14,400 --> 00:25:17,880
-it will be some kind of
-big boom where a lot
 это будет вроде большого взрыва
 когда множество
 
 381
 00:25:18,130 --> 00:25:21,000
-of people will start
-using it.
 людей начнут его использовать.
 
 382
 00:25:26,200 --> 00:25:29,080
-I definitely see Arduino
-taking one path of
 Я четко вижу, что Arduino
 получает толчок к тому
 
 383
 00:25:29,330 --> 00:25:32,120
-being just very easy to use,
-even easier than it is now.
 чтобы стать очень простым в 
 использовании, даже проще чем 
 он есть сейчас.
 
 384
 00:25:33,000 --> 00:25:35,920
-So making it easier for
-beginners to get into it.
 Что еще больше упростит
 начало его использования
 для новичков.
 
 385
 00:25:36,280 --> 00:25:39,520
-All my favourite distortion
-pedals... a Big Muff...
 Все любимые мной примочки(дисторшены)
 ... Big Muff-ы...
 
 386
 00:25:40,240 --> 00:25:45,120
-with my favourite 
-microcontroller board, Arduino.
 оснащены моей любимой
 микроконтроллерной платкой, Arduino.
 
 387
 00:25:52,320 --> 00:25:55,800
-The user base would get
-10 or 20 times bigger.
 Сообщество пользователей
 станет в 10 или 20 раз больше.
 
 388
 00:25:57,440 --> 00:26:00,080
-If all of a sudden these
-people started sharing
 И если все эти люди вдруг 
 начнут делиться
 
 389
 00:26:00,400 --> 00:26:04,800
-their files on the network,
-it would just not support all that.
 своими файлами в сети,
 она просто не выдержит.
 
 390
 00:26:05,050 --> 00:26:06,680
-It would just not work.
 Она просто не сможет работать.
 
 391
 00:26:11,400 --> 00:26:13,200
-Here's a robot.
 Вот робот.
 
 392
 00:26:13,600 --> 00:26:17,600
-If I tilt, you see the light
-goes left... I go up...
 Если я наклоняю, вы видите как
 огонёк идёт влево... Если я поднимаю...
 
 393
 00:26:18,250 --> 00:26:21,080
-I want Arduino to always
-be a tool that people
 Я хочу, чтоб Arduino всегда был
 инструментом, на который люди
 
 394
 00:26:21,400 --> 00:26:25,800
-who have no understanding
-of computers can look at
 ничего не понимающие в компьютерах
 могли посмотреть
 
 395
 00:26:27,000 --> 00:26:32,560
-and can get an understanding
-of how a computer works.
 и разобраться как же все-таки
 работают эти компьютеры.
 
 396
 00:26:33,120 --> 00:26:36,600
-But I sell this. So that's part
-of how I make my living.
 Но я продаю это. Так как это
 способ зарабатывать себе на жизнь.
 
 397
 00:26:37,560 --> 00:26:40,120
-For this to keep working like
-it does ten years for now
 Для того, чтоб продолжать работать
 в таком стиле, как последние 10 лет,
 
 398
 00:26:40,370 --> 00:26:42,120
-we need to be able to keep
-creating new hardware,
 нам нужно иметь возможность 
 продолжать создавать новое железо,
 
 399
 00:26:42,370 --> 00:26:44,440
-we will need the continous
-feedback of the community,
 нам нужна ответная реакция, постоянная 
 обратная связь от сообщества,
 
 400
 00:26:44,690 --> 00:26:47,600
-and to be able to include
-their changes and
 и иметь возможность включить
 изменения от сообщества и
 
 401
 00:26:47,850 --> 00:26:49,760
-their proposals with all
-the necessary upgrades.
 учесть предложения людей
 в купе со всеми необходимыми 
 обновлениями.
 
 402
 00:26:50,010 --> 00:26:53,560
-And after those 10 years,
-I hope we have
 И после этих 10 лет, я 
 надеюсь мы получим
 
 403
 00:26:53,810 --> 00:26:57,400
-at least one Arduino
-computer... why not?
 хотя бы один Arduino компьютер...
 Почему бы и нет?
 
