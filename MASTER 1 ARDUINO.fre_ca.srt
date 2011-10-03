@@ -1,0 +1,1612 @@
+﻿1
+00:00:49,379 --> 00:00:51,776
+Arduino a commencé comme un projet
+
+2
+00:00:52,079 --> 00:00:55,259
+que nous avons fait à l'Interaction Design Institute Ivrea ...
+
+3
+00:00:55,736 --> 00:00:58,456
+retour en 2005
+
+4
+00:00:59,018 --> 00:01:02,776
+Mais il a quelques racines dans des projets précédents que nous avons travaillé sur
+
+5
+00:01:03,059 --> 00:01:07,339
+Parce que nous voulions faire un outil pour nos étudiants qui a été plus
+
+6
+00:01:07,589 --> 00:01:11,339
+modernes que ce qui était disponible sur le marché au moment
+
+7
+00:01:11,589 --> 00:01:13,859
+Spécialement parce que l'outil que tout le monde a été à l'aide,
+
+8
+00:01:14,109 --> 00:01:15,380
+cette chose appelée le BASIC Stamp,
+
+9
+00:01:15,630 --> 00:01:21,380
+en Italie il coûtait, à l'époque, environ 76 €, c'est comme 100 $
+
+10
+00:01:21,630 --> 00:01:23,179
+il était donc très coûteux pour les étudiants
+
+11
+00:01:23,429 --> 00:01:25,339
+Ils ne feraient pas toute ... trop de travail
+
+12
+00:01:25,589 --> 00:01:27,779
+parce qu'ils ne veulent pas dépenser de l'argent sur l'achat
+
+13
+00:01:28,029 --> 00:01:31,339
+nombreux conseils d'administration si cher que ça, donc ce qui s'est passé ...
+
+14
+00:01:31,589 --> 00:01:33,979
+nous avons commencé à chercher des alternatives possibles, et aussi nous
+
+15
+00:01:34,229 --> 00:01:36,740
+ont travaillé sur le traitement, le traitement du langage
+
+16
+00:01:36,990 --> 00:01:40,139
+parce Casey Reas, l'un des fondateurs, a été l'un des enseignants
+
+17
+00:01:40,389 --> 00:01:43,339
+à Ivrea, alors nous avons pensé: "Pourquoi ne pas essayer de comprendre
+
+18
+00:01:43,589 --> 00:01:46,219
+comment faire de traitement pour le matériel? "Nous avons donc travaillé avec
+
+19
+00:01:46,570 --> 00:01:51,339
+un étudiant qui fait une thèse sur le sujet, et qui a produit un
+
+20
+00:01:51,589 --> 00:01:56,339
+plate-forme de câblage. Hernando Barragán, un étudiant colombien,
+
+21
+00:01:56,589 --> 00:01:59,499
+travaillé sur elle. Et puis après Hernando fait de câblage
+
+22
+00:01:59,749 --> 00:02:02,859
+nous avons commencé à comprendre comment pourrions-nous faire la plate-forme entière
+
+23
+00:02:03,109 --> 00:02:06,619
+encore plus simple, encore moins cher, plus facile à utiliser.
+
+24
+00:02:06,979 --> 00:02:10,980
+Et puis nous avons commencé à essentialy réimplémenter le tout
+
+25
+00:02:11,340 --> 00:02:14,860
+comme un projet open source. Nous voulions qu'il soit open source
+
+26
+00:02:15,110 --> 00:02:19,059
+afin que chacun puisse venir l'aider, et de contribuer.
+
+27
+00:02:19,309 --> 00:02:22,620
+Puis nous avons eu un autre problème: qu'il y avait beaucoup de discussions
+
+28
+00:02:22,870 --> 00:02:27,140
+au sujet de la fermeture de l'école, nous avons donc décidé: «OK, nous allons essayer
+
+29
+00:02:27,390 --> 00:02:30,539
+pour faire de cette plateforme et de l'ouvrir autant que possible. "
+
+30
+00:02:30,789 --> 00:02:33,669
+Ensuite, nous avons cessé de parler de ce que nous aimerions avoir
+
+31
+00:02:33,919 --> 00:02:35,589
+et a commencé à parler de comment le faire.
+
+32
+00:02:35,839 --> 00:02:39,069
+Et quand nous avons commencé à parler de comment le faire, Massimo
+
+33
+00:02:39,319 --> 00:02:41,309
+avait fait des expériences avec certaines technologies,
+
+34
+00:02:41,559 --> 00:02:43,669
+J'ai eu des expériences avec une technologie différente ...
+
+35
+00:02:45,069 --> 00:02:51,028
+Nous avons eu une discussion pour décider ce qui était le meilleur et j'ai décidé
+
+36
+00:02:51,278 --> 00:02:53,628
+d'essayer cette technologie avait Massimo,
+
+37
+00:02:53,884 --> 00:02:57,789
+en raison de sa meilleure compatibilité
+
+38
+00:02:58,039 --> 00:02:59,809
+avec différents OS.
+
+39
+00:03:00,829 --> 00:03:04,389
+J'ai vérifié le matériel, a trouvé un bogue couple, nous fixe,
+
+40
+00:03:04,789 --> 00:03:08,589
+et bien, nous avons commencé à faire des planches ...
+
+41
+00:03:08,839 --> 00:03:10,789
+Je veux dire, le processus de commencer à travailler sérieusement sur ce
+
+42
+00:03:11,039 --> 00:03:13,989
+d'avoir un conseil a été un simple de deux jours-ci.
+
+43
+00:03:14,949 --> 00:03:16,709
+Tout le reste était des logiciels.
+
+44
+00:03:17,000 --> 00:03:20,340
+Alors que j'étais en quelque sorte dans le milieu de ce que j'ai rencontré avec les
+
+45
+00:03:20,699 --> 00:03:26,139
+David Cuartielles, qui a commencé à trier des m'aider dans le projet,
+
+46
+00:03:26,389 --> 00:03:30,699
+ensuite devenu un contributeur majeur, puis ensemble nous sorte de fait
+
+47
+00:03:30,949 --> 00:03:35,780
+abord le matériel Arduino, puis nous avons eu David Mellis rejoindre en tant
+
+48
+00:03:36,099 --> 00:03:40,620
+un étudiant d'écrire le logiciel, puis Tom est venu en tant que conseiller,
+
+49
+00:03:40,870 --> 00:03:44,940
+et enfin, puis Gianluca venu en tant que personne qui a pu
+
+50
+00:03:45,190 --> 00:03:48,819
+pour la fabrication de la planche, c'est comme ça que le genre d'équipe de la forme,
+
+51
+00:03:49,080 --> 00:03:52,039
+en ajoutant les gens par leurs compétences.
+
+52
+00:04:02,728 --> 00:04:06,809
+Nous avons été l'aide de planches de câblage et voulait le port
+
+53
+00:04:07,059 --> 00:04:11,408
+un bouquet de programmes à un prix moins microprocesseur, fondamentalement,
+
+54
+00:04:12,007 --> 00:04:17,608
+à installer dans certaines installations, et j'ai aidé à écrire comme
+
+55
+00:04:17,858 --> 00:04:20,248
+un grand nombre de couches de compatibilité afin que tous les anciens programmes
+
+56
+00:04:20,498 --> 00:04:25,688
+pouvait courir dans le nouveau processeur ... Et puis être juste à Ivrea
+
+57
+00:04:26,090 --> 00:04:29,128
+et ne voulant pas passer trop de temps sur ma thèse réelle
+
+58
+00:04:29,378 --> 00:04:31,400
+J'ai passé plus de temps et plus envie de travailler avec Massimo
+
+59
+00:04:31,650 --> 00:04:33,349
+et les autres gars de développement Arduino.
+
+60
+00:04:33,599 --> 00:04:36,120
+Je savais qu'il y avait ce développement de cette
+
+61
+00:04:36,837 --> 00:04:40,450
+équivalent hardware du traitement. Et je suis allé
+
+62
+00:04:40,700 --> 00:04:44,808
+d'Ivrea en Juin 2005 pour faire un atelier avec eux sur un autre
+
+63
+00:04:45,058 --> 00:04:48,527
+sujet, et ils m'ont montré la carte Arduino à ce point.
+
+64
+00:04:48,888 --> 00:04:51,888
+Et je l'ai regardé et j'ai dit: «Vous savez, ce qui est excellent, et il
+
+65
+00:04:52,138 --> 00:04:54,248
+fonctionne vraiment pour votre école, travaille pour mon école aussi, mais
+
+66
+00:04:54,498 --> 00:04:58,008
+Je pense que cela pourrait être une grande chose, et je pense que plus de gens
+
+67
+00:04:58,258 --> 00:05:00,287
+. souhaitez utiliser cette «Et Massimo dit:« Eh bien, c'est bon
+
+68
+00:05:00,537 --> 00:05:03,248
+commentaires, merci. "Et puis je suis retourné aux Etats,
+
+69
+00:05:03,498 --> 00:05:05,969
+et quelques semaines plus tard, ils m'ont écrit et dit:
+
+70
+00:05:06,219 --> 00:05:09,369
+«Vous savez, nous voulons aller plus loin avec cela, et nous voulons essayer de
+
+71
+00:05:09,619 --> 00:05:11,248
+l'obtenir à la plus grande du monde. Voulez-vous joindre à nous
+
+72
+00:05:11,498 --> 00:05:14,568
+comme faisant partie de l'équipe? "Et j'ai dit" Ouais ". Et il était juste ...
+
+73
+00:05:14,818 --> 00:05:17,445
+pour moi c'était un cas qu'il s'agit d'un outil que j'ai pu voir
+
+74
+00:05:17,695 --> 00:05:20,489
+moi à l'aide, et donc je ne pouvais croire en réalité
+
+75
+00:05:20,739 --> 00:05:22,758
+aider à le sortir d'un monde plus vaste.
+
+76
+00:05:23,087 --> 00:05:27,008
+Après le prototypage début il y avait la nécessité,
+
+77
+00:05:27,287 --> 00:05:30,688
+ou le désir, pour commencer quelque chose de fabrication
+
+78
+00:05:30,938 --> 00:05:35,969
+d'une manière plus professionnelle, et d'une manière plus commerciale.
+
+79
+00:05:36,438 --> 00:05:42,128
+parce que tout le premier exemple a été monté, a été fait juste pour faire ...
+
+80
+00:05:42,378 --> 00:05:47,926
+de les laisser travailler. Après Massimo et David ont décidé
+
+81
+00:05:48,176 --> 00:05:51,847
+et compris le prototype fonctionnait ils avaient besoin pour
+
+82
+00:05:52,097 --> 00:05:57,527
+faire un plus grand lot. Nous avons donc décidé de travailler sur 200 unités
+
+83
+00:05:58,087 --> 00:06:02,888
+et nous avons fait ... J'ai fait une petite refonte, un peu
+
+84
+00:06:03,138 --> 00:06:06,087
+conception pour la fabrication, afin de les produire.
+
+85
+00:06:06,407 --> 00:06:11,568
+C'était un test, ils ont convenu avec leur école
+
+86
+00:06:11,818 --> 00:06:17,328
+l'Interaction Design Institute, et le K3 de Malmö,
+
+87
+00:06:17,578 --> 00:06:21,647
+à acheter 50 chacun. Ce fut un bon point de départ;
+
+88
+00:06:21,897 --> 00:06:25,888
+cela signifie que nous ne perdrons pas tout l'argent mais au moins
+
+89
+00:06:26,138 --> 00:06:31,008
+moitié revenait. Le prix de vente était exactement
+
+90
+00:06:31,258 --> 00:06:36,328
+que nous avons payé, je pense que nous avons gagné 1 € pour chaque conseil, qui est
+
+91
+00:06:36,578 --> 00:06:40,527
+rien de considérer tous les efforts que nous consacrons à l'intérieur.
+
+92
+00:06:41,888 --> 00:06:47,167
+Mais après une certaine publicité, après quelques parlant avec des amis,
+
+93
+00:06:47,527 --> 00:06:52,445
+ce mouvement a commencé à se déplacer. Et donc nous avons reçu le premier
+
+94
+00:06:52,695 --> 00:06:57,207
+appel, notre premier client, en demandant un conseil, il était un ami
+
+95
+00:06:57,457 --> 00:07:00,296
+de Massimo et David. Mais ce fut le début de quelque chose.
+
+96
+00:07:00,546 --> 00:07:04,587
+Quelques mois après la rencontre il a dit "Hey Nate SparkFun, vous les gars
+
+97
+00:07:04,837 --> 00:07:07,703
+doivent porter cette chose appelée Arduino. "Et je l'ai regardé et
+
+98
+00:07:07,953 --> 00:07:11,703
+à cette époque c'était la version trou, la version RS-232,
+
+99
+00:07:11,953 --> 00:07:14,453
+et j'ai dit "Cela ressemble très intéressant", mais je n'ai pas vraiment
+
+100
+00:07:14,703 --> 00:07:18,347
+le comprendre. Et ... Je n'avais pas enveloppé ma tête autour de lui.
+
+101
+00:07:18,597 --> 00:07:20,587
+Et alors j'ai dit: "Tu sais, Tom, je ne pense pas que c'est pour nous, nous ne
+
+102
+00:07:20,837 --> 00:07:22,825
+vraiment faire des kits, nous ne sommes pas sûr de savoir comment les gens vont réagir
+
+103
+00:07:23,075 --> 00:07:26,669
+à cette "et donc j'ai décidé contre elle. C'était quelques mois
+
+104
+00:07:26,919 --> 00:07:29,287
+plus tard, six, sept mois plus tard, que Arduino est sorti avec
+
+105
+00:07:29,537 --> 00:07:33,107
+la version complète USB, entièrement assemblés et testés
+
+106
+00:07:33,357 --> 00:07:35,087
+prêt à aller, et Tom à nouveau venu de poser et lui dit:
+
+107
+00:07:35,337 --> 00:07:37,736
+«Hé, SparkFun, vous devriez vraiment faire cela." Et j'ai dit
+
+108
+00:07:37,986 --> 00:07:40,186
+"OK, bien, je ne suis pas vraiment sûr, vous le savez, nous allons mettre dans 20
+
+109
+00:07:40,436 --> 00:07:44,027
+et voir comment ils vendent. "Et ce fut le premier sur 20
+
+110
+00:07:44,277 --> 00:07:46,145
+environ 40.000 à ce point.
+
+111
+00:08:12,599 --> 00:08:15,039
+La première fois que nous avons entendu parler Arduino a été
+
+112
+00:08:15,289 --> 00:08:19,549
+quand David Cuartielles venu à une activité appelée
+
+113
+00:08:19,799 --> 00:08:23,320
+«Jeudis à Medialab", qui a été fait
+
+114
+00:08:23,570 --> 00:08:27,860
+la première session de cette activité toujours en cours.
+
+115
+00:08:28,110 --> 00:08:33,335
+Donc, il ne cesse de parler des choses et à la fin, après 90 minutes
+
+116
+00:08:33,585 --> 00:08:37,297
+de l'écoute de tous les contes de David, dit-il
+
+117
+00:08:37,547 --> 00:08:39,617
+Il est impliqué dans ce projet, mais il était vraiment un
+
+118
+00:08:39,867 --> 00:08:44,018
+petite chose, vous savez? Et j'ai pensé: «Enfin!
+
+119
+00:08:44,268 --> 00:08:45,900
+Allez, David, pourquoi n'était-ce pas la première chose que vous avez dit? "
+
+120
+00:08:49,000 --> 00:08:50,760
+Je veux vous parler d'Arduino ...
+
+121
+00:08:53,320 --> 00:08:58,240
+Arduino est le dernier projet, je l'ai terminé la semaine dernière.
+
+122
+00:08:59,400 --> 00:09:01,640
+J'ai parlé à Ivrea directeur technique et lui dit:
+
+123
+00:09:01,900 --> 00:09:06,120
+Ne serait-il pas merveilleux de faire quelque chose que nous pouvons offrir gratuitement?
+
+124
+00:09:06,400 --> 00:09:08,880
+- Pour les gratuits? - Ouais.
+
+125
+00:09:11,400 --> 00:09:14,400
+Et après ça, eh bien, nous avons travaillé avec Gustavo, et
+
+126
+00:09:14,650 --> 00:09:18,520
+également resté en contact avec David, et nous
+
+127
+00:09:18,770 --> 00:09:23,880
+a organisé un atelier Arduino en Octobre 2005,
+
+128
+00:09:24,130 --> 00:09:26,640
+qui a été l'un des ateliers Arduino première
+
+129
+00:09:26,890 --> 00:09:30,600
+s'il n'est pas le premier jamais ...
+
+130
+00:09:30,850 --> 00:09:35,817
+Le dernier jour, David a proposé de créer des prototypes de petite taille.
+
+131
+00:09:36,067 --> 00:09:38,817
+Il l'appelle «Apportez votre vieilleries et nous allons faire quelque chose avec elle."
+
+132
+00:09:39,067 --> 00:09:42,760
+Cela a conduit à certains projets très intéressants ...
+
+133
+00:09:43,086 --> 00:09:46,197
+Et ces gens continué à faire de petites électroniques
+
+134
+00:09:46,447 --> 00:09:49,447
+instruments, de petits robots ...
+
+135
+00:09:52,676 --> 00:09:55,824
+A l'époque j'étais rédacteur en chef de marque, marque seulement
+
+136
+00:09:56,074 --> 00:09:59,532
+quelques années vieux, et je n'avais entendu parler de ce projet Arduino.
+
+137
+00:09:59,782 --> 00:10:02,543
+Et je l'ai vu en ligne et j'ai dit: «Eh bien, beaucoup de personnes sont
+
+138
+00:10:02,793 --> 00:10:04,906
+commencent à parler de cela, je dois le vérifier. "
+
+139
+00:10:05,156 --> 00:10:07,984
+Et je suis l'un des conseils d'administration et a dit «Waouh, c'est fantastique,
+
+140
+00:10:08,234 --> 00:10:11,032
+débutants sont gona love this. Il fonctionne sur Mac, il fonctionne sur PC, il
+
+141
+00:10:11,282 --> 00:10:13,661
+fonctionne sous Linux ... c'est exactement ce que tout le monde veut. "
+
+142
+00:10:13,911 --> 00:10:16,382
+A l'époque beaucoup de gens ont utilisé BASIC Stamps, ont été à l'aide
+
+143
+00:10:16,632 --> 00:10:20,185
+toutes sortes de microcontrôleurs, et je viens d'utiliser la conception
+
+144
+00:10:20,435 --> 00:10:22,743
+des outils comme Flash et de traitement, et je suis comme "Oh, ce n'est
+
+145
+00:10:22,993 --> 00:10:24,964
+parfait, c'est exactement ce que je pense que chacun va
+
+146
+00:10:25,214 --> 00:10:28,224
+voulez. "Et ce fut dans le commencement de quand FAIRE
+
+147
+00:10:28,474 --> 00:10:31,945
+commençait à avoir un magasin, et donc il a fallu un peu de temps
+
+148
+00:10:32,195 --> 00:10:34,782
+et vous savez, c'est très difficile de faire des transferts de fonds internationaux.
+
+149
+00:10:35,032 --> 00:10:37,864
+Fondamentalement, nous avons commencé Arduinos vente dans FAITES tout de suite,
+
+150
+00:10:38,114 --> 00:10:42,139
+Et puis, plus tard, quand j'ai commencé à travailler avec Limor,
+
+151
+00:10:42,389 --> 00:10:45,165
+qui fait partie de Adafruit, elle est l'un des fondateurs, nous avons également
+
+152
+00:10:45,415 --> 00:10:48,224
+dit tout de suite "C'est un outil fantastique pour faire
+
+153
+00:10:48,474 --> 00:10:51,426
+des gens qui font des choses qu'ils veulent faire avec l'électronique. "
+
+154
+00:10:51,676 --> 00:10:53,984
+Pas nécessairement apprendre tout d'abord, mais obtenir
+
+155
+00:10:54,234 --> 00:10:56,536
+l'application fait, comme je veux quelque chose ... Je veux
+
+156
+00:10:56,786 --> 00:11:00,264
+ma robe à clignoter. Très difficile à faire si vous voulez juste pour apprendre
+
+157
+00:11:00,514 --> 00:11:02,984
+l'électronique, avec un Arduino vous obtenez ce fait en quelques minutes.
+
+158
+00:11:22,160 --> 00:11:23,680
+Il suffit de tourner la vidéo de confettis ...
+
+159
+00:11:25,720 --> 00:11:29,000
+Donc c'est une sorte de baie démo.
+
+160
+00:11:29,250 --> 00:11:30,880
+Nous avons un certain nombre de nos projets mis en place
+
+161
+00:11:31,130 --> 00:11:34,300
+Ce fut un projet que nous avons fait pour un événement de nuit
+
+162
+00:11:34,550 --> 00:11:37,500
+que Arduino utilisés comme des capteurs
+
+163
+00:11:37,920 --> 00:11:40,680
+et la façon dont il fonctionne, nous avons fait ces
+
+164
+00:11:40,930 --> 00:11:43,800
+maracas géante que lorsque vous secouez,
+
+165
+00:11:44,800 --> 00:11:46,900
+elle crée cette explosion de confettis, et
+
+166
+00:11:47,150 --> 00:11:49,850
+dans l'installation initiale, il était sur une sphère géante, mais ici ...
+
+167
+00:11:50,840 --> 00:11:53,080
+Chacun d'eux a un accéléromètre dans ce
+
+168
+00:11:53,330 --> 00:11:57,120
+et un contrôleur Bluetooth de l'envoyer à l'ordinateur
+
+169
+00:11:57,370 --> 00:11:59,200
+et puis nous générer ces graphiques.
+
+170
+00:11:59,450 --> 00:12:01,360
+Et c'est tout liée à un événement spécifique
+
+171
+00:12:01,680 --> 00:12:04,200
+où nous voulions que les gens alléger, il a été au
+
+172
+00:12:04,450 --> 00:12:06,840
+un cocktail, et nous voulions que les gens vraiment lâché,
+
+173
+00:12:07,090 --> 00:12:11,760
+et se sentent plus libres.
+
+174
+00:12:13,400 --> 00:12:18,040
+Et je voulais vous montrer le projet Luminodes plus ici ...
+
+175
+00:12:20,480 --> 00:12:23,000
+Ce fut un projet que nous avons fait dès le début dans le laboratoire,
+
+176
+00:12:23,720 --> 00:12:27,160
+penser en réseau d'éclairage,
+
+177
+00:12:28,400 --> 00:12:31,960
+et la façon dont cela fonctionne est qu'il ya une sorte de famille
+
+178
+00:12:32,210 --> 00:12:34,920
+des lumières, et la lumière principale ici, vous le ramasser
+
+179
+00:12:35,170 --> 00:12:37,600
+et vous pouvez trier la couleur du morceau en le tordant.
+
+180
+00:12:38,600 --> 00:12:43,560
+Il va définir la couleur, et ces autres sont en quelque sorte des enfants ...
+
+181
+00:12:43,810 --> 00:12:46,120
+Comme l'utilisateur joue avec eux, ils toutes sortes d'entrer en synchro.
+
+182
+00:12:46,800 --> 00:12:50,400
+Donc nous sommes vraiment dans des relations sociales que les gens créent
+
+183
+00:12:50,650 --> 00:12:52,480
+grâce à la technologie. Donc dans ce cas, il a été
+
+184
+00:12:52,730 --> 00:12:54,850
+genre de la synchronisation d'un certain nombre de personnes qui étaient tous en place
+
+185
+00:12:55,100 --> 00:12:57,600
+en utilisant la même chose. Et puis on a étendu vers
+
+186
+00:12:57,850 --> 00:12:59,350
+utiliser l'éclairage architectural et l'échelle
+
+187
+00:12:59,600 --> 00:13:01,140
+et off-the-shelf matériel d'éclairage.
+
+188
+00:13:02,046 --> 00:13:04,317
+La première chose que j'ai essayé de faire avec un Arduino
+
+189
+00:13:04,567 --> 00:13:08,197
+était de courir d'une imprimante 3D sur un Arduino. Quel ...
+
+190
+00:13:08,447 --> 00:13:10,916
+J'aurais probablement dû commencé avec quelque chose de simple,
+
+191
+00:13:11,166 --> 00:13:14,296
+car il était vraiment difficile et je ne savais rien
+
+192
+00:13:14,546 --> 00:13:18,846
+sur l'électronique. C'était comme essayer d'achoppement à l'aveuglette et
+
+193
+00:13:19,096 --> 00:13:23,637
+pour le faire travailler, mais finalement je l'ai eu à travailler, et maintenant
+
+194
+00:13:23,887 --> 00:13:27,835
+nous vendons ces imprimantes 3D qui fait MakerBot fonctionner sur ...
+
+195
+00:13:28,197 --> 00:13:30,450
+Il ya plusieurs Arduinos dans la machine.
+
+196
+00:13:30,700 --> 00:13:32,280
+C'est donc une imprimante 3D,
+
+197
+00:13:32,530 --> 00:13:38,097
+et ce que cela signifie, c'est qu'il faut un modèle 3D à partir de ... vous pouvez
+
+198
+00:13:38,347 --> 00:13:40,936
+télécharger à partir de l'Internet, ou concevoir vous-même, ou
+
+199
+00:13:41,186 --> 00:13:46,097
+numériser en un modèle 3D d'un objet, puis il imprime avec du plastique,
+
+200
+00:13:46,347 --> 00:13:49,897
+si ce droit est ici un filament, et donc ce qui se passe est
+
+201
+00:13:50,147 --> 00:13:54,176
+Ce plastique est lentement tiré vers le bas dans la tête d'extrusion ici
+
+202
+00:13:54,426 --> 00:13:59,336
+et quand c'est fait, vous aurez un objet réel qui est exactement
+
+203
+00:13:59,586 --> 00:14:01,420
+ce que tu voulais. Donc, vous avez un appareil photo numérique
+
+204
+00:14:01,845 --> 00:14:06,240
+fichier que vous lui donnez, et vous y dire «me faire une
+
+205
+00:14:06,545 --> 00:14:09,496
+de cette ", vous frappez d'impression, et cette machine va le faire pour vous.
+
+206
+00:14:09,746 --> 00:14:13,576
+Il va faire un, ou cent, ou mille d'entre eux si vous voulez.
+
+207
+00:14:13,896 --> 00:14:18,138
+Ce qui est génial, car il ya toutes sortes d'open source fraîche
+
+208
+00:14:18,388 --> 00:14:20,795
+les choses que cela va faire pour vous. Donc, vous n'avez pas besoin d'avoir
+
+209
+00:14:21,045 --> 00:14:24,616
+une coupe au laser, ou une chose de fabrication des PCB pour vraiment
+
+210
+00:14:24,866 --> 00:14:27,576
+participer à des matériels open source. Vous pouvez simplement la conception
+
+211
+00:14:27,826 --> 00:14:30,816
+quelque chose, ce sera assis sur votre bureau et vous imprimez trucs.
+
+212
+00:14:32,776 --> 00:14:36,138
+Une des choses que j'aime vraiment ce sujet est que cela permet
+
+213
+00:14:36,388 --> 00:14:39,415
+d'appliquer l'idée du matériel open source à des choses
+
+214
+00:14:39,665 --> 00:14:42,696
+qui sont très très basique, que vous n'auriez pas autrement
+
+215
+00:14:42,946 --> 00:14:45,656
+considèrent être hardwares open source. Donc, nous avons ...
+
+216
+00:14:45,906 --> 00:14:48,055
+Il ya un coup de sifflet open source, par exemple.
+
+217
+00:14:48,305 --> 00:14:51,857
+Il ya un ouvreur open source bouteille ... Par ici sur le mur
+
+218
+00:14:53,107 --> 00:14:56,217
+nous avons a. .. ici, il ya un crochet de l'open source manteau.
+
+219
+00:14:56,467 --> 00:14:59,656
+Nous avons donc une patère ... cela est du matériel open source.
+
+220
+00:15:00,006 --> 00:15:03,217
+Il ya un fichier sur Internet, vous pouvez télécharger et
+
+221
+00:15:03,467 --> 00:15:05,576
+si vous avez une imprimante 3D que vous pouvez imprimer autant de
+
+222
+00:15:05,826 --> 00:15:09,045
+crochets à vêtements que vous voulez, et vous n'avez pas à payer n'importe
+
+223
+00:15:10,336 --> 00:15:12,496
+rien. Si vous voulez un crochet plus grand manteau que vous pouvez faire plus grande.
+
+224
+00:15:12,896 --> 00:15:17,896
+Et c'est justement cette idée merveilleuse que nous pouvons appliquer cette idée
+
+225
+00:15:18,146 --> 00:15:21,616
+de l'open source à toutes ces choses communes au quotidien
+
+226
+00:15:21,866 --> 00:15:24,217
+que nous utilisons dans notre vie, comme ... ce que nous essayons de faire est
+
+227
+00:15:24,467 --> 00:15:25,967
+tout ce que l'open source.
+
+228
+00:15:26,235 --> 00:15:29,696
+Quelle sorte de peut avoir été une idée folle il ya 10 ans,
+
+229
+00:15:29,946 --> 00:15:33,616
+sont maintenant ... effectivement il ya un chemin que nous pouvons prendre
+
+230
+00:15:33,866 --> 00:15:37,295
+pour y arriver. Et les gens commencent à prendre au sérieux.
+
+231
+00:15:37,795 --> 00:15:40,295
+Du matériel open source est un moyen fantastique pour s'assurer
+
+232
+00:15:40,545 --> 00:15:42,696
+d'autres personnes peuvent regarder vos conceptions et de les améliorer.
+
+233
+00:15:42,946 --> 00:15:45,347
+Du matériel open source est un moyen fantastique de sorte que vous n'avez pas
+
+234
+00:15:45,816 --> 00:15:48,576
+pour répondre à des e-mails de personnes demandant "peuvent-ils utiliser quelque chose?"
+
+235
+00:15:48,826 --> 00:15:50,336
+Vous avez mis la licence là-bas, vous avez dit ...
+
+236
+00:15:50,586 --> 00:15:53,217
+Du matériel open source signifie pour nous que vous pouvez prendre nos affaires,
+
+237
+00:15:53,467 --> 00:15:55,347
+vous pouvez faire ce que vous voulez avec elle ... vous avez juste à faire
+
+238
+00:15:55,597 --> 00:15:58,415
+la même chose que nous avons fait: c'est la libération dos, autoriser d'autres personnes
+
+239
+00:15:58,665 --> 00:16:01,336
+de faire ce qu'ils veulent avec elle et ils peuvent le vendre aussi longtemps que
+
+240
+00:16:01,586 --> 00:16:04,097
+tous à l'attribution, tous les crédits, toutes les choses que vous avez
+
+241
+00:16:04,347 --> 00:16:07,376
+demandés, sont respectés. Et jusqu'ici il a très bien:
+
+242
+00:16:07,626 --> 00:16:09,996
+Si vous regardez Linux, il est un parfait exemple. Si vous regardez
+
+243
+00:16:10,246 --> 00:16:13,977
+chez Apache, toutes ces choses qui fonctionnent sur le web, c'est tout l'open source
+
+244
+00:16:14,227 --> 00:16:17,656
+Si vous avez eu à payer quelqu'un, ou parler à quelqu'un, ou d'une licence
+
+245
+00:16:17,906 --> 00:16:19,776
+quelque chose chaque fois que vous vouliez mettre en place un site web,
+
+246
+00:16:20,026 --> 00:16:22,996
+nous n'aurions pas le monde fantastique de partage de l'information
+
+247
+00:16:23,246 --> 00:16:26,246
+nous faisons. Alors je regarde Arduino comme une représentation physique de
+
+248
+00:16:26,496 --> 00:16:28,138
+toutes les grandes choses vous avez obtenu avec le logiciel open source,
+
+249
+00:16:28,388 --> 00:16:30,097
+mais maintenant, commence à se produire dans le matériel.
+
+250
+00:16:30,350 --> 00:16:33,600
+Nous atteindrons un niveau où les gens seront de créer ...
+
+251
+00:16:34,586 --> 00:16:37,280
+les gens seront de créer du matériel sur le même chemin que les gens
+
+252
+00:16:37,530 --> 00:16:40,040
+ont été la création de livres après Movable Type est devenu bon marché et
+
+253
+00:16:40,290 --> 00:16:42,400
+facile à reproduire. Et je crois vraiment que c'est le niveau
+
+254
+00:16:42,750 --> 00:16:44,750
+de la révolution du matériel open source, comme nous sommes à la recherche
+
+255
+00:16:45,000 --> 00:16:46,760
+à quelque chose comme un événement de Gutenberg, où Movable Type
+
+256
+00:16:47,010 --> 00:16:50,100
+va changer la manière dont les gens lisent, écrivent et partagent l'information, seulement
+
+257
+00:16:50,350 --> 00:16:53,080
+dans ce cas, il sera comment nous créer et utiliser des objets physiques.
+
+258
+00:16:54,115 --> 00:17:00,115
+L'idée derrière le contrôle sur ces objets physiques
+
+259
+00:17:00,365 --> 00:17:04,944
+et être capable de les manipuler à volonté et ne pas avoir peur
+
+260
+00:17:05,194 --> 00:17:07,953
+de les démonter, pour voir ce qu'il ya dedans, pour vraiment
+
+261
+00:17:08,203 --> 00:17:11,232
+savoir tout ce qui se passe ... C'est quelque chose de vraiment
+
+262
+00:17:11,482 --> 00:17:12,982
+derrière le matériel de l'open source pour moi,
+
+263
+00:17:13,232 --> 00:17:16,996
+et quelque chose que je suis vraiment passionné.
+
+264
+00:17:17,496 --> 00:17:20,034
+Vous savez, bien sûr open source signifie que vous êtes
+
+265
+00:17:20,284 --> 00:17:24,294
+ce qui en fait pour la communauté au sens large, basée sur le travail
+
+266
+00:17:24,544 --> 00:17:26,476
+que d'autres personnes l'ont fait. Donc c'est un peu comme je suis
+
+267
+00:17:26,726 --> 00:17:30,636
+faire un pas en haut d'une échelle, puis je vais aider d'autres personnes
+
+268
+00:17:30,886 --> 00:17:32,314
+aller plus loin jusqu'à l'échelle.
+
+269
+00:17:32,564 --> 00:17:34,593
+Le problème actuel est que
+
+270
+00:17:34,843 --> 00:17:41,093
+tant en raison de la standardisation et le système des brevets,
+
+271
+00:17:41,343 --> 00:17:44,756
+Beaucoup de gens ont été laissés sans possibilité
+
+272
+00:17:45,006 --> 00:17:48,035
+d'apprendre comment les choses fonctionnent, ce qui a fini par être
+
+273
+00:17:48,285 --> 00:17:51,394
+possible seulement à un groupe de personnes: les pirates,
+
+274
+00:17:51,644 --> 00:17:54,936
+dont les connaissances techniques leur ont permis ... les a faites
+
+275
+00:17:55,186 --> 00:17:57,236
+se sentir capable d'ouvrir un élément électronique pour voir
+
+276
+00:17:57,876 --> 00:18:02,718
+ce qu'il avait à l'intérieur. Et c'est du matériel open source pour moi:
+
+277
+00:18:02,968 --> 00:18:06,876
+cela signifie d'être à nouveau en mesure de vérifier
+
+278
+00:18:07,126 --> 00:18:09,436
+ce qui est à l'intérieur des choses, mais d'une façon qui est autorisé,
+
+279
+00:18:09,686 --> 00:18:14,197
+qui est aussi éthiquement «droit»,
+
+280
+00:18:14,447 --> 00:18:17,316
+juridique, et qui nous permet d'améliorer les méthodes éducatives.
+
+281
+00:18:17,566 --> 00:18:19,957
+Tout bien considéré, quel matériel ouverte est pour moi
+
+282
+00:18:20,207 --> 00:18:22,747
+est un système qui rend les gens capables de se renseigner sur la façon
+
+283
+00:18:22,997 --> 00:18:25,447
+les choses fonctionnent dans ce monde où nous vivons, où il ya
+
+284
+00:18:25,697 --> 00:18:28,556
+plus d'ordinateurs que d'habitants. Nous devons donc nous
+
+285
+00:18:28,806 --> 00:18:30,997
+comprendre comment fonctionne notre substance, non seulement pour être en mesure
+
+286
+00:18:31,247 --> 00:18:33,046
+pour le réparer, mais aussi de comprendre comment notre propre
+
+287
+00:18:33,296 --> 00:18:35,757
+la vie fonctionne. Et je chose qui est vraiment nécessaire de nos jours.
+
+288
+00:18:36,316 --> 00:18:42,277
+Au début, sur toute la question de l'open source
+
+289
+00:18:42,527 --> 00:18:47,676
+matériel contre du matériel ouvert, open source, il est encore très
+
+290
+00:18:47,926 --> 00:18:53,876
+une situation très complexe, il n'est toujours pas défini des normes très
+
+291
+00:18:54,126 --> 00:18:57,638
+ou de licences ou de procédés ... Pour nous, au début
+
+292
+00:18:57,888 --> 00:19:02,095
+c'était un besoin précis: nous savions que l'école allait être fermée, et nous
+
+293
+00:19:02,345 --> 00:19:05,394
+et nous avions peur que les avocats se présentent un jour et dire
+
+294
+00:19:05,644 --> 00:19:09,797
+«Tout ici va dans une boîte et obtient oublié."
+
+295
+00:19:10,047 --> 00:19:12,995
+Donc, nous thougt "OK, si nous ouvrons tout à ce sujet,
+
+296
+00:19:13,245 --> 00:19:17,275
+alors nous pouvons survivre à la fermeture de l'école. "
+
+297
+00:19:17,525 --> 00:19:19,874
+C'était donc la première étape. Puis nous avons commencé à comprendre
+
+298
+00:19:20,124 --> 00:19:24,236
+qu'il y avait un moyen d'obtenir un écosystème très gentil de personnes
+
+299
+00:19:24,486 --> 00:19:27,295
+participer et de faire des extensions, ce qui rend les dérivés,
+
+300
+00:19:27,545 --> 00:19:30,990
+et d'aider. Et puis notre activité de parler à
+
+301
+00:19:31,240 --> 00:19:33,874
+fabricants, et de les rendre à construire des choses,
+
+302
+00:19:34,124 --> 00:19:37,634
+est devenue une étude intéressante sur la façon dont il pourrait être
+
+303
+00:19:37,884 --> 00:19:40,556
+un modèle d'affaires qui s'appliquerait à l'open source.
+
+304
+00:19:40,806 --> 00:19:44,919
+Pour nous, il était vraiment important, comme un espace culturel
+
+305
+00:19:45,169 --> 00:19:49,316
+d'expérimentation, d'essayer et d'appliquer la logique de la
+
+306
+00:19:49,566 --> 00:19:52,237
+outils gratuits pour le processus réel de travail.
+
+307
+00:19:52,487 --> 00:19:56,095
+Telle était l'idée derrière "interactivos?", Un espace
+
+308
+00:19:56,345 --> 00:19:58,278
+où les gens pouvaient développer leurs propres projets, mais où
+
+309
+00:19:58,528 --> 00:20:01,278
+d'autres personnes pourraient également s'impliquer dans les
+
+310
+00:20:01,528 --> 00:20:03,997
+comme des collaborateurs. Parce que le processus est ouvert pour le
+
+311
+00:20:04,247 --> 00:20:09,078
+quiconque de participer. C'est, pour nous, un fait ...
+
+312
+00:20:09,328 --> 00:20:15,394
+comment le dire, une relation forte, nous pensons que
+
+313
+00:20:15,644 --> 00:20:20,278
+Nous essayons toujours de trouver de l'inspiration de quelque chose
+
+314
+00:20:20,528 --> 00:20:23,556
+aussi surprenant que tous les processus du logiciel libre sont,
+
+315
+00:20:23,806 --> 00:20:26,247
+et dans ce cas ... nous n'avions jamais entendu parler de l'existence de
+
+316
+00:20:26,497 --> 00:20:31,797
+«Matériel libre". Alors tout a commencé avec des possibilités bourdonnement
+
+317
+00:20:32,047 --> 00:20:35,115
+qui est allé dans toutes sortes de directions.
+
+318
+00:20:35,365 --> 00:20:38,797
+J'aime le matériel open source. Je pense que tout devrait être
+
+319
+00:20:39,047 --> 00:20:41,997
+de cette façon. C'est formidable pour l'éducation, j'aime partager
+
+320
+00:20:42,247 --> 00:20:44,919
+ce que nous avons appris, et il est facile pour les enfants à trouver
+
+321
+00:20:45,169 --> 00:20:49,037
+plus et ce serait bien s'ils pouvaient construire leurs propres choses
+
+322
+00:20:49,698 --> 00:20:53,163
+Je n'ai pas appris microcontrôleurs jusqu'à ce que mon
+
+323
+00:20:53,413 --> 00:20:55,806
+année moyenne au collège, jusqu'à la fin du collège.
+
+324
+00:20:56,056 --> 00:20:59,968
+Et j'ai été vraiment époustouflé par la façon dont il était facile à utiliser
+
+325
+00:21:00,218 --> 00:21:02,968
+Arduino, à savoir être le conseil de développement précurseur.
+
+326
+00:21:03,218 --> 00:21:09,144
+Je pense que, étant donné le droit de la série d'événements, et si Arduino et
+
+327
+00:21:09,394 --> 00:21:12,766
+électronique pourrait être enseignée à l'école secondaire, je pense qu'il ya une
+
+328
+00:21:13,016 --> 00:21:16,968
+grand avenir pour non seulement les ingénieurs, mais aussi des artistes.
+
+329
+00:21:17,566 --> 00:21:21,566
+Aussi les gens des médias numériques interactifs de conception. Si elles peuvent apprendre
+
+330
+00:21:21,816 --> 00:21:23,845
+que dans l'école secondaire, imaginez combien ils peuvent faire
+
+331
+00:21:24,095 --> 00:21:25,595
+tard dans la vie.
+
+332
+00:21:57,000 --> 00:21:58,840
+Lorsque l'Arduino envoie le signal,
+
+333
+00:21:59,640 --> 00:22:03,680
+il contrôle exactement la même ces deux boutons serait.
+
+334
+00:22:04,080 --> 00:22:06,320
+Ceci est rendu pour enregistrer et jouer
+
+335
+00:22:06,570 --> 00:22:10,400
+manuellement lorsque vous touchez les touches. Mais si vous mettez dans
+
+336
+00:22:10,650 --> 00:22:12,800
+opto-coupleurs, ces deux choses ici,
+
+337
+00:22:13,880 --> 00:22:18,760
+vous pouvez combler les clés par le contrôleur
+
+338
+00:22:19,010 --> 00:22:22,640
+et de les activer avec un signal électrique qui vient
+
+339
+00:22:22,890 --> 00:22:24,440
+du contrôleur, qui est programmé.
+
+340
+00:22:24,690 --> 00:22:27,200
+C'est pourquoi Arduino est si puissant, parce que
+
+341
+00:22:27,450 --> 00:22:29,840
+vous pouvez contrôler n'importe quelle machine qui fonctionne ...
+
+342
+00:22:30,095 --> 00:22:33,948
+Il est un outil extraordinaire pour donner aux jeunes
+
+343
+00:22:34,278 --> 00:22:39,037
+cet âge d'entrer en contact avec tous ceux ...
+
+344
+00:22:39,287 --> 00:22:44,634
+énormément de réalités qu'ils vivent po
+
+345
+00:22:44,884 --> 00:22:49,556
+D'abord pour les amener à apprendre que du côté des consommateurs
+
+346
+00:22:49,806 --> 00:22:53,355
+-Cette "utilisation de la télécommande avec la machine" side-
+
+347
+00:22:53,605 --> 00:22:56,797
+n'est pas le seul, qu'il est possible de
+
+348
+00:22:58,394 --> 00:23:04,394
+comprendre ce qui est à l'intérieur et obtenir le contrôle en arrière.
+
+349
+00:23:04,644 --> 00:23:08,115
+Parce que maintenant, tous ces enfants ont une énorme quantité de
+
+350
+00:23:08,365 --> 00:23:12,997
+gadgets dont ils n'ont aucune idée de comment ils fonctionnent à tous.
+
+351
+00:23:14,095 --> 00:23:18,394
+Avec Arduino vous pouvez obtenir un petit aperçu de la façon dont tout cela
+
+352
+00:23:18,644 --> 00:23:22,316
+Stuff Works, leur montrer des schémas qui leur permettent de
+
+353
+00:23:22,566 --> 00:23:25,678
+ont une certaine façon de regarder tous les
+
+354
+00:23:25,928 --> 00:23:27,595
+le monde technologique qui va les entourer.
+
+355
+00:23:27,845 --> 00:23:33,316
+Et il est aussi assez drôle, peut être utilisé pour enseigner l'électronique,
+
+356
+00:23:33,566 --> 00:23:37,556
+de leur enseigner comment penser, il leur apprend à avoir
+
+357
+00:23:37,806 --> 00:23:39,845
+moins court terme des projets et travailler en équipe,
+
+358
+00:23:40,095 --> 00:23:43,595
+comment participer à une communauté, d'obtenir des informations ...
+
+359
+00:23:45,237 --> 00:23:47,095
+Le potentiel pour les étudiants quand ils sont en train d'apprendre
+
+360
+00:23:47,345 --> 00:23:49,394
+comment utiliser l'ordinateur, apprendre à faire des choses
+
+361
+00:23:49,644 --> 00:23:53,355
+avec les ordinateurs ... pour moi que ... c'est puissant.
+
+362
+00:23:53,605 --> 00:23:56,478
+Et ce que cela signifie réellement à long terme
+
+363
+00:23:56,728 --> 00:24:02,728
+pour les étudiants avec seulement 50 $, être capable de quelque chose de brancher
+
+364
+00:24:02,978 --> 00:24:04,756
+dans leur ordinateur et de faire quelque chose avec elle
+
+365
+00:24:05,006 --> 00:24:07,115
+encore et encore et encore et puis vraiment le partager ...
+
+366
+00:24:07,997 --> 00:24:13,198
+Le type de communauté créative qui peut engendrer chez les jeunes
+
+367
+00:24:13,448 --> 00:24:17,835
+pour moi je pense que c'est ... Cela va tout changer,
+
+368
+00:24:18,085 --> 00:24:21,678
+et je suis vraiment excité de voir ce qui se passe comme il se développe.
+
+369
+00:24:28,600 --> 00:24:31,790
+Arduino a 120.000 utilisateurs de nos jours,
+
+370
+00:24:32,040 --> 00:24:35,595
+ou 130.000 utilisateurs ... Je viens de compter le nombre
+
+371
+00:24:35,845 --> 00:24:39,198
+des planches vendues. Le trafic que nous sommes maintenant obtenir
+
+372
+00:24:39,450 --> 00:24:44,634
+de notre site est de près de 15 millions de visites par mois.
+
+373
+00:24:44,884 --> 00:24:49,198
+Ce qui signifie environ 600.000 visites par jour.
+
+374
+00:24:49,448 --> 00:24:53,997
+C'est en sachant qu'il est activement utilisée dans les universités,
+
+375
+00:24:54,247 --> 00:24:56,237
+également utilisé par les personnes qui travaillent sur leurs projets personnels ...
+
+376
+00:24:56,487 --> 00:24:58,640
+Maintenant, imaginez qu'il était de commencer à être utilisé
+
+377
+00:24:58,890 --> 00:25:00,520
+dans l'éducation secondaire.
+
+378
+00:25:04,000 --> 00:25:08,120
+Son avenir ne sera pas «technologique»,
+
+379
+00:25:08,920 --> 00:25:13,600
+il sera assez plus sociale;
+
+380
+00:25:14,400 --> 00:25:17,880
+il sera une sorte de grand boom où beaucoup
+
+381
+00:25:18,130 --> 00:25:21,000
+des gens vont commencer à l'utiliser.
+
+382
+00:25:26,200 --> 00:25:29,080
+J'ai certainement voir Arduino prendre un chemin de
+
+383
+00:25:29,330 --> 00:25:32,120
+étant juste très facile à utiliser, encore plus facile que maintenant.
+
+384
+00:25:33,000 --> 00:25:35,920
+Ainsi, rendre plus facile pour les débutants d'y entrer.
+
+385
+00:25:36,280 --> 00:25:39,520
+Tous mes pédales de distorsion préférée ... une Big Muff ...
+
+386
+00:25:40,240 --> 00:25:45,120
+avec ma carte microcontrôleur préféré, Arduino.
+
+387
+00:25:52,320 --> 00:25:55,800
+La base d'utilisateurs obtiendraient 10 ou 20 fois plus grand.
+
+388
+00:25:57,440 --> 00:26:00,080
+Si tout d'un coup, ces gens ont commencé à partager
+
+389
+00:26:00,400 --> 00:26:04,800
+leurs fichiers sur le réseau, il serait tout simplement pas en charge tout cela.
+
+390
+00:26:05,050 --> 00:26:06,680
+Il serait tout simplement pas.
+
+391
+00:26:11,400 --> 00:26:13,200
+Voici un robot.
+
+392
+00:26:13,600 --> 00:26:17,600
+Si je l'inclinaison, vous voyez la lumière va à gauche ... Je monte ...
+
+393
+00:26:18,250 --> 00:26:21,080
+Je veux toujours être Arduino à un outil que les gens
+
+394
+00:26:21,400 --> 00:26:25,800
+qui n'ont aucune connaissance des ordinateurs peut regarder
+
+395
+00:26:27,000 --> 00:26:32,560
+et peuvent obtenir une compréhension de comment fonctionne un ordinateur.
+
+396
+00:26:33,120 --> 00:26:36,600
+Mais je vendre cela. Cela fait partie de la façon dont je gagne ma vie.
+
+397
+00:26:37,560 --> 00:26:40,120
+Pour cela de continuer à travailler comme il le fait maintenant dix ans pour
+
+398
+00:26:40,370 --> 00:26:42,120
+nous devons être en mesure de continuer à créer de nouveaux matériels,
+
+399
+00:26:42,370 --> 00:26:44,440
+nous aurons besoin de la rétroaction continue de la communauté,
+
+400
+00:26:44,690 --> 00:26:47,600
+et pour être en mesure d'inclure leurs modifications et
+
+401
+00:26:47,850 --> 00:26:49,760
+leurs propositions avec toutes les améliorations nécessaires.
+
+402
+00:26:50,010 --> 00:26:53,560
+Et après ces 10 années, j'espère que nous avons
+
+403
+00:26:53,810 --> 00:26:57,400
+au moins un ordinateur Arduino ... pourquoi pas?
+
